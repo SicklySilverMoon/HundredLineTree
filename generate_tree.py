@@ -187,8 +187,7 @@ def parse_route(parent_route, route_json, depth = 0):
     if "events" in route_json:
         for event_json in route_json["events"]:
             events.append(Event(event_json["name"], event_json["days"]))
-        route.set_events(events)
-        #todo: sort on event.days[0] as the key
+        route.set_events(sort_by_days(events))
     
     deaths = {}
     if "deaths" in route_json:
@@ -228,6 +227,9 @@ def check_name_id_exists(game_tree, name_id):
         if name_id == name.id:
             return True
     return False
+
+def sort_by_days(array):
+    return sorted(array, key = lambda item: item.days[0])
 
 #todo: my god split these out to multiple files
 def edit_death(game_tree, death):
@@ -310,6 +312,7 @@ def edit_deaths(game_tree, route):
                 deaths[id] = Death(id, count, days)
                 
             case 'x':
+                route.deaths = deaths
                 return
     
 def edit_event(event):
@@ -361,7 +364,7 @@ def edit_events(game_tree, route):
                     print("No events to remove")
                     pass
                 response = -1
-                while response < len(events) and response >= 0:
+                while response >= len(events) or response < 0:
                     try:
                         response = int(input("Index to remove: "))
                     except ValueError:
@@ -369,8 +372,20 @@ def edit_events(game_tree, route):
                 del events[response]
                 
             case 'a':
-                pass
+                name = input("Enter the event description: ")
+                days_str = input("Enter a comma seperated list of days that this event takes place on: ").split(',')
+                days = []
+                for day in days_str:
+                    try:
+                        days.append(int(day.strip()))
+                    except ValueError:
+                        pass
+                days = sorted(days)
+                event = Event(name, days)
+                events.append(event)
+                events = sort_by_days(events)
             case 'x':
+                route.events = events
                 return
 
 def edit_branch(game_tree, route):
@@ -409,7 +424,6 @@ def edit_branch(game_tree, route):
                     choice_left.set_route(route_left)
                     choice_right.set_route(route_right)
                     route.set_branch(branch)
-                    pass
                 case 'x':
                     return
         
@@ -455,11 +469,11 @@ def edit(game_tree):
         for i in range(len(keys)):
             key = keys[i]
             route = game_tree.base_routes[key]
-            string += f"  {i + 1}: {route.name}\n"
+            string += f"  {i}: {route.name}\n"
         string += "Select a number or 'x' to exit: "
         response = input(string)
         try:
-            response = int(response) - 1
+            response = int(response)
             edit_recurse(game_tree, game_tree.base_routes[keys[response]])
         except ValueError:
             print("Saving file and exiting")
