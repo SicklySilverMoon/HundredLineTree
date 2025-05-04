@@ -174,7 +174,7 @@
     
     "routes": [
         {
-            "name": "Route 0",
+            "name": "Last Defense Academy: Chapter 00",
             "deaths": [
                 {"id": "Hiruko", "count": 1, "days": [15]},
                 {"id": "Eito", "count": 1, "days": [96]},
@@ -239,7 +239,7 @@
             ]
         },
         {
-            "name": "Chapter 00",
+            "name": "Last Defense Academy 2: Chapter 00",
             "branch": {
                 "name": "Kill Eito?",
                 "day": 2,

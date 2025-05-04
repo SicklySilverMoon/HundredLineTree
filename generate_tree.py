@@ -5,7 +5,7 @@ from string import whitespace
 
 class Name:
     def __init__(self, id = None, full = None, first = None, last = None, title = None, position = None):
-        self.id = id
+        self.id = id.lower()
         self.full = full
         self.first = first
         self.last = last
@@ -14,7 +14,7 @@ class Name:
 
 class Death:
     def __init__(self, id, count, days):
-        self.id = id
+        self.id = id.lower()
         self.count = count
         self.days = days
     
@@ -56,16 +56,16 @@ class Route:
         self.parent = parent
         self.name = name
         
-        if parent:
-            for parent_death_key in parent.deaths:
-                parent_death = parent.deaths[parent_death_key]
-                if parent_death.id not in deaths:
-                    deaths[parent_death.id] = parent_death
-                else:
-                    child_death = deaths[parent_death.id]
-                    child_death.count += parent_death.count
-                    child_death.days = sorted(parent_death.days + child_death.days)
-                    deaths[child_death.id] = child_death
+        #if parent:
+            #for parent_death_key in parent.deaths:
+            #    parent_death = parent.deaths[parent_death_key]
+            #    if parent_death.id not in deaths:
+            #        deaths[parent_death.id] = parent_death
+            #    else:
+            #        child_death = deaths[parent_death.id]
+            #        child_death.count += parent_death.count
+            #        child_death.days = sorted(parent_death.days + child_death.days)
+            #        deaths[child_death.id] = child_death
         self.deaths = deaths
         
         self.events = []
@@ -90,7 +90,7 @@ def parse_route(parent_route, route_json, depth = 0):
     deaths = {}
     if "deaths" in route_json:
         for death_json in route_json["deaths"]:
-            deaths[death_json["id"]] = (Death(death_json["id"], death_json["count"], death_json["days"]))
+            deaths[death_json["id"].lower()] = (Death(death_json["id"], death_json["count"], death_json["days"]))
     #print(deaths)
     #print("")
     
@@ -121,7 +121,7 @@ def parse_route(parent_route, route_json, depth = 0):
 def parse_game_data(data_json):
     names = {}
     for name_json in data_json["names"]:
-        names[name_json["id"]] = Name(**name_json)
+        names[name_json["id"].lower()] = Name(**name_json)
     game_tree = Tree(names)
     
     for route_json in data_json["routes"]:
@@ -130,7 +130,212 @@ def parse_game_data(data_json):
     
     return game_tree
 
-def print_routes(names, route, depth = 0):
+
+def check_name_id_exists(game_tree, name_id):
+    for name in game_tree.names:
+        if name_id == name.id:
+            return True
+    return False
+
+#todo: my god split these out to multiple files
+def edit_death(game_tree, death):
+    while True:
+        print(f"You are editing death with id {death.id},")
+        response = input("Edit target (t), edit count (c), edit days (d), or 'x' to exit: ")
+        match response:
+            case 't':
+                print("Available death targets are: ")
+                for name in game_tree.names:
+                    print(f"{game_tree.names[name].id}: {game_tree.names[name].full}", end = ", ")
+                response = input("Selection: ").lower().strip()
+                while not check_name_id_exists(game_tree, response):
+                    response = input("Selection: ").lower().strip()
+                death.id = response
+            case 'c':
+                response = input("Enter the times this character has died on this specific route after branches: ")
+                try:
+                    death.count = int(response)
+                except ValueError:
+                    pass
+            case 'd':
+                response = input("Enter a comma seperated list of days that this character has died on on this specific route after branches: ")
+                days_str = response.split(',')
+                days = []
+                for day in days_str:
+                    try:
+                        days.append(int(day.strip()))
+                    except ValueError:
+                        pass
+                death.days = sorted(days)
+            case 'x':
+                return
+
+def edit_deaths(game_tree, route):
+    deaths = route.deaths
+    while True:
+        print(f"\nDeaths in route \"{route.name}\":")
+        for key in deaths:
+            death = deaths[key]
+            print(f"  ID: \"{death.id}\". Name: {game_tree.names[death.id].full}. Times died (additive): {death.count}. Days died on: {death.days}.")
+        response = input("Edit (e) death, remove (r) death, add (a) death, or 'x' to exit: ")
+        match response:
+            case 'e':
+                if len(deaths) == 0:
+                    print("No deaths to edit")
+                    pass
+                response = input("ID to edit: ").lower().strip()
+                while response not in deaths:
+                    response = input("ID to edit: ").lower().strip()
+                edit_death(game_tree, deaths[response])
+                
+            case 'r':
+                if len(deaths) == 0:
+                    print("No deaths to remove")
+                    pass
+                response = input("ID to remove: ").lower().strip()
+                while response not in deaths:
+                    response = input("ID to remove: ").lower().strip()
+                del deaths[response]
+                
+            case 'a':
+                id = input("ID to insert: ").lower().strip()
+                while not check_name_id_exists(game_tree, response):
+                    id = input("ID to insert: ").lower().strip()
+                count = -1
+                while count == -1:
+                    try:
+                        count = int(response("Enter the number of times this character has died in this specific route: "))
+                    except ValueError:
+                        pass
+                days_str = input("Enter a comma seperated list of days that this character has died on on this specific route after branches: ")
+                days_str = days_str.split(',')
+                days = []
+                for day in days_str:
+                    try:
+                        days.append(int(day.strip()))
+                    except ValueError:
+                        pass
+                deaths[id] = Death(id, count, days)
+                
+            case 'x':
+                return
+    
+def edit_event(event):
+    while True:
+        print(f"You are editing event on day(s) {event.days} with desc: {event.name}")
+        response = input("Edit days (d), edit desc (e) 'x' to exit: ")
+        match response:
+            case 'e':
+                desc = input("Enter the event description: ")
+                event.name = desc
+                
+            case 'd':
+                response = input("Enter a comma seperated list of days that this character has died on on this specific route after branches: ")
+                days_str = response.split(',')
+                days = []
+                for day in days_str:
+                    try:
+                        days.append(int(day.strip()))
+                    except ValueError:
+                        pass
+                event.days = sorted(days)
+                
+            case 'x':
+                return
+
+def edit_events(game_tree, route):
+    events = route.events
+    while True:
+        print(f"\nEvents in route \"{route.name}\":")
+        for i in range(len(events)):
+            event = events[i]
+            print(f"  {i}: Day(s) the event occured on: {event.days}. Desc: \"{event.name}\".")
+        response = input("Edit (e) event, remove (r) event, add (a) event, or 'x' to exit: ")
+        match response:
+            case 'e':
+                if len(events) == 0:
+                    print("No events to edit")
+                    pass
+                response = -1
+                while response >= len(events) or response < 0:
+                    try:
+                        response = int(input("Index to edit: "))
+                    except ValueError:
+                        pass
+                edit_event(events[response])
+                
+            case 'r':
+                if len(events) == 0:
+                    print("No events to remove")
+                    pass
+                response = -1
+                while response < len(events) and response >= 0:
+                    try:
+                        response = int(input("Index to remove: "))
+                    except ValueError:
+                        pass
+                del events[response]
+                
+            case 'a':
+                pass
+            case 'x':
+                return
+
+def edit_branch(game_tree, route):
+    pass
+
+def edit_recurse(game_tree, route):
+    while True:
+        print(f"\nRoute title: \"{route.name}\"")
+        if len(route.deaths) > 0:
+            print("Deaths:")
+            for key in route.deaths:
+                death = route.deaths[key]
+                print(f"  Name: {game_tree.names[death.id].full}. Times died: {death.count}. Days died on: {death.days}.")
+        
+        if len(route.events) > 0:
+            print(f"There are {len(route.events)} events on this route occuring on day collections: ", end = "")
+            for event in route.events[ : -1]:
+                print(event.days, end = ", ")
+            print(route.events[-1].days)
+        
+        if route.branch:
+            print(f"This route has a branch choice with title \"{route.branch.name}\", and options \"{route.branch.choices["left"].name}\" (left), and \"{route.branch.choices['right'].name}\" (right) on day {route.branch.day}")
+        print("You may edit/add deaths (d), edit/add events (e), or edit/add a branch (b), or 'x' to return to the previous route")
+        response = input("Selection: ")
+        match response:
+            case 'd':
+                edit_deaths(game_tree, route)
+            case 'e':
+                edit_events(game_tree, route)
+            case 'b':
+                edit_branch(game_tree, route)
+            case 'x':
+                break
+
+def edit(game_tree):
+    while True:
+        string = f"\nYou can edit {len(game_tree.base_routes)} base routes:\n"
+        i = 1
+        keys = list(game_tree.base_routes.keys())
+        for i in range(len(keys)):
+            key = keys[i]
+            route = game_tree.base_routes[key]
+            string += f"  {i + 1}: {route.name}\n"
+        string += "Select a number or 'x' to exit: "
+        response = input(string)
+        try:
+            response = int(response) - 1
+            edit_recurse(game_tree, game_tree.base_routes[keys[response]])
+        except ValueError:
+            print("Saving file and exiting")
+            return
+
+def save_tree(filename, game_tree):
+    print("TODO: Save file")
+
+
+def print_routes(names, route, deaths = [], depth = 0):
     multiplier = 2
     print((" " * (depth * multiplier)) + f"Title: {route.name}")
     
@@ -143,15 +348,9 @@ def print_routes(names, route, depth = 0):
     
     if route.branch:
         print((" " * ((depth) * multiplier)) + f"Decide: {route.branch.choices["left"].name} on {route.branch.name:}")
-        print_routes(names, route.branch.choices["left"].route, depth + 1)
+        print_routes(names, route.branch.choices["left"].route, depth = depth + 1) #todo: pass on current deaths to the next route so it can add to them
         print((" " * ((depth) * multiplier)) + f"Decide: {route.branch.choices["right"].name} on {route.branch.name:}")
-        print_routes(names, route.branch.choices["right"].route, depth + 1)
-
-def edit_recurse(game_tree, route):
-    pass
-
-def edit(game_tree):
-    pass
+        print_routes(names, route.branch.choices["right"].route, depth = depth + 1)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -171,4 +370,4 @@ if __name__ == "__main__":
             print("")
     elif int(response) == 2:
         edit(game_tree)
-        pass
+        save_tree("saved_output.json", game_tree)
