@@ -1,4 +1,5 @@
 import json
+from json import JSONEncoder
 import sys
 import os
 from string import whitespace
@@ -11,12 +12,36 @@ class Name:
         self.last = last
         self.title = title
         self.position = position
+    
+    def as_dict(self):
+        d = {}
+        if self.id:
+            d["id"] = self.id
+        if self.full:
+            d["full"] = self.full
+        if self.first:
+            d["first"] = self.first
+        if self.last:
+            d["last"] = self.last
+        if self.title:
+            d["title"] = self.title
+        if self.position:
+            d["position"] = self.position
+        return d
 
 class Death:
     def __init__(self, id, count, days):
         self.id = id.lower()
         self.count = count
         self.days = days
+    
+    def as_dict(self):
+        d = {}
+        if self.id:
+            d["id"] = self.id
+        d["count"] = self.count if self.count else -1
+        d["days"] = self.days if self.days else [-1]
+        return d
     
     def __str__(self):
         return f"Death{{id: {self.id}, count: {self.count}, days: {self.days}}}"
@@ -28,6 +53,12 @@ class Event:
     def __init__(self, name, days):
         self.name = name
         self.days = days
+    
+    def as_dict(self):
+        d = {}
+        d["name"] = self.name if self.name else "[UNKNOWN]"
+        d["days"] = self.days if self.days else [-1]
+        return d
 
 class Choice:
     def __init__(self, branch, direction, name):
@@ -40,6 +71,14 @@ class Choice:
     
     def set_route(self, route):
         self.route = route
+    
+    def as_dict(self):
+        d = {}
+        d["direction"] = self.direction
+        d["name"] = self.name if self.name else "[UNKNOWN]"
+        if self.route:
+            d["route"] = self.route.as_dict()
+        return d
 
 class Branch:
     def __init__(self, parent, name, day):
@@ -52,6 +91,22 @@ class Branch:
         
     def set_choice(self, choice):
         self.choices[choice.direction] = choice
+    
+    def as_dict(self):
+        d = {}
+        d["name"] = self.name if self.name else "[UNKNOWN]"
+        d["day"] = self.day if self.day else -1
+        choices = []
+        if self.choices["left"]:
+            choices.append(self.choices["left"].as_dict())
+        else:
+            choices.append({})
+        if self.choices["right"]:
+            choices.append(self.choices["right"].as_dict())
+        else:
+            choices.append({})
+        d["choices"] = choices
+        return d
 
 class Route:
     def __init__(self, parent, name):
@@ -81,6 +136,21 @@ class Route:
     
     def set_branch(self, branch):
         self.branch = branch
+    
+    def as_dict(self):
+        d = {}
+        d["name"] = self.name if self.name else "[UNKNOWN]"
+        if self.deaths:
+            d["deaths"] = []
+            for death in self.deaths.values():
+                d["deaths"].append(death.as_dict())
+        if self.branch:
+            d["branch"] = self.branch.as_dict()
+        if self.events:
+            d["events"] = []
+            for event in self.events:
+                d["events"].append(event.as_dict())
+        return d
 
 class Tree:
     def __init__(self, names):
@@ -89,6 +159,21 @@ class Tree:
     
     def add_route(self, route):
         self.base_routes[route.name] = route
+    
+    def as_dict(self):
+        d = {}
+        if self.names:
+            d["names"] = []
+            for name in self.names.values():
+                d["names"].append(name.as_dict())
+        d["routes"] = []
+        for route in self.base_routes.values():
+            d["routes"].append(route.as_dict())
+        return d
+
+class CustomEncoder(JSONEncoder):
+    def default(self, obj):
+        return obj.as_dict()
 
 def whitespace_start(string):
     return string.startswith(tuple(w for w in whitespace))
@@ -381,29 +466,44 @@ def edit(game_tree):
             return
 
 def save_tree(filename, game_tree):
-    print("TODO: Save file")
+    #print(json.dumps(game_tree, cls = CustomEncoder, indent = 4))
+    with open(filename, "w") as f:
+        json.dump(game_tree, f, cls = CustomEncoder, indent = 4)
 
 
-def print_routes(names, route, deaths = [], depth = 0):
+def print_routes(names, route, parent_deaths = {}, depth = 0):
     multiplier = 2
     print((" " * (depth * multiplier)) + f"Title: {route.name}")
     
+    deaths = parent_deaths.copy()
     if len(route.deaths) > 0:
         print((" " * ((depth) * multiplier)) + f"Deaths:", end = " ")
         for death_key in route.deaths:
             death = route.deaths[death_key]
+            if death_key in deaths:
+                parent_death = deaths[death_key]
+                death.count += parent_death.count
+                death.days += parent_death.days
+            deaths[death_key] = death
+    if len(deaths) > 0:
+        for death in deaths.values():
             print(names[death.id].full, "died", death.count, "time(s)", "on day(s)", str(death.days)[1 : -1], end = "; ")
         print("")
     
     if route.branch:
         print((" " * ((depth) * multiplier)) + f"Decide: {route.branch.choices["left"].name} on {route.branch.name:}")
-        print_routes(names, route.branch.choices["left"].route, depth = depth + 1) #todo: pass on current deaths to the next route so it can add to them
+        print_routes(names, route.branch.choices["left"].route, deaths, depth + 1)
         print((" " * ((depth) * multiplier)) + f"Decide: {route.branch.choices["right"].name} on {route.branch.name:}")
-        print_routes(names, route.branch.choices["right"].route, depth = depth + 1)
+        print_routes(names, route.branch.choices["right"].route, deaths, depth + 1)
+
+def print_tree(game_tree):
+        for route_key in game_tree.base_routes:
+            print_routes(game_tree.names, game_tree.base_routes[route_key])
+            print("")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print(f"Usage: {sys.argv[0]} json_file")
+        print(f"Usage: {sys.argv[0]} json_file [(display|edit output_json)]")
         sys.exit(1)
     
     with open(sys.argv[1]) as f:
@@ -411,12 +511,20 @@ if __name__ == "__main__":
     
     game_tree = parse_game_data(data)
     
-    response = input("1 to display file, 2 to edit: ")
-    
-    if int(response) == 1:
-        for route_key in game_tree.base_routes:
-            print_routes(game_tree.names, game_tree.base_routes[route_key])
-            print("")
-    elif int(response) == 2:
-        edit(game_tree)
-        save_tree("saved_output.json", game_tree)
+    if len(sys.argv) >= 3:
+        if sys.argv[2].strip().lower() == "display":
+            print_tree(game_tree)
+        elif sys.argv[2].strip().lower() == "edit":
+            if len(sys.argv) < 4:
+                print("edit on command line requires output file name!")
+                sys.exit(1)
+            edit(game_tree)
+            save_tree(sys.argv[3], game_tree)
+
+    else:
+        response = input("1 to display file, 2 to edit: ")
+        if int(response) == 1:
+            print_tree(game_tree)
+        elif int(response) == 2:
+            edit(game_tree)
+            save_tree(input("Input filename to save to: "), game_tree)
