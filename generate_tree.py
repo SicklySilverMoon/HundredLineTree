@@ -5,13 +5,14 @@ import os
 from string import whitespace
 
 class Name:
-    def __init__(self, id = None, full = None, first = None, last = None, title = None, position = None):
+    def __init__(self, id = None, full = None, first = None, last = None, title = None, position = None, web_title = None):
         self.id = id.lower()
         self.full = full
         self.first = first
         self.last = last
         self.title = title
         self.position = position
+        self.web_title = web_title
     
     def as_dict(self):
         d = {}
@@ -27,6 +28,8 @@ class Name:
             d["title"] = self.title
         if self.position:
             d["position"] = self.position
+        if self.web_title:
+            d["web_title"] = self.web_title
         return d
 
 class Death:
@@ -393,7 +396,7 @@ def edit_branch(game_tree, route):
         if route.branch:
             print(f"\nThis route has a branch with choice \"{route.branch.name}\" and options:")
             print(f"  left side: \"{route.branch.choices["left"].name}\"")
-            print(f"  left side: \"{route.branch.choices["right"].name}\"")
+            print(f"  right side: \"{route.branch.choices["right"].name}\"")
             response = input("Edit branch choice (c), edit/descend into left side (l), edit/descend into right side (r), or 'x' to exit: ")
             match response:
                 case 'c':
@@ -405,6 +408,7 @@ def edit_branch(game_tree, route):
                         route.branch.choices["left" if response == 'l' else "right"].name = label
                     elif response2 == 'd':
                         edit_recurse(game_tree, route.branch.choices["left" if response == 'l' else "right"].route)
+                        return
                 case 'x':
                     return
         else:
@@ -426,8 +430,6 @@ def edit_branch(game_tree, route):
                     route.set_branch(branch)
                 case 'x':
                     return
-        
-        return
 
 def edit_recurse(game_tree, route):
     while True:
@@ -461,6 +463,59 @@ def edit_recurse(game_tree, route):
             case 'x':
                 return
 
+def edit_names(game_tree):
+    while True:
+        print("\nNames in this game are:")
+        for name in game_tree.names.values():
+            print(f"  ID: {name.id}. Name: \"{name.full}\"")
+        response = None
+        while response not in game_tree.names:
+            response = input("Enter the name id you want to edit or 'x' to exit: ").strip().lower()
+            if response == 'x':
+                return
+        
+        name = game_tree.names[response]
+        print(f"\n{name.id}:")
+        print(f"  first name: \"{name.first if name.first else "[UNKNOWN]"}\"")
+        print(f"  last name: \"{name.last if name.last else "[UNKNOWN]"}\"")
+        print(f"  full name: \"{name.full if name.full else "[UNKNOWN]"}\"")
+        print(f"  position: \"{name.position if name.position else "[UNKNOWN]"}\"")
+        print(f"  title: \"{name.title if name.title else "[UNKNOWN]"}\"")
+        print(f"  website title: \"{name.web_title if name.web_title else "[UNKNOWN]"}\"")
+        response = input("Insert/add first (f), last (l), full (u), position (p), title (t), web title (w), 'x' to exit: ")
+        item = ""
+        match response:
+            case 'f':
+                item = "first name"
+            case 'l':
+                item = "last name"
+            case 'u':
+                item = "full name"
+            case 'p':
+                item = "position"
+            case 't':
+                item = "title"
+            case 'w':
+                item = "website title"
+            case 'x':
+                continue
+            case '_':
+                continue
+        text = input(f"Enter this character's {item}: ")
+        match response:
+            case 'f':
+                name.first = text
+            case 'l':
+                name.last = text
+            case 'u':
+                name.full = text
+            case 'p':
+                name.position = text
+            case 't':
+                name.title = text
+            case 'w':
+                name.web_title = text
+
 def edit(game_tree):
     while True:
         string = f"\nYou can edit {len(game_tree.base_routes)} base routes:\n"
@@ -470,17 +525,19 @@ def edit(game_tree):
             key = keys[i]
             route = game_tree.base_routes[key]
             string += f"  {i}: {route.name}\n"
-        string += "Select a number or 'x' to exit: "
+        string += "Select a number, 'n' to edit names, or 'x' to exit: "
         response = input(string)
         try:
             response = int(response)
             edit_recurse(game_tree, game_tree.base_routes[keys[response]])
         except ValueError:
-            print("Saving file and exiting")
-            return
+            if response == 'n':
+                edit_names(game_tree)
+            else:
+                print("Saving file and exiting")
+                return
 
 def save_tree(filename, game_tree):
-    #print(json.dumps(game_tree, cls = CustomEncoder, indent = 4))
     with open(filename, "w") as f:
         json.dump(game_tree, f, cls = CustomEncoder, indent = 4)
 

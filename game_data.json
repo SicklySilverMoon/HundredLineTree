@@ -1,0 +1,462 @@
+{
+    "names": [
+        {
+            "id": "takumi",
+            "full": "Takumi Sumino",
+            "first": "Takumi",
+            "last": "Sumino",
+            "position": "Leader of Special Defense Unit",
+            "web_title": "Everyman"
+        },
+        {
+            "id": "hiruko",
+            "full": "Hiruko Shizuhara",
+            "first": "Hiruko",
+            "last": "Shizuhara",
+            "web_title": "Ice Queen"
+        },
+        {
+            "id": "takemaru",
+            "full": "Takemaru Yakushiji",
+            "first": "Takumaru",
+            "last": "Yakushiji",
+            "web_title": "Gangster With a Heart of Gold"
+        },
+        {
+            "id": "darumi",
+            "full": "Darumi Amemiya",
+            "first": "Darumi",
+            "last": "Amemiya",
+            "web_title": "Manic Emo Dream Girl"
+        },
+        {
+            "id": "eito",
+            "full": "Eito Aotsuki",
+            "first": "Eito",
+            "last": "Aotsuki",
+            "web_title": "Voice of Reason"
+        },
+        {
+            "id": "tsubasa",
+            "full": "Tsubasa Kawana",
+            "first": "Tsubasa",
+            "last": "Kawana",
+            "web_title": "Star Mechanic"
+        },
+        {
+            "id": "gaku",
+            "full": "Gaku Kawana",
+            "first": "Gaku",
+            "last": "Maruko",
+            "web_title": "Self-Centered Mood Maker"
+        },
+        {
+            "id": "shouma",
+            "full": "Shouma Ginzaki",
+            "first": "Shouma",
+            "last": "Ginzaki",
+            "web_title": "Waste of Space"
+        },
+        {
+            "id": "kako",
+            "full": "Kako Tsukumo",
+            "first": "Kako",
+            "last": "Tsukumo",
+            "web_title": "Twin - Little Sister"
+        },
+        {
+            "id": "ima",
+            "full": "Ima Tsukumo",
+            "first": "Ima",
+            "last": "Tsukumo",
+            "web_title": "Twin - Big Brother"
+        },
+        {
+            "id": "nozomi",
+            "full": "Nozomi Kirifuji",
+            "first": "Nozomi",
+            "last": "Kirifuji",
+            "web_title": "Healer"
+        },
+        {
+            "id": "kurara",
+            "full": "Kurara Oosuzuki",
+            "first": "Kurara",
+            "last": "Oosuzuki",
+            "web_title": "Rich Girl Among Rich Girls"
+        },
+        {
+            "id": "yugamu",
+            "full": "Yugamu Omokage",
+            "first": "Yugamu",
+            "last": "Omokage",
+            "web_title": "Teenage Assassin"
+        },
+        {
+            "id": "kyoshika",
+            "full": "Kyoshika Magadori",
+            "first": "Kyoshika",
+            "last": "Magadori",
+            "web_title": "Ninja Samurai / Samurai Ninja"
+        },
+        {
+            "id": "moko",
+            "full": "Moko Mojiro",
+            "first": "Moko",
+            "last": "Mojiro",
+            "title": "The Apocalyptic Maiden of Destruction",
+            "web_title": "\"Cheerful and Lively\" Super Wrestler"
+        },
+        {
+            "id": "sirei",
+            "full": "Sirei",
+            "first": "Sirei",
+            "title": "Special Defense Unit Commanding Officer",
+            "position": "Headmaster of Last Defense Academy",
+            "web_title": "Special Defense Unit's Commanding Officer"
+        },
+        {
+            "id": "nigou",
+            "full": "Nigou",
+            "first": "Nigou",
+            "title": "Special Defense Unit Deputy Commander",
+            "position": "Headmaster of Second-to-Last Defense Academy",
+            "web_title": "Special Defense Unit's Deputy Commander"
+        },
+        {
+            "id": "ghost",
+            "full": "White Baby (???)",
+            "first": "White",
+            "last": "Baby",
+            "position": "Baby in the Defense Room"
+        },
+        {
+            "id": "eva",
+            "full": "Eva the Paragon of Nature (Squad 6 Commander)",
+            "first": "Eva",
+            "title": "The Paragon of Nature",
+            "position": "Squad 6 Commander"
+        },
+        {
+            "id": "supreme",
+            "full": "Supreme Commander V'ehxness the Paragon of Hope",
+            "first": "V'ehxness",
+            "title": "The Paragon of Hope",
+            "position": "Supreme Commander"
+        },
+        {
+            "id": "commander1",
+            "full": "Murvrum the Paragon of Order (Squad 1 Commander)",
+            "first": "Murvrum",
+            "title": "The Paragon of Order",
+            "position": "Squad 1 Commander"
+        },
+        {
+            "id": "commander2",
+            "full": "Pakron the Paragon of Virtue (Squad 2 Commander)",
+            "first": "Pakron",
+            "title": "The Paragon of Virtue",
+            "position": "Squad 2 Commander"
+        },
+        {
+            "id": "commander3",
+            "full": "Squad 3 Commander",
+            "position": "Squad 3 Commander"
+        },
+        {
+            "id": "commander4",
+            "full": "Squad 4 Commander",
+            "position": "Squad 4 Commander"
+        },
+        {
+            "id": "commander5",
+            "full": "Squad 5 Commander",
+            "position": "Squad 5 Commander"
+        },
+        {
+            "id": "commander7",
+            "full": "Squad 7 Commander",
+            "position": "Squad 7 Commander"
+        },
+        {
+            "id": "commander8",
+            "full": "Squad 8 Commander",
+            "position": "Squad 8 Commander"
+        },
+        {
+            "id": "commander9",
+            "full": "Squad 9 Commander",
+            "position": "Squad 9 Commander"
+        }
+    ],
+    "routes": [
+        {
+            "name": "Last Defense Academy: Chapter 00",
+            "deaths": [
+                {
+                    "id": "hiruko",
+                    "count": 1,
+                    "days": [
+                        15
+                    ]
+                },
+                {
+                    "id": "eito",
+                    "count": 1,
+                    "days": [
+                        96
+                    ]
+                },
+                {
+                    "id": "nozomi",
+                    "count": 1,
+                    "days": [
+                        95
+                    ]
+                },
+                {
+                    "id": "ima",
+                    "count": 2,
+                    "days": [
+                        81,
+                        95
+                    ]
+                },
+                {
+                    "id": "moko",
+                    "count": 1,
+                    "days": [
+                        10
+                    ]
+                },
+                {
+                    "id": "sirei",
+                    "count": 1,
+                    "days": [
+                        2
+                    ]
+                },
+                {
+                    "id": "nigou",
+                    "count": 2,
+                    "days": [
+                        28,
+                        -1
+                    ]
+                },
+                {
+                    "id": "eva",
+                    "count": 1,
+                    "days": [
+                        -1
+                    ]
+                },
+                {
+                    "id": "supreme",
+                    "count": 1,
+                    "days": [
+                        95
+                    ]
+                },
+                {
+                    "id": "commander1",
+                    "count": 1,
+                    "days": [
+                        7
+                    ]
+                },
+                {
+                    "id": "commander2",
+                    "count": 1,
+                    "days": [
+                        17
+                    ]
+                },
+                {
+                    "id": "commander3",
+                    "count": 1,
+                    "days": [
+                        28
+                    ]
+                },
+                {
+                    "id": "commander4",
+                    "count": 1,
+                    "days": [
+                        29
+                    ]
+                },
+                {
+                    "id": "commander5",
+                    "count": 1,
+                    "days": [
+                        44
+                    ]
+                }
+            ],
+            "events": [
+                {
+                    "name": "Battle against Commander 1 (stalemate)",
+                    "days": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Eito kills Sirei in the gym after distracting him, blowing himself up and getting revived by the Review-O-Matic",
+                    "days": [
+                        2
+                    ]
+                },
+                {
+                    "name": "Battle against Squad 1",
+                    "days": [
+                        7
+                    ]
+                },
+                {
+                    "name": "Eito kills Hiruko in her sleep",
+                    "days": [
+                        15
+                    ]
+                },
+                {
+                    "name": "Battle against Squad 2",
+                    "days": [
+                        17
+                    ]
+                },
+                {
+                    "name": "Takumi wakes up at Second-to-Last Defense Academy",
+                    "days": [
+                        28
+                    ]
+                },
+                {
+                    "name": "Battle at Second-to-Last Defense Academy against Squad 3",
+                    "days": [
+                        28
+                    ]
+                },
+                {
+                    "name": "Supreme Commander destroys Second-to-Last Defense Academy",
+                    "days": [
+                        28
+                    ]
+                },
+                {
+                    "name": "Battle against Squad 4",
+                    "days": [
+                        29
+                    ]
+                },
+                {
+                    "name": "Takumi, Kurara, Nozomi, Kyoshika, and Yugamu arrive at Last Defense Academy and join the battle",
+                    "days": [
+                        29
+                    ]
+                },
+                {
+                    "name": "Battle against Squad 5",
+                    "days": [
+                        44
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Last Defense Academy 2: Chapter 00",
+            "branch": {
+                "name": "Kill Eito?",
+                "day": 2,
+                "choices": [
+                    {
+                        "direction": "left",
+                        "name": "Yes",
+                        "route": {
+                            "name": "Chapter 00_0_b",
+                            "deaths": [
+                                {
+                                    "id": "eito",
+                                    "count": 1,
+                                    "days": [
+                                        2
+                                    ]
+                                },
+                                {
+                                    "id": "sirei",
+                                    "count": 1,
+                                    "days": [
+                                        3
+                                    ]
+                                }
+                            ],
+                            "branch": {
+                                "name": "Leave the School",
+                                "day": -1,
+                                "choices": [
+                                    {
+                                        "direction": "left",
+                                        "name": "Yes",
+                                        "route": {
+                                            "name": "Route 1 Left Left"
+                                        }
+                                    },
+                                    {
+                                        "direction": "right",
+                                        "name": "No",
+                                        "route": {
+                                            "name": "Chapter 15_0",
+                                            "deaths": [
+                                                {
+                                                    "id": "gaku",
+                                                    "count": 1,
+                                                    "days": [
+                                                        6
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "nigou",
+                                                    "count": 1,
+                                                    "days": [
+                                                        21
+                                                    ]
+                                                }
+                                            ],
+                                            "branch": {
+                                                "name": "Join the Invader Hunt?",
+                                                "day": 25,
+                                                "choices": [
+                                                    {
+                                                        "direction": "left",
+                                                        "name": "Yes",
+                                                        "route": {
+                                                            "name": "Route 1 Left Right Left"
+                                                        }
+                                                    },
+                                                    {
+                                                        "direction": "right",
+                                                        "name": "No",
+                                                        "route": {
+                                                            "name": "Route 1 Left Right Right"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "direction": "right",
+                        "name": "No",
+                        "route": {
+                            "name": "Route 1 Right"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -14,8 +14,8 @@
             "last": "Shizuhara"
         },
         {
-            "id": "Takumaru",
-            "full": "Takumaru Yakushiji",
+            "id": "Takemaru",
+            "full": "Takemaru Yakushiji",
             "first": "Takumaru",
             "last": "Yakushiji"
         },
@@ -128,14 +128,14 @@
             "position": "Supreme Commander"
         },
         {
-            "id": "Murvrum",
+            "id": "Commander1",
             "full": "Murvrum the Paragon of Order (Squad 1 Commander)",
             "first": "Murvrum",
             "title": "The Paragon of Order",
             "position": "Squad 1 Commander"
         },
         {
-            "id": "Pakron",
+            "id": "Commander2",
             "full": "Pakron the Paragon of Virtue (Squad 2 Commander)",
             "first": "Pakron",
             "title": "The Paragon of Virtue",
@@ -186,8 +186,8 @@
                 {"id": "Nigou", "count": 2, "days": [28, -1]},
                 {"id": "Eva", "count": 1, "days": [-1]},
                 {"id": "Supreme", "count": 1, "days": [95]},
-                {"id": "Murvrum", "count": 1, "days": [7]},
-                {"id": "Pakron", "count": 1, "days": [17]},
+                {"id": "Commander1", "count": 1, "days": [7]},
+                {"id": "Commander2", "count": 1, "days": [17]},
                 {"id": "Commander3", "count": 1, "days": [28]},
                 {"id": "Commander4", "count": 1, "days": [29]},
                 {"id": "Commander5", "count": 1, "days": [44]}
