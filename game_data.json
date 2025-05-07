@@ -392,7 +392,7 @@
                             ],
                             "branch": {
                                 "name": "Leave the School",
-                                "day": -1,
+                                "day": 4,
                                 "choices": [
                                     {
                                         "direction": "left",
@@ -411,7 +411,7 @@
                                                     "id": "gaku",
                                                     "count": 1,
                                                     "days": [
-                                                        6
+                                                        5
                                                     ]
                                                 },
                                                 {
@@ -430,7 +430,70 @@
                                                         "direction": "left",
                                                         "name": "Yes",
                                                         "route": {
-                                                            "name": "Route 1 Left Right Left"
+                                                            "name": "Chapter15_A",
+                                                            "deaths": [
+                                                                {
+                                                                    "id": "kurara",
+                                                                    "count": 1,
+                                                                    "days": [
+                                                                        25
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "branch": {
+                                                                "name": "Team Up With Yugamu",
+                                                                "day": 26,
+                                                                "choices": [
+                                                                    {
+                                                                        "direction": "left",
+                                                                        "name": "Yes",
+                                                                        "route": {
+                                                                            "name": "Chapter15_ALEFT BRANCH",
+                                                                            "events": [
+                                                                                {
+                                                                                    "name": "Hiruko reveals to Takumi that she has determined a method to kill the bees that guard the Sponsor, and forms the \"Anti-Sponsor Alliance\" with Takumi as its leader",
+                                                                                    "days": [
+                                                                                        27
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "Yugamu joins the Anti-Sponsor Alliance",
+                                                                                    "days": [
+                                                                                        28
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "direction": "right",
+                                                                        "name": "No",
+                                                                        "route": {
+                                                                            "name": "Chapter15_ARIGHT BRANCH"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "events": [
+                                                                {
+                                                                    "name": "Darumi asks Takumi to convince the others to join the killing game, which he does",
+                                                                    "days": [
+                                                                        25
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "The mysterious Sponser appears in the Leisure Lounge and begins the Invader Hunt by killing Kurara via cryptoglobin draining bees",
+                                                                    "days": [
+                                                                        25
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "Hiruko turns Darumi into her pet dog due to her hyper reaction to the killing game",
+                                                                    "days": [
+                                                                        26
+                                                                    ]
+                                                                }
+                                                            ]
                                                         }
                                                     },
                                                     {
@@ -445,7 +508,15 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "events": [
+                                {
+                                    "name": "A message appears painted over a blackboard in one of the classrooms, stating that if the group did not leave the school they would die",
+                                    "days": [
+                                        4
+                                    ]
+                                }
+                            ]
                         }
                     },
                     {

@@ -153,6 +153,7 @@ class Route:
             d["events"] = []
             for event in self.events:
                 d["events"].append(event.as_dict())
+            #print (d["events"])
         return d
 
 class Tree:
@@ -226,7 +227,7 @@ def parse_game_data(data_json):
 
 
 def check_name_id_exists(game_tree, name_id):
-    for name in game_tree.names:
+    for name in game_tree.names.values():
         if name_id == name.id:
             return True
     return False
@@ -296,12 +297,12 @@ def edit_deaths(game_tree, route):
                 
             case 'a':
                 id = input("ID to insert: ").lower().strip()
-                while not check_name_id_exists(game_tree, response):
+                while not check_name_id_exists(game_tree, id):
                     id = input("ID to insert: ").lower().strip()
                 count = -1
                 while count == -1:
                     try:
-                        count = int(response("Enter the number of times this character has died in this specific route: "))
+                        count = int(input("Enter the number of times this character has died in this specific route: "))
                     except ValueError:
                         pass
                 days_str = input("Enter a comma seperated list of days that this character has died on on this specific route after branches: ")
@@ -394,13 +395,21 @@ def edit_events(game_tree, route):
 def edit_branch(game_tree, route):
     while True:
         if route.branch:
-            print(f"\nThis route has a branch with choice \"{route.branch.name}\" and options:")
+            print(f"\nThis route has a branch with choice \"{route.branch.name}\" on day {route.branch.day} and options:")
             print(f"  left side: \"{route.branch.choices["left"].name}\"")
             print(f"  right side: \"{route.branch.choices["right"].name}\"")
-            response = input("Edit branch choice (c), edit/descend into left side (l), edit/descend into right side (r), or 'x' to exit: ")
+            response = input("Edit branch choice (c), edit branch day (d), edit/descend into left side (l), edit/descend into right side (r), or 'x' to exit: ")
             match response:
                 case 'c':
                     route.branch.name = input("Enter new choice name: ")
+                case 'd':
+                    day = -1
+                    while day == -1:
+                        try:
+                            day = int(input("Enter the day this branch occurs on: "))
+                        except ValueError:
+                            pass
+                    route.branch.day = day
                 case 'l' | 'r':
                     response2 = input("Edit label (e) or desend (d): ")
                     if response2 == 'e':
@@ -423,8 +432,8 @@ def edit_branch(game_tree, route):
                     branch = Branch(route, name, day)
                     choice_left = Choice(branch, "left", left)
                     choice_right = Choice(branch, "right", right)
-                    route_left = Route(route, route.name + "LEFT BRANCH")
-                    route_right = Route(route, route.name + "RIGHT BRANCH")
+                    route_left = Route(route, route.name + " LEFT BRANCH")
+                    route_right = Route(route, route.name + " RIGHT BRANCH")
                     choice_left.set_route(route_left)
                     choice_right.set_route(route_right)
                     route.set_branch(branch)
@@ -462,6 +471,19 @@ def edit_recurse(game_tree, route):
                 route.name = response
             case 'x':
                 return
+                
+            case 'ld' | 'rd': #hidden for now, allows instant descent from route base
+                branch = route.branch
+                if not branch:
+                    continue
+                if response == 'ld':
+                    new_route = branch.choices["left"].route
+                else:
+                    new_route = branch.choices["right"].route
+                if new_route:
+                    edit_recurse(game_tree, new_route)
+            case 's': #also hidden, save the file
+                save_tree(sys.argv[3], game_tree)
 
 def edit_names(game_tree):
     while True:
@@ -539,7 +561,7 @@ def edit(game_tree):
 
 def save_tree(filename, game_tree):
     with open(filename, "w") as f:
-        json.dump(game_tree, f, cls = CustomEncoder, indent = 4)
+        json.dump(game_tree, f, cls = CustomEncoder, indent = 2)
 
 
 def print_routes(names, route, parent_deaths = {}, depth = 0):
