@@ -183,11 +183,12 @@ def parse_route(parent_route, route_json, depth = 0):
             events.append(Event(event_json["name"], event_json["days"]))
         route.set_events(sort_by_days(events))
     
-    deaths = {}
+    deaths = []
     if "deaths" in route_json:
         for death_json in route_json["deaths"]:
-            deaths[death_json["id"].lower()] = (Death(death_json["id"], death_json["count"], death_json["days"]))
-        route.set_deaths(deaths)
+            deaths.append(Death(death_json["id"], death_json["count"], death_json["days"]))
+        deaths = sort_by_days(deaths)
+        route.set_deaths({d.id:d for d in deaths})
     
     #if depth == 0:
     #    print(route.name)
@@ -270,7 +271,7 @@ def edit_deaths(game_tree, route):
             case 'e':
                 if len(deaths) == 0:
                     print("No deaths to edit")
-                    pass
+                    continue
                 response = input("ID to edit: ").lower().strip()
                 while response not in deaths:
                     response = input("ID to edit: ").lower().strip()
@@ -279,7 +280,7 @@ def edit_deaths(game_tree, route):
             case 'r':
                 if len(deaths) == 0:
                     print("No deaths to remove")
-                    pass
+                    continue
                 response = input("ID to remove: ").lower().strip()
                 while response not in deaths:
                     response = input("ID to remove: ").lower().strip()
@@ -304,6 +305,9 @@ def edit_deaths(game_tree, route):
                     except ValueError:
                         pass
                 deaths[id] = Death(id, count, days)
+                sorted_items = dict(sorted(deaths.items(), key=lambda d: d[1].days[0]))
+                deaths.clear()
+                deaths.update(sorted_items)
                 
             case 'x':
                 route.deaths = deaths
@@ -344,7 +348,7 @@ def edit_events(game_tree, route):
             case 'e':
                 if len(events) == 0:
                     print("No events to edit")
-                    pass
+                    continue
                 response = -1
                 while response >= len(events) or response < 0:
                     try:
@@ -356,7 +360,7 @@ def edit_events(game_tree, route):
             case 'r':
                 if len(events) == 0:
                     print("No events to remove")
-                    pass
+                    continue
                 response = -1
                 while response >= len(events) or response < 0:
                     try:
