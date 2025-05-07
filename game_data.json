@@ -201,39 +201,10 @@
       "name": "Last Defense Academy: Chapter 00",
       "deaths": [
         {
-          "id": "hiruko",
+          "id": "eva",
           "count": 1,
           "days": [
-            15
-          ]
-        },
-        {
-          "id": "eito",
-          "count": 1,
-          "days": [
-            96
-          ]
-        },
-        {
-          "id": "nozomi",
-          "count": 1,
-          "days": [
-            95
-          ]
-        },
-        {
-          "id": "ima",
-          "count": 2,
-          "days": [
-            81,
-            95
-          ]
-        },
-        {
-          "id": "moko",
-          "count": 1,
-          "days": [
-            10
+            -1
           ]
         },
         {
@@ -244,28 +215,6 @@
           ]
         },
         {
-          "id": "nigou",
-          "count": 2,
-          "days": [
-            28,
-            -1
-          ]
-        },
-        {
-          "id": "eva",
-          "count": 1,
-          "days": [
-            -1
-          ]
-        },
-        {
-          "id": "supreme",
-          "count": 1,
-          "days": [
-            95
-          ]
-        },
-        {
           "id": "commander1",
           "count": 1,
           "days": [
@@ -273,10 +222,32 @@
           ]
         },
         {
+          "id": "moko",
+          "count": 1,
+          "days": [
+            10
+          ]
+        },
+        {
+          "id": "hiruko",
+          "count": 1,
+          "days": [
+            15
+          ]
+        },
+        {
           "id": "commander2",
           "count": 1,
           "days": [
             17
+          ]
+        },
+        {
+          "id": "nigou",
+          "count": 2,
+          "days": [
+            28,
+            -1
           ]
         },
         {
@@ -298,6 +269,35 @@
           "count": 1,
           "days": [
             44
+          ]
+        },
+        {
+          "id": "ima",
+          "count": 2,
+          "days": [
+            81,
+            95
+          ]
+        },
+        {
+          "id": "nozomi",
+          "count": 1,
+          "days": [
+            95
+          ]
+        },
+        {
+          "id": "supreme",
+          "count": 1,
+          "days": [
+            95
+          ]
+        },
+        {
+          "id": "eito",
+          "count": 1,
+          "days": [
+            96
           ]
         }
       ],
@@ -474,17 +474,17 @@
                                                   ]
                                                 },
                                                 {
-                                                  "id": "commander3",
-                                                  "count": 1,
-                                                  "days": [
-                                                    33
-                                                  ]
-                                                },
-                                                {
                                                   "id": "sponsor",
                                                   "count": 1,
                                                   "days": [
                                                     31
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "commander3",
+                                                  "count": 1,
+                                                  "days": [
+                                                    33
                                                   ]
                                                 }
                                               ],
@@ -594,7 +594,7 @@
                                   ]
                                 },
                                 {
-                                  "name": "The mysterious Sponser appears in the Leisure Lounge and begins the Invader Hunt by killing Kurara via cryptoglobin draining bees",
+                                  "name": "The mysterious Sponsor appears in the Leisure Lounge and begins the Invader Hunt by killing Kurara via cryptoglobin draining bees",
                                   "days": [
                                     25
                                   ]

@@ -305,9 +305,8 @@ def edit_deaths(game_tree, route):
                     except ValueError:
                         pass
                 deaths[id] = Death(id, count, days)
-                sorted_items = dict(sorted(deaths.items(), key=lambda d: d[1].days[0]))
-                deaths.clear()
-                deaths.update(sorted_items)
+                deaths = {d.id : d for d in sort_by_days([d for d in deaths.values()])}
+                route.set_deaths(deaths)
                 
             case 'x':
                 route.deaths = deaths
