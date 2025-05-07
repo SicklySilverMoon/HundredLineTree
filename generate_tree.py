@@ -116,16 +116,6 @@ class Route:
         self.parent = parent
         self.name = name
         
-        #if parent:
-            #for parent_death_key in parent.deaths:
-            #    parent_death = parent.deaths[parent_death_key]
-            #    if parent_death.id not in deaths:
-            #        deaths[parent_death.id] = parent_death
-            #    else:
-            #        child_death = deaths[parent_death.id]
-            #        child_death.count += parent_death.count
-            #        child_death.days = sorted(parent_death.days + child_death.days)
-            #        deaths[child_death.id] = child_death
         self.deaths = {}
         
         self.events = []
@@ -329,7 +319,7 @@ def edit_event(event):
                 event.name = desc
                 
             case 'd':
-                response = input("Enter a comma seperated list of days that this character has died on on this specific route after branches: ")
+                response = input("Enter a comma seperated list of days that this event has occured on in this specific route: ")
                 days_str = response.split(',')
                 days = []
                 for day in days_str:

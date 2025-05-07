@@ -1,533 +1,645 @@
 {
-    "names": [
+  "names": [
+    {
+      "id": "takumi",
+      "full": "Takumi Sumino",
+      "first": "Takumi",
+      "last": "Sumino",
+      "position": "Leader of Special Defense Unit",
+      "web_title": "Everyman"
+    },
+    {
+      "id": "hiruko",
+      "full": "Hiruko Shizuhara",
+      "first": "Hiruko",
+      "last": "Shizuhara",
+      "web_title": "Ice Queen"
+    },
+    {
+      "id": "takemaru",
+      "full": "Takemaru Yakushiji",
+      "first": "Takumaru",
+      "last": "Yakushiji",
+      "web_title": "Gangster With a Heart of Gold"
+    },
+    {
+      "id": "darumi",
+      "full": "Darumi Amemiya",
+      "first": "Darumi",
+      "last": "Amemiya",
+      "web_title": "Manic Emo Dream Girl"
+    },
+    {
+      "id": "eito",
+      "full": "Eito Aotsuki",
+      "first": "Eito",
+      "last": "Aotsuki",
+      "web_title": "Voice of Reason"
+    },
+    {
+      "id": "tsubasa",
+      "full": "Tsubasa Kawana",
+      "first": "Tsubasa",
+      "last": "Kawana",
+      "web_title": "Star Mechanic"
+    },
+    {
+      "id": "gaku",
+      "full": "Gaku Kawana",
+      "first": "Gaku",
+      "last": "Maruko",
+      "web_title": "Self-Centered Mood Maker"
+    },
+    {
+      "id": "shouma",
+      "full": "Shouma Ginzaki",
+      "first": "Shouma",
+      "last": "Ginzaki",
+      "web_title": "Waste of Space"
+    },
+    {
+      "id": "kako",
+      "full": "Kako Tsukumo",
+      "first": "Kako",
+      "last": "Tsukumo",
+      "web_title": "Twin - Little Sister"
+    },
+    {
+      "id": "ima",
+      "full": "Ima Tsukumo",
+      "first": "Ima",
+      "last": "Tsukumo",
+      "web_title": "Twin - Big Brother"
+    },
+    {
+      "id": "nozomi",
+      "full": "Nozomi Kirifuji",
+      "first": "Nozomi",
+      "last": "Kirifuji",
+      "web_title": "Healer"
+    },
+    {
+      "id": "kurara",
+      "full": "Kurara Oosuzuki",
+      "first": "Kurara",
+      "last": "Oosuzuki",
+      "web_title": "Rich Girl Among Rich Girls"
+    },
+    {
+      "id": "yugamu",
+      "full": "Yugamu Omokage",
+      "first": "Yugamu",
+      "last": "Omokage",
+      "web_title": "Teenage Assassin"
+    },
+    {
+      "id": "kyoshika",
+      "full": "Kyoshika Magadori",
+      "first": "Kyoshika",
+      "last": "Magadori",
+      "web_title": "Ninja Samurai / Samurai Ninja"
+    },
+    {
+      "id": "moko",
+      "full": "Moko Mojiro",
+      "first": "Moko",
+      "last": "Mojiro",
+      "title": "The Apocalyptic Maiden of Destruction",
+      "web_title": "\"Cheerful and Lively\" Super Wrestler"
+    },
+    {
+      "id": "sirei",
+      "full": "Sirei",
+      "first": "Sirei",
+      "title": "Special Defense Unit Commanding Officer",
+      "position": "Headmaster of Last Defense Academy",
+      "web_title": "Special Defense Unit's Commanding Officer"
+    },
+    {
+      "id": "nigou",
+      "full": "Nigou",
+      "first": "Nigou",
+      "title": "Special Defense Unit Deputy Commander",
+      "position": "Headmaster of Second-to-Last Defense Academy",
+      "web_title": "Special Defense Unit's Deputy Commander"
+    },
+    {
+      "id": "ghost",
+      "full": "White Baby (???)",
+      "first": "White",
+      "last": "Baby",
+      "position": "Baby in the Defense Room"
+    },
+    {
+      "id": "eva",
+      "full": "Eva the Paragon of Nature (Squad 6 Commander)",
+      "first": "Eva",
+      "title": "The Paragon of Nature",
+      "position": "Squad 6 Commander"
+    },
+    {
+      "id": "supreme",
+      "full": "Supreme Commander V'ehxness the Paragon of Hope",
+      "first": "V'ehxness",
+      "title": "The Paragon of Hope",
+      "position": "Supreme Commander"
+    },
+    {
+      "id": "commander1",
+      "full": "Murvrum the Paragon of Order (Squad 1 Commander)",
+      "first": "Murvrum",
+      "title": "The Paragon of Order",
+      "position": "Squad 1 Commander"
+    },
+    {
+      "id": "commander2",
+      "full": "Pakron the Paragon of Virtue (Squad 2 Commander)",
+      "first": "Pakron",
+      "title": "The Paragon of Virtue",
+      "position": "Squad 2 Commander"
+    },
+    {
+      "id": "commander3",
+      "full": "Addamaque the Paragon of Hatred (Squad 3 Commander)",
+      "first": "Addamaque",
+      "title": "The Paragon of Hatred",
+      "position": "Squad 3 Commander"
+    },
+    {
+      "id": "commander4",
+      "full": "Squad 4 Commander",
+      "position": "Squad 4 Commander"
+    },
+    {
+      "id": "commander5",
+      "full": "Squad 5 Commander",
+      "position": "Squad 5 Commander"
+    },
+    {
+      "id": "commander7",
+      "full": "Squad 7 Commander",
+      "position": "Squad 7 Commander"
+    },
+    {
+      "id": "commander8",
+      "full": "Squad 8 Commander",
+      "position": "Squad 8 Commander"
+    },
+    {
+      "id": "commander9",
+      "full": "Squad 9 Commander",
+      "position": "Squad 9 Commander"
+    },
+    {
+      "id": "sponsor",
+      "full": "Sponsor of the Invader Hunt",
+      "first": "Sponsor"
+    }
+  ],
+  "routes": [
+    {
+      "name": "Last Defense Academy: Chapter 00",
+      "deaths": [
         {
-            "id": "takumi",
-            "full": "Takumi Sumino",
-            "first": "Takumi",
-            "last": "Sumino",
-            "position": "Leader of Special Defense Unit",
-            "web_title": "Everyman"
+          "id": "hiruko",
+          "count": 1,
+          "days": [
+            15
+          ]
         },
         {
-            "id": "hiruko",
-            "full": "Hiruko Shizuhara",
-            "first": "Hiruko",
-            "last": "Shizuhara",
-            "web_title": "Ice Queen"
+          "id": "eito",
+          "count": 1,
+          "days": [
+            96
+          ]
         },
         {
-            "id": "takemaru",
-            "full": "Takemaru Yakushiji",
-            "first": "Takumaru",
-            "last": "Yakushiji",
-            "web_title": "Gangster With a Heart of Gold"
+          "id": "nozomi",
+          "count": 1,
+          "days": [
+            95
+          ]
         },
         {
-            "id": "darumi",
-            "full": "Darumi Amemiya",
-            "first": "Darumi",
-            "last": "Amemiya",
-            "web_title": "Manic Emo Dream Girl"
+          "id": "ima",
+          "count": 2,
+          "days": [
+            81,
+            95
+          ]
         },
         {
-            "id": "eito",
-            "full": "Eito Aotsuki",
-            "first": "Eito",
-            "last": "Aotsuki",
-            "web_title": "Voice of Reason"
+          "id": "moko",
+          "count": 1,
+          "days": [
+            10
+          ]
         },
         {
-            "id": "tsubasa",
-            "full": "Tsubasa Kawana",
-            "first": "Tsubasa",
-            "last": "Kawana",
-            "web_title": "Star Mechanic"
+          "id": "sirei",
+          "count": 1,
+          "days": [
+            2
+          ]
         },
         {
-            "id": "gaku",
-            "full": "Gaku Kawana",
-            "first": "Gaku",
-            "last": "Maruko",
-            "web_title": "Self-Centered Mood Maker"
+          "id": "nigou",
+          "count": 2,
+          "days": [
+            28,
+            -1
+          ]
         },
         {
-            "id": "shouma",
-            "full": "Shouma Ginzaki",
-            "first": "Shouma",
-            "last": "Ginzaki",
-            "web_title": "Waste of Space"
+          "id": "eva",
+          "count": 1,
+          "days": [
+            -1
+          ]
         },
         {
-            "id": "kako",
-            "full": "Kako Tsukumo",
-            "first": "Kako",
-            "last": "Tsukumo",
-            "web_title": "Twin - Little Sister"
+          "id": "supreme",
+          "count": 1,
+          "days": [
+            95
+          ]
         },
         {
-            "id": "ima",
-            "full": "Ima Tsukumo",
-            "first": "Ima",
-            "last": "Tsukumo",
-            "web_title": "Twin - Big Brother"
+          "id": "commander1",
+          "count": 1,
+          "days": [
+            7
+          ]
         },
         {
-            "id": "nozomi",
-            "full": "Nozomi Kirifuji",
-            "first": "Nozomi",
-            "last": "Kirifuji",
-            "web_title": "Healer"
+          "id": "commander2",
+          "count": 1,
+          "days": [
+            17
+          ]
         },
         {
-            "id": "kurara",
-            "full": "Kurara Oosuzuki",
-            "first": "Kurara",
-            "last": "Oosuzuki",
-            "web_title": "Rich Girl Among Rich Girls"
+          "id": "commander3",
+          "count": 1,
+          "days": [
+            28
+          ]
         },
         {
-            "id": "yugamu",
-            "full": "Yugamu Omokage",
-            "first": "Yugamu",
-            "last": "Omokage",
-            "web_title": "Teenage Assassin"
+          "id": "commander4",
+          "count": 1,
+          "days": [
+            29
+          ]
         },
         {
-            "id": "kyoshika",
-            "full": "Kyoshika Magadori",
-            "first": "Kyoshika",
-            "last": "Magadori",
-            "web_title": "Ninja Samurai / Samurai Ninja"
-        },
-        {
-            "id": "moko",
-            "full": "Moko Mojiro",
-            "first": "Moko",
-            "last": "Mojiro",
-            "title": "The Apocalyptic Maiden of Destruction",
-            "web_title": "\"Cheerful and Lively\" Super Wrestler"
-        },
-        {
-            "id": "sirei",
-            "full": "Sirei",
-            "first": "Sirei",
-            "title": "Special Defense Unit Commanding Officer",
-            "position": "Headmaster of Last Defense Academy",
-            "web_title": "Special Defense Unit's Commanding Officer"
-        },
-        {
-            "id": "nigou",
-            "full": "Nigou",
-            "first": "Nigou",
-            "title": "Special Defense Unit Deputy Commander",
-            "position": "Headmaster of Second-to-Last Defense Academy",
-            "web_title": "Special Defense Unit's Deputy Commander"
-        },
-        {
-            "id": "ghost",
-            "full": "White Baby (???)",
-            "first": "White",
-            "last": "Baby",
-            "position": "Baby in the Defense Room"
-        },
-        {
-            "id": "eva",
-            "full": "Eva the Paragon of Nature (Squad 6 Commander)",
-            "first": "Eva",
-            "title": "The Paragon of Nature",
-            "position": "Squad 6 Commander"
-        },
-        {
-            "id": "supreme",
-            "full": "Supreme Commander V'ehxness the Paragon of Hope",
-            "first": "V'ehxness",
-            "title": "The Paragon of Hope",
-            "position": "Supreme Commander"
-        },
-        {
-            "id": "commander1",
-            "full": "Murvrum the Paragon of Order (Squad 1 Commander)",
-            "first": "Murvrum",
-            "title": "The Paragon of Order",
-            "position": "Squad 1 Commander"
-        },
-        {
-            "id": "commander2",
-            "full": "Pakron the Paragon of Virtue (Squad 2 Commander)",
-            "first": "Pakron",
-            "title": "The Paragon of Virtue",
-            "position": "Squad 2 Commander"
-        },
-        {
-            "id": "commander3",
-            "full": "Squad 3 Commander",
-            "position": "Squad 3 Commander"
-        },
-        {
-            "id": "commander4",
-            "full": "Squad 4 Commander",
-            "position": "Squad 4 Commander"
-        },
-        {
-            "id": "commander5",
-            "full": "Squad 5 Commander",
-            "position": "Squad 5 Commander"
-        },
-        {
-            "id": "commander7",
-            "full": "Squad 7 Commander",
-            "position": "Squad 7 Commander"
-        },
-        {
-            "id": "commander8",
-            "full": "Squad 8 Commander",
-            "position": "Squad 8 Commander"
-        },
-        {
-            "id": "commander9",
-            "full": "Squad 9 Commander",
-            "position": "Squad 9 Commander"
+          "id": "commander5",
+          "count": 1,
+          "days": [
+            44
+          ]
         }
-    ],
-    "routes": [
+      ],
+      "events": [
         {
-            "name": "Last Defense Academy: Chapter 00",
-            "deaths": [
-                {
-                    "id": "hiruko",
-                    "count": 1,
-                    "days": [
-                        15
-                    ]
-                },
-                {
-                    "id": "eito",
-                    "count": 1,
-                    "days": [
-                        96
-                    ]
-                },
-                {
-                    "id": "nozomi",
-                    "count": 1,
-                    "days": [
-                        95
-                    ]
-                },
-                {
-                    "id": "ima",
-                    "count": 2,
-                    "days": [
-                        81,
-                        95
-                    ]
-                },
-                {
-                    "id": "moko",
-                    "count": 1,
-                    "days": [
-                        10
-                    ]
-                },
-                {
-                    "id": "sirei",
-                    "count": 1,
-                    "days": [
-                        2
-                    ]
-                },
-                {
-                    "id": "nigou",
-                    "count": 2,
-                    "days": [
-                        28,
-                        -1
-                    ]
-                },
-                {
-                    "id": "eva",
-                    "count": 1,
-                    "days": [
-                        -1
-                    ]
-                },
-                {
-                    "id": "supreme",
-                    "count": 1,
-                    "days": [
-                        95
-                    ]
-                },
-                {
-                    "id": "commander1",
-                    "count": 1,
-                    "days": [
-                        7
-                    ]
-                },
-                {
-                    "id": "commander2",
-                    "count": 1,
-                    "days": [
-                        17
-                    ]
-                },
-                {
-                    "id": "commander3",
-                    "count": 1,
-                    "days": [
-                        28
-                    ]
-                },
-                {
-                    "id": "commander4",
-                    "count": 1,
-                    "days": [
-                        29
-                    ]
-                },
-                {
-                    "id": "commander5",
-                    "count": 1,
-                    "days": [
-                        44
-                    ]
-                }
-            ],
-            "events": [
-                {
-                    "name": "Battle against Commander 1 (stalemate)",
-                    "days": [
-                        1
-                    ]
-                },
-                {
-                    "name": "Eito kills Sirei in the gym after distracting him, blowing himself up and getting revived by the Review-O-Matic",
-                    "days": [
-                        2
-                    ]
-                },
-                {
-                    "name": "Battle against Squad 1",
-                    "days": [
-                        7
-                    ]
-                },
-                {
-                    "name": "Eito kills Hiruko in her sleep",
-                    "days": [
-                        15
-                    ]
-                },
-                {
-                    "name": "Battle against Squad 2",
-                    "days": [
-                        17
-                    ]
-                },
-                {
-                    "name": "Takumi wakes up at Second-to-Last Defense Academy",
-                    "days": [
-                        28
-                    ]
-                },
-                {
-                    "name": "Battle at Second-to-Last Defense Academy against Squad 3",
-                    "days": [
-                        28
-                    ]
-                },
-                {
-                    "name": "Supreme Commander destroys Second-to-Last Defense Academy",
-                    "days": [
-                        28
-                    ]
-                },
-                {
-                    "name": "Battle against Squad 4",
-                    "days": [
-                        29
-                    ]
-                },
-                {
-                    "name": "Takumi, Kurara, Nozomi, Kyoshika, and Yugamu arrive at Last Defense Academy and join the battle",
-                    "days": [
-                        29
-                    ]
-                },
-                {
-                    "name": "Battle against Squad 5",
-                    "days": [
-                        44
-                    ]
-                }
-            ]
+          "name": "Battle against Commander 1 (stalemate)",
+          "days": [
+            1
+          ]
         },
         {
-            "name": "Last Defense Academy 2: Chapter 00",
-            "branch": {
-                "name": "Kill Eito?",
-                "day": 2,
+          "name": "Eito kills Sirei in the gym after distracting him, blowing himself up and getting revived by the Review-O-Matic",
+          "days": [
+            2
+          ]
+        },
+        {
+          "name": "Battle against Squad 1",
+          "days": [
+            7
+          ]
+        },
+        {
+          "name": "Eito kills Hiruko in her sleep",
+          "days": [
+            15
+          ]
+        },
+        {
+          "name": "Battle against Squad 2",
+          "days": [
+            17
+          ]
+        },
+        {
+          "name": "Takumi wakes up at Second-to-Last Defense Academy",
+          "days": [
+            28
+          ]
+        },
+        {
+          "name": "Battle at Second-to-Last Defense Academy against Squad 3",
+          "days": [
+            28
+          ]
+        },
+        {
+          "name": "Supreme Commander destroys Second-to-Last Defense Academy",
+          "days": [
+            28
+          ]
+        },
+        {
+          "name": "Battle against Squad 4",
+          "days": [
+            29
+          ]
+        },
+        {
+          "name": "Takumi, Kurara, Nozomi, Kyoshika, and Yugamu arrive at Last Defense Academy and join the battle",
+          "days": [
+            29
+          ]
+        },
+        {
+          "name": "Battle against Squad 5",
+          "days": [
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Last Defense Academy 2: Chapter 00",
+      "branch": {
+        "name": "Kill Eito?",
+        "day": 2,
+        "choices": [
+          {
+            "direction": "left",
+            "name": "Yes",
+            "route": {
+              "name": "Chapter 00_0_b",
+              "deaths": [
+                {
+                  "id": "eito",
+                  "count": 1,
+                  "days": [
+                    2
+                  ]
+                },
+                {
+                  "id": "sirei",
+                  "count": 1,
+                  "days": [
+                    3
+                  ]
+                }
+              ],
+              "branch": {
+                "name": "Leave the School",
+                "day": 4,
                 "choices": [
-                    {
-                        "direction": "left",
-                        "name": "Yes",
-                        "route": {
-                            "name": "Chapter 00_0_b",
-                            "deaths": [
+                  {
+                    "direction": "left",
+                    "name": "Yes",
+                    "route": {
+                      "name": "Route 1 Left Left"
+                    }
+                  },
+                  {
+                    "direction": "right",
+                    "name": "No",
+                    "route": {
+                      "name": "Chapter 15_0",
+                      "deaths": [
+                        {
+                          "id": "gaku",
+                          "count": 1,
+                          "days": [
+                            5
+                          ]
+                        },
+                        {
+                          "id": "nigou",
+                          "count": 1,
+                          "days": [
+                            21
+                          ]
+                        }
+                      ],
+                      "branch": {
+                        "name": "Join the Invader Hunt?",
+                        "day": 25,
+                        "choices": [
+                          {
+                            "direction": "left",
+                            "name": "Yes",
+                            "route": {
+                              "name": "Chapter15_A",
+                              "deaths": [
                                 {
-                                    "id": "eito",
-                                    "count": 1,
-                                    "days": [
-                                        2
-                                    ]
-                                },
-                                {
-                                    "id": "sirei",
-                                    "count": 1,
-                                    "days": [
-                                        3
-                                    ]
+                                  "id": "kurara",
+                                  "count": 1,
+                                  "days": [
+                                    25
+                                  ]
                                 }
-                            ],
-                            "branch": {
-                                "name": "Leave the School",
-                                "day": 4,
+                              ],
+                              "branch": {
+                                "name": "Team Up With Yugamu?",
+                                "day": 26,
                                 "choices": [
-                                    {
-                                        "direction": "left",
-                                        "name": "Yes",
-                                        "route": {
-                                            "name": "Route 1 Left Left"
-                                        }
-                                    },
-                                    {
-                                        "direction": "right",
-                                        "name": "No",
-                                        "route": {
-                                            "name": "Chapter 15_0",
-                                            "deaths": [
+                                  {
+                                    "direction": "left",
+                                    "name": "Yes",
+                                    "route": {
+                                      "name": "Chapter15_A_a",
+                                      "branch": {
+                                        "name": "Save Darumi?",
+                                        "day": 30,
+                                        "choices": [
+                                          {
+                                            "direction": "left",
+                                            "name": "Yes",
+                                            "route": {
+                                              "name": "Chapter15_A_aa",
+                                              "deaths": [
                                                 {
-                                                    "id": "gaku",
-                                                    "count": 1,
-                                                    "days": [
-                                                        5
-                                                    ]
+                                                  "id": "hiruko",
+                                                  "count": 1,
+                                                  "days": [
+                                                    30
+                                                  ]
                                                 },
                                                 {
-                                                    "id": "nigou",
-                                                    "count": 1,
-                                                    "days": [
-                                                        21
-                                                    ]
+                                                  "id": "commander3",
+                                                  "count": 1,
+                                                  "days": [
+                                                    33
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "sponsor",
+                                                  "count": 1,
+                                                  "days": [
+                                                    31
+                                                  ]
                                                 }
-                                            ],
-                                            "branch": {
-                                                "name": "Join the Invader Hunt?",
-                                                "day": 25,
-                                                "choices": [
-                                                    {
-                                                        "direction": "left",
-                                                        "name": "Yes",
-                                                        "route": {
-                                                            "name": "Chapter15_A",
-                                                            "deaths": [
-                                                                {
-                                                                    "id": "kurara",
-                                                                    "count": 1,
-                                                                    "days": [
-                                                                        25
-                                                                    ]
-                                                                }
-                                                            ],
-                                                            "branch": {
-                                                                "name": "Team Up With Yugamu",
-                                                                "day": 26,
-                                                                "choices": [
-                                                                    {
-                                                                        "direction": "left",
-                                                                        "name": "Yes",
-                                                                        "route": {
-                                                                            "name": "Chapter15_ALEFT BRANCH",
-                                                                            "events": [
-                                                                                {
-                                                                                    "name": "Hiruko reveals to Takumi that she has determined a method to kill the bees that guard the Sponsor, and forms the \"Anti-Sponsor Alliance\" with Takumi as its leader",
-                                                                                    "days": [
-                                                                                        27
-                                                                                    ]
-                                                                                },
-                                                                                {
-                                                                                    "name": "Yugamu joins the Anti-Sponsor Alliance",
-                                                                                    "days": [
-                                                                                        28
-                                                                                    ]
-                                                                                }
-                                                                            ]
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "direction": "right",
-                                                                        "name": "No",
-                                                                        "route": {
-                                                                            "name": "Chapter15_ARIGHT BRANCH"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            },
-                                                            "events": [
-                                                                {
-                                                                    "name": "Darumi asks Takumi to convince the others to join the killing game, which he does",
-                                                                    "days": [
-                                                                        25
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "name": "The mysterious Sponser appears in the Leisure Lounge and begins the Invader Hunt by killing Kurara via cryptoglobin draining bees",
-                                                                    "days": [
-                                                                        25
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "name": "Hiruko turns Darumi into her pet dog due to her hyper reaction to the killing game",
-                                                                    "days": [
-                                                                        26
-                                                                    ]
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "direction": "right",
-                                                        "name": "No",
-                                                        "route": {
-                                                            "name": "Route 1 Left Right Right"
-                                                        }
-                                                    }
-                                                ]
+                                              ],
+                                              "events": [
+                                                {
+                                                  "name": "Takumi, Darumi, and Yugamu drive back the squad 3 commander, saving Darumi",
+                                                  "days": [
+                                                    30
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Darumi kills Hiruko and absorbs her cryptoglobin",
+                                                  "days": [
+                                                    30
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Tsubasa reveals that she witnessed the battle and Hiruko's death and joins the Anti-Sponsor Alliance to make amends and save lives, working to analyse the spare suit",
+                                                  "days": [
+                                                    30
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi attacks the Sponsor with a crossbow since the suit is only immune to Hemoanima based attacks, landing 3 shots and piercing the suit. Yugamu wearing the spare suit then takes over the attack as Takumi leaves to avoid the bees. Yugamu then shoves a bomb of undying flame into the holes in the suit, killing the Sponsor.",
+                                                  "days": [
+                                                    31
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "2 more entities wearing sponsor suits are found in the room with the medical machines and inject Takumi with something, knocking him out, saying they are not involved with the Invader Hunt",
+                                                  "days": [
+                                                    31
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up, goes to the cafeteria to discuss with Yugamu and Tsubasa, and discovers he was out for an entire day and that he was apparently moving around and acting strangely yesterday",
+                                                  "days": [
+                                                    32
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Battle against Squad 3",
+                                                  "days": [
+                                                    32
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "After defeating Squad 3, the Sponsor reveals themselves to still be alive and have multiple bodies. Then absorbs the commander's cryptoglobin and redistributes it to the top 3 scorers in the Invader Hunt: Darumi, Takumi, and Yugamu",
+                                                  "days": [
+                                                    32
+                                                  ]
+                                                }
+                                              ]
                                             }
+                                          },
+                                          {
+                                            "direction": "right",
+                                            "name": "No",
+                                            "route": {
+                                              "name": "Chapter15_A_a RIGHT BRANCH"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "events": [
+                                        {
+                                          "name": "Hiruko reveals to Takumi that she has determined a method to kill the bees that guard the Sponsor, and forms the \"Anti-Sponsor Alliance\" with Takumi as its leader",
+                                          "days": [
+                                            27
+                                          ]
+                                        },
+                                        {
+                                          "name": "Yugamu joins the Anti-Sponsor Alliance",
+                                          "days": [
+                                            28
+                                          ]
+                                        },
+                                        {
+                                          "name": "Hiruko reveals to Takumi Darumi's mental state",
+                                          "days": [
+                                            29
+                                          ]
+                                        },
+                                        {
+                                          "name": "Hiruko and Darumi when attempting to retrieve the Sponsor's spare suit, run into Squad 3 commander and Hiruko is mortally injured",
+                                          "days": [
+                                            30
+                                          ]
                                         }
+                                      ]
                                     }
+                                  },
+                                  {
+                                    "direction": "right",
+                                    "name": "No",
+                                    "route": {
+                                      "name": "Chapter15_ARIGHT BRANCH"
+                                    }
+                                  }
                                 ]
-                            },
-                            "events": [
+                              },
+                              "events": [
                                 {
-                                    "name": "A message appears painted over a blackboard in one of the classrooms, stating that if the group did not leave the school they would die",
-                                    "days": [
-                                        4
-                                    ]
+                                  "name": "Darumi asks Takumi to convince the others to join the killing game, which he does",
+                                  "days": [
+                                    25
+                                  ]
+                                },
+                                {
+                                  "name": "The mysterious Sponser appears in the Leisure Lounge and begins the Invader Hunt by killing Kurara via cryptoglobin draining bees",
+                                  "days": [
+                                    25
+                                  ]
+                                },
+                                {
+                                  "name": "Hiruko turns Darumi into her pet dog due to her hyper reaction to the killing game",
+                                  "days": [
+                                    26
+                                  ]
                                 }
-                            ]
-                        }
-                    },
-                    {
-                        "direction": "right",
-                        "name": "No",
-                        "route": {
-                            "name": "Route 1 Right"
-                        }
+                              ]
+                            }
+                          },
+                          {
+                            "direction": "right",
+                            "name": "No",
+                            "route": {
+                              "name": "Route 1 Left Right Right"
+                            }
+                          }
+                        ]
+                      }
                     }
+                  }
                 ]
+              },
+              "events": [
+                {
+                  "name": "A message appears painted over a blackboard in one of the classrooms, stating that if the group did not leave the school they would die",
+                  "days": [
+                    4
+                  ]
+                }
+              ]
             }
-        }
-    ]
+          },
+          {
+            "direction": "right",
+            "name": "No",
+            "route": {
+              "name": "Route 1 Right"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
