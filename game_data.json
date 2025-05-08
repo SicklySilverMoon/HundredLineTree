@@ -191,9 +191,24 @@
       "position": "Squad 9 Commander"
     },
     {
+      "id": "commander10",
+      "full": "Squad 10 Commander",
+      "first": "Nyewgank",
+      "position": "Squad 10 Commander"
+    },
+    {
+      "id": "commander11",
+      "full": "Squad 11 Commander",
+      "position": "Squad 11 Commander"
+    },
+    {
       "id": "sponsor",
       "full": "Sponsor of the Invader Hunt",
       "first": "Sponsor"
+    },
+    {
+      "id": "commander0",
+      "full": "Squad 0 Commander"
     }
   ],
   "routes": [
@@ -373,12 +388,12 @@
     {
       "name": "Last Defense Academy 2: Chapter 00",
       "branch": {
-        "name": "Kill Eito?",
+        "name": "Decide Eito's Fate",
         "day": 2,
         "choices": [
           {
             "direction": "left",
-            "name": "Yes",
+            "name": "Kill Him",
             "route": {
               "name": "Chapter 00_0_b",
               "deaths": [
@@ -486,8 +501,58 @@
                                                   "days": [
                                                     33
                                                   ]
+                                                },
+                                                {
+                                                  "id": "shouma",
+                                                  "count": 1,
+                                                  "days": [
+                                                    35
+                                                  ]
                                                 }
                                               ],
+                                              "branch": {
+                                                "name": "Leave Moko Behind?",
+                                                "day": 47,
+                                                "choices": [
+                                                  {
+                                                    "direction": "left",
+                                                    "name": "Yes",
+                                                    "route": {
+                                                      "name": "Chapter15_A_aa LEFT BRANCH"
+                                                    }
+                                                  },
+                                                  {
+                                                    "direction": "right",
+                                                    "name": "No",
+                                                    "route": {
+                                                      "name": "090: Killing Game Route: The Academy Falls",
+                                                      "deaths": [
+                                                        {
+                                                          "id": "nozomi",
+                                                          "count": 1,
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi refuses to leave Moko behind and everyone fights to beat back the Squad 10 Commander.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The team returns to find the school destroyed, likely by other commanders as they were busy fighting the Squad 10 commander, Nozomi dying from her injuries, and everyone left forced to wander the ruins for the rest of their days.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              },
                                               "events": [
                                                 {
                                                   "name": "Takumi, Darumi, and Yugamu drive back the squad 3 commander, saving Darumi",
@@ -535,6 +600,42 @@
                                                   "name": "After defeating Squad 3, the Sponsor reveals themselves to still be alive and have multiple bodies. Then absorbs the commander's cryptoglobin and redistributes it to the top 3 scorers in the Invader Hunt: Darumi, Takumi, and Yugamu",
                                                   "days": [
                                                     32
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "The first round of the Invader Hunt comes to a close and Shouma is executed. The Sponsor then gives a 7 day break before resuming the game.",
+                                                  "days": [
+                                                    35
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eva reveals that she has a daughter (adoptive, born as her niece) named Kamyhun, and made Eva's mask.",
+                                                  "days": [
+                                                    36
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Nozomi, Moko, and Kyoshika join the Anti-Sponsor Alliance after Takumi gives up his cryptoglobin reward to prevent Nozomi's rejection syndrome. The new alliance stays up partying and getting intoxicated.",
+                                                  "days": [
+                                                    42
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "The new team makes a pair of headphones for everyone on the team in case the audio commander appears.",
+                                                  "days": [
+                                                    44
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi blacks out and mysteriously delivers the QB liquid to help repair the damaged escape pod to Tsubasa, being vague on where he got it. Tsubasa then fills in Takumi on these events at night.",
+                                                  "days": [
+                                                    45
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "The Squad 10 commander ambushes Nozomi, Moko, and Kyoshika, gravely wounding Nozomi.",
+                                                  "days": [
+                                                    47
                                                   ]
                                                 }
                                               ]
@@ -633,13 +734,80 @@
           },
           {
             "direction": "right",
-            "name": "No",
+            "name": "Let Him Live",
             "route": {
-              "name": "Route 1 Right"
+              "name": "Chapter00_0_a",
+              "branch": {
+                "name": "Reveal Your Secret?",
+                "day": 3,
+                "choices": [
+                  {
+                    "direction": "left",
+                    "name": "Yes",
+                    "route": {
+                      "name": "Route 1 Right LEFT BRANCH",
+                      "events": [
+                        {
+                          "name": "Takumi reveals to the SDU that he is a time traveller.",
+                          "days": [
+                            3
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "direction": "right",
+                    "name": "No",
+                    "route": {
+                      "name": "Route 1 Right RIGHT BRANCH",
+                      "deaths": [
+                        {
+                          "id": "commander1",
+                          "count": 1,
+                          "days": [
+                            7
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "name": "Takumi overhears Sirei interrogating Eito, specifically mentioning the phrase \"defect\" in regards to his condition. Eito then asks if Sirei was able to predict Takumi coming back, which he was not. Eito also asked if Takumi was actually human or not, mentioning that he's never felt this way about a human before.",
+                          "days": [
+                            4
+                          ]
+                        },
+                        {
+                          "name": "Battle against Squad 1",
+                          "days": [
+                            7
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "events": [
+                {
+                  "name": "Eito is imprisoned within the courtyard for his crimes.",
+                  "days": [
+                    2
+                  ]
+                }
+              ]
             }
           }
         ]
-      }
+      },
+      "events": [
+        {
+          "name": "Takumi merges with himself, discuss events with the Ghost, and enters the gym to prevent Eito from killing Sirei.",
+          "days": [
+            2
+          ]
+        }
+      ]
     }
   ]
 }

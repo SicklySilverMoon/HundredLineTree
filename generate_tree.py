@@ -484,52 +484,55 @@ def edit_names(game_tree):
         for name in game_tree.names.values():
             print(f"  ID: {name.id}. Name: \"{name.full}\"")
         response = None
-        while response not in game_tree.names:
-            response = input("Enter the name id you want to edit or 'x' to exit: ").strip().lower()
-            if response == 'x':
-                return
-        
-        name = game_tree.names[response]
-        print(f"\n{name.id}:")
-        print(f"  first name: \"{name.first if name.first else "[UNKNOWN]"}\"")
-        print(f"  last name: \"{name.last if name.last else "[UNKNOWN]"}\"")
-        print(f"  full name: \"{name.full if name.full else "[UNKNOWN]"}\"")
-        print(f"  position: \"{name.position if name.position else "[UNKNOWN]"}\"")
-        print(f"  title: \"{name.title if name.title else "[UNKNOWN]"}\"")
-        print(f"  website title: \"{name.web_title if name.web_title else "[UNKNOWN]"}\"")
-        response = input("Insert/add first (f), last (l), full (u), position (p), title (t), web title (w), 'x' to exit: ")
-        item = ""
-        match response:
-            case 'f':
-                item = "first name"
-            case 'l':
-                item = "last name"
-            case 'u':
-                item = "full name"
-            case 'p':
-                item = "position"
-            case 't':
-                item = "title"
-            case 'w':
-                item = "website title"
-            case 'x':
-                continue
-            case '_':
-                continue
-        text = input(f"Enter this character's {item}: ")
-        match response:
-            case 'f':
-                name.first = text
-            case 'l':
-                name.last = text
-            case 'u':
-                name.full = text
-            case 'p':
-                name.position = text
-            case 't':
-                name.title = text
-            case 'w':
-                name.web_title = text
+        while response not in game_tree.names and response not in ['x', 'a']:
+            response = input("Enter the name id you want to edit, 'a' to add a new name, or 'x' to exit: ").strip().lower()
+        if response == 'x':
+            return
+        elif response == 'a':
+            response = input("Enter the new name id: ")
+            game_tree.names[response] = Name(id = response)
+        else:
+            name = game_tree.names[response]
+            print(f"\n{name.id}:")
+            print(f"  first name: \"{name.first if name.first else "[UNKNOWN]"}\"")
+            print(f"  last name: \"{name.last if name.last else "[UNKNOWN]"}\"")
+            print(f"  full name: \"{name.full if name.full else "[UNKNOWN]"}\"")
+            print(f"  position: \"{name.position if name.position else "[UNKNOWN]"}\"")
+            print(f"  title: \"{name.title if name.title else "[UNKNOWN]"}\"")
+            print(f"  website title: \"{name.web_title if name.web_title else "[UNKNOWN]"}\"")
+            response = input("Insert/add first (f), last (l), full (u), position (p), title (t), web title (w), 'x' to exit: ")
+            item = ""
+            match response:
+                case 'f':
+                    item = "first name"
+                case 'l':
+                    item = "last name"
+                case 'u':
+                    item = "full name"
+                case 'p':
+                    item = "position"
+                case 't':
+                    item = "title"
+                case 'w':
+                    item = "website title"
+                case 'x':
+                    continue
+                case '_':
+                    continue
+            text = input(f"Enter this character's {item}: ")
+            match response:
+                case 'f':
+                    name.first = text
+                case 'l':
+                    name.last = text
+                case 'u':
+                    name.full = text
+                case 'p':
+                    name.position = text
+                case 't':
+                    name.title = text
+                case 'w':
+                    name.web_title = text
 
 def edit(game_tree):
     while True:
