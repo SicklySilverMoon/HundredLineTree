@@ -930,21 +930,76 @@
                                         }
                                       ],
                                       "branch": {
-                                        "name": "Who Will You Sacrifice? (Left: Takemaru Mid: Kyoshika Right: Tsubasa)",
+                                        "name": "Who Will You Sacrifice?",
                                         "day": 15,
                                         "choices": [
                                           {
                                             "direction": "left",
-                                            "name": "TODO",
+                                            "name": "Takemaru",
                                             "route": {
                                               "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH LEFT BRANCH"
                                             }
                                           },
                                           {
                                             "direction": "right",
-                                            "name": "TODO",
+                                            "name": "Tsubasa",
                                             "route": {
                                               "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                            }
+                                          },
+                                          {
+                                            "direction": "top",
+                                            "name": "Kyoshika",
+                                            "route": {
+                                              "name": "Who Will You Sacrifice? TOP BRANCH",
+                                              "deaths": [
+                                                {
+                                                  "id": "kyoshika",
+                                                  "count": 1,
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "supreme",
+                                                  "count": 1,
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                }
+                                              ],
+                                              "events": [
+                                                {
+                                                  "name": "Kyoshika detonates the undying flame bomb, sacrificing herself to take out V'hexness.",
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Ghost Boy appears to Takumi to try to cheer him up and give his condolences.",
+                                                  "days": [
+                                                    16
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Maskless Kurara approaches Nozomi in the cafeteria to make up with her, in accordance with Kyoshika's last wish.",
+                                                  "days": [
+                                                    17
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Nozomi reveals Moko has been missing since last night, Takumi takes the branch campus students on an exploration to search for her, they find her and bring her back, where she reveals that went back to retireve the Holy Jumonji Sword's Pajamas.",
+                                                  "days": [
+                                                    19
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi discusses the idea of giving Ghost Boy a name with Sirei, but Sirei firmly rejects the idea. He says the SDU should not get attached to him as he is a weapon and nothing more, reminding Takumi that he does still have a bomb planted in him if he starts getting ideas.",
+                                                  "days": [
+                                                    20
+                                                  ]
+                                                }
+                                              ]
                                             }
                                           }
                                         ]
