@@ -167,38 +167,51 @@
     },
     {
       "id": "commander4",
-      "full": "Squad 4 Commander",
+      "full": "Quenzelle the Paragon of Repulsion (Squad 4 Commander)",
+      "first": "Quenzelle",
+      "title": "The Paragon of Repulsion",
       "position": "Squad 4 Commander"
     },
     {
       "id": "commander5",
-      "full": "Squad 5 Commander",
+      "full": "Parmith the Paragon of Love (Squad 5 Commander)",
+      "first": "Parmith",
+      "title": "The Paragon of Love",
       "position": "Squad 5 Commander"
     },
     {
       "id": "commander7",
-      "full": "Squad 7 Commander",
+      "full": "Zen'ta the Paragon of Harmony (Squad 7 Commander)",
+      "first": "Zen'ta",
+      "title": "The Paragon of Harmony",
       "position": "Squad 7 Commander"
     },
     {
       "id": "commander8",
-      "full": "Squad 8 Commander",
+      "full": "Valla-Garzo the Paragon of Indomitability (Squad 8 Commander)",
+      "first": "Valla-Garzo",
+      "title": "The Paragon of Indomitability",
       "position": "Squad 8 Commander"
     },
     {
       "id": "commander9",
-      "full": "Squad 9 Commander",
+      "full": "Szanshin the Paragon of Salvation (Squad 9 Commander)",
+      "first": "Szanshin",
+      "title": "The Paragon of Salvation",
       "position": "Squad 9 Commander"
     },
     {
       "id": "commander10",
-      "full": "Squad 10 Commander",
+      "full": "Nyewgank the Paragon of Charity (Squad 10 Commander)",
       "first": "Nyewgank",
+      "title": "The Paragon of Charity",
       "position": "Squad 10 Commander"
     },
     {
       "id": "commander11",
-      "full": "Squad 11 Commander",
+      "full": "Turamtammi the Paragon of Reverie (Squad 11 Commander)",
+      "first": "Turamtammi",
+      "title": "The Paragon of Reverie",
       "position": "Squad 11 Commander"
     },
     {
@@ -208,7 +221,10 @@
     },
     {
       "id": "commander0",
-      "full": "Squad 0 Commander"
+      "full": "Dalh'xia the Paragon of Warfare (Squad 0 Commander)",
+      "first": "Dalh'xia",
+      "title": "The Paragon of Warfare",
+      "position": "Squad 0 Commander"
     }
   ],
   "routes": [
@@ -387,6 +403,14 @@
     },
     {
       "name": "Last Defense Academy 2: Chapter 00",
+      "events": [
+        {
+          "name": "Takumi merges with himself, discuss events with the Ghost, and enters the gym to prevent Eito from killing Sirei.",
+          "days": [
+            2
+          ]
+        }
+      ],
       "branch": {
         "name": "Decide Eito's Fate",
         "day": 2,
@@ -409,6 +433,14 @@
                   "count": 1,
                   "days": [
                     3
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "name": "A message appears painted over a blackboard in one of the classrooms, stating that if the group did not leave the school they would die",
+                  "days": [
+                    4
                   ]
                 }
               ],
@@ -462,6 +494,26 @@
                                   ]
                                 }
                               ],
+                              "events": [
+                                {
+                                  "name": "Darumi asks Takumi to convince the others to join the killing game, which he does",
+                                  "days": [
+                                    25
+                                  ]
+                                },
+                                {
+                                  "name": "The mysterious Sponsor appears in the Leisure Lounge and begins the Invader Hunt by killing Kurara via cryptoglobin draining bees",
+                                  "days": [
+                                    25
+                                  ]
+                                },
+                                {
+                                  "name": "Hiruko turns Darumi into her pet dog due to her hyper reaction to the killing game",
+                                  "days": [
+                                    26
+                                  ]
+                                }
+                              ],
                               "branch": {
                                 "name": "Team Up With Yugamu?",
                                 "day": 26,
@@ -471,6 +523,32 @@
                                     "name": "Yes",
                                     "route": {
                                       "name": "Chapter15_A_a",
+                                      "events": [
+                                        {
+                                          "name": "Hiruko reveals to Takumi that she has determined a method to kill the bees that guard the Sponsor, and forms the \"Anti-Sponsor Alliance\" with Takumi as its leader",
+                                          "days": [
+                                            27
+                                          ]
+                                        },
+                                        {
+                                          "name": "Yugamu joins the Anti-Sponsor Alliance",
+                                          "days": [
+                                            28
+                                          ]
+                                        },
+                                        {
+                                          "name": "Hiruko reveals to Takumi Darumi's mental state",
+                                          "days": [
+                                            29
+                                          ]
+                                        },
+                                        {
+                                          "name": "Hiruko and Darumi when attempting to retrieve the Sponsor's spare suit, run into Squad 3 commander and Hiruko is mortally injured",
+                                          "days": [
+                                            30
+                                          ]
+                                        }
+                                      ],
                                       "branch": {
                                         "name": "Save Darumi?",
                                         "day": 30,
@@ -510,49 +588,6 @@
                                                   ]
                                                 }
                                               ],
-                                              "branch": {
-                                                "name": "Leave Moko Behind?",
-                                                "day": 47,
-                                                "choices": [
-                                                  {
-                                                    "direction": "left",
-                                                    "name": "Yes",
-                                                    "route": {
-                                                      "name": "Chapter15_A_aa LEFT BRANCH"
-                                                    }
-                                                  },
-                                                  {
-                                                    "direction": "right",
-                                                    "name": "No",
-                                                    "route": {
-                                                      "name": "090: Killing Game Route: The Academy Falls",
-                                                      "deaths": [
-                                                        {
-                                                          "id": "nozomi",
-                                                          "count": 1,
-                                                          "days": [
-                                                            47
-                                                          ]
-                                                        }
-                                                      ],
-                                                      "events": [
-                                                        {
-                                                          "name": "Takumi refuses to leave Moko behind and everyone fights to beat back the Squad 10 Commander.",
-                                                          "days": [
-                                                            47
-                                                          ]
-                                                        },
-                                                        {
-                                                          "name": "The team returns to find the school destroyed, likely by other commanders as they were busy fighting the Squad 10 commander, Nozomi dying from her injuries, and everyone left forced to wander the ruins for the rest of their days.",
-                                                          "days": [
-                                                            47
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                ]
-                                              },
                                               "events": [
                                                 {
                                                   "name": "Takumi, Darumi, and Yugamu drive back the squad 3 commander, saving Darumi",
@@ -638,7 +673,50 @@
                                                     47
                                                   ]
                                                 }
-                                              ]
+                                              ],
+                                              "branch": {
+                                                "name": "Leave Moko Behind?",
+                                                "day": 47,
+                                                "choices": [
+                                                  {
+                                                    "direction": "left",
+                                                    "name": "Yes",
+                                                    "route": {
+                                                      "name": "Chapter15_A_aa LEFT BRANCH"
+                                                    }
+                                                  },
+                                                  {
+                                                    "direction": "right",
+                                                    "name": "No",
+                                                    "route": {
+                                                      "name": "090: Killing Game Route: The Academy Falls",
+                                                      "deaths": [
+                                                        {
+                                                          "id": "nozomi",
+                                                          "count": 1,
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi refuses to leave Moko behind and everyone fights to beat back the Squad 10 Commander.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The team returns to find the school destroyed, likely by other commanders as they were busy fighting the Squad 10 commander, Nozomi dying from her injuries, and everyone left forced to wander the ruins for the rest of their days.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
                                             }
                                           },
                                           {
@@ -649,33 +727,7 @@
                                             }
                                           }
                                         ]
-                                      },
-                                      "events": [
-                                        {
-                                          "name": "Hiruko reveals to Takumi that she has determined a method to kill the bees that guard the Sponsor, and forms the \"Anti-Sponsor Alliance\" with Takumi as its leader",
-                                          "days": [
-                                            27
-                                          ]
-                                        },
-                                        {
-                                          "name": "Yugamu joins the Anti-Sponsor Alliance",
-                                          "days": [
-                                            28
-                                          ]
-                                        },
-                                        {
-                                          "name": "Hiruko reveals to Takumi Darumi's mental state",
-                                          "days": [
-                                            29
-                                          ]
-                                        },
-                                        {
-                                          "name": "Hiruko and Darumi when attempting to retrieve the Sponsor's spare suit, run into Squad 3 commander and Hiruko is mortally injured",
-                                          "days": [
-                                            30
-                                          ]
-                                        }
-                                      ]
+                                      }
                                     }
                                   },
                                   {
@@ -686,27 +738,7 @@
                                     }
                                   }
                                 ]
-                              },
-                              "events": [
-                                {
-                                  "name": "Darumi asks Takumi to convince the others to join the killing game, which he does",
-                                  "days": [
-                                    25
-                                  ]
-                                },
-                                {
-                                  "name": "The mysterious Sponsor appears in the Leisure Lounge and begins the Invader Hunt by killing Kurara via cryptoglobin draining bees",
-                                  "days": [
-                                    25
-                                  ]
-                                },
-                                {
-                                  "name": "Hiruko turns Darumi into her pet dog due to her hyper reaction to the killing game",
-                                  "days": [
-                                    26
-                                  ]
-                                }
-                              ]
+                              }
                             }
                           },
                           {
@@ -721,15 +753,7 @@
                     }
                   }
                 ]
-              },
-              "events": [
-                {
-                  "name": "A message appears painted over a blackboard in one of the classrooms, stating that if the group did not leave the school they would die",
-                  "days": [
-                    4
-                  ]
-                }
-              ]
+              }
             }
           },
           {
@@ -737,6 +761,14 @@
             "name": "Let Him Live",
             "route": {
               "name": "Chapter00_0_a",
+              "events": [
+                {
+                  "name": "Eito is imprisoned within the courtyard for his crimes.",
+                  "days": [
+                    2
+                  ]
+                }
+              ],
               "branch": {
                 "name": "Reveal Your Secret?",
                 "day": 3,
@@ -746,21 +778,6 @@
                     "name": "Yes",
                     "route": {
                       "name": "Route 1 Right LEFT BRANCH",
-                      "events": [
-                        {
-                          "name": "Takumi reveals to the SDU that he is a time traveller.",
-                          "days": [
-                            3
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "direction": "right",
-                    "name": "No",
-                    "route": {
-                      "name": "Route 1 Right RIGHT BRANCH",
                       "deaths": [
                         {
                           "id": "commander1",
@@ -772,42 +789,203 @@
                       ],
                       "events": [
                         {
+                          "name": "Takumi reveals to the SDU that he is a time traveller.",
+                          "days": [
+                            3
+                          ]
+                        },
+                        {
                           "name": "Takumi overhears Sirei interrogating Eito, specifically mentioning the phrase \"defect\" in regards to his condition. Eito then asks if Sirei was able to predict Takumi coming back, which he was not. Eito also asked if Takumi was actually human or not, mentioning that he's never felt this way about a human before.",
                           "days": [
                             4
                           ]
                         },
                         {
-                          "name": "Battle against Squad 1",
+                          "name": "Battle against Squad 1.",
                           "days": [
                             7
                           ]
+                        },
+                        {
+                          "name": "Takumi, Hiruko, Tsubasa, Shouma leave the academy to go to Second-to-Last Defense Academy and prevent Moko from being captured.",
+                          "days": [
+                            8
+                          ]
+                        },
+                        {
+                          "name": "Upon arrival they find that the attack has happened earlier, and that Yugamu, Kyoshika, and Kurara are already dead. Nozomi and Moko went after Nigou who was captured. A call from Sirei comes in informing everyone that Last Defense Academy is under attack and that they are needed back there.",
+                          "days": [
+                            8
+                          ]
                         }
-                      ]
+                      ],
+                      "branch": {
+                        "name": "Save Which School?",
+                        "day": 8,
+                        "choices": [
+                          {
+                            "direction": "left",
+                            "name": "Second-to-Last Defense Academy",
+                            "route": {
+                              "name": "Route 1 Right LEFT BRANCH LEFT BRANCH",
+                              "deaths": [
+                                {
+                                  "id": "commander5",
+                                  "count": 1,
+                                  "days": [
+                                    8
+                                  ]
+                                },
+                                {
+                                  "id": "commander2",
+                                  "count": 1,
+                                  "days": [
+                                    9
+                                  ]
+                                },
+                                {
+                                  "id": "darumi",
+                                  "count": 1,
+                                  "days": [
+                                    9
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "name": "Takumi and the others rush to save Moko and Nozomi and find the enemy base north of Second-to-Last Defense Academy, and battle Squad 5 and their commander.",
+                                  "days": [
+                                    8
+                                  ]
+                                },
+                                {
+                                  "name": "Branch campus is saved, and everyone rushes back to Last Defense Academy. Upon arriving they find the school on the ropes and under attack by Squad 2.",
+                                  "days": [
+                                    9
+                                  ]
+                                },
+                                {
+                                  "name": "Darumi is killed and has her hemoanima absorbed by Little Black Riding Hood.",
+                                  "days": [
+                                    9
+                                  ]
+                                }
+                              ],
+                              "branch": {
+                                "name": "Reveal Nozomi's Secret",
+                                "day": 11,
+                                "choices": [
+                                  {
+                                    "direction": "left",
+                                    "name": "Yes",
+                                    "route": {
+                                      "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH",
+                                      "deaths": [
+                                        {
+                                          "id": "commander8",
+                                          "count": 1,
+                                          "days": [
+                                            15
+                                          ]
+                                        },
+                                        {
+                                          "id": "commander9",
+                                          "count": 1,
+                                          "days": [
+                                            15
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "name": "Sirei and Nigou task Hiruko and Takumi with gathering materials to make a bomb filled with undying flame.",
+                                          "days": [
+                                            12
+                                          ]
+                                        },
+                                        {
+                                          "name": "Takumi, Hiruko, and Kyoshika explore the ruins and find the materials for the bomb, while Kyoshika is looking for the mythical Tsuchinoko as Kurara asked her to in order to make up with Nozomi.",
+                                          "days": [
+                                            13,
+                                            14
+                                          ]
+                                        },
+                                        {
+                                          "name": "Battle against Squads 8 & 9, where during the final wave their commanders fused together into a combined form.",
+                                          "days": [
+                                            15
+                                          ]
+                                        },
+                                        {
+                                          "name": "Supreme Commander V'hexness after absorbing commanders 8 and 9 begins a battle against the Special Defense Unit, alone.",
+                                          "days": [
+                                            15
+                                          ]
+                                        },
+                                        {
+                                          "name": "Supreme Commander V'hexness wipes out all of the SDU except Takumi, Nozomi, Takemari, Kyoshika, and Tsubasa. Takumi realizes the only way to defeat her is with the undying flame bomb, although someone needs to sacrifice themselves to activate it via hemoanima.",
+                                          "days": [
+                                            15
+                                          ]
+                                        }
+                                      ],
+                                      "branch": {
+                                        "name": "Who Will You Sacrifice? (Left: Takemaru Mid: Kyoshika Right: Tsubasa)",
+                                        "day": 15,
+                                        "choices": [
+                                          {
+                                            "direction": "left",
+                                            "name": "TODO",
+                                            "route": {
+                                              "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH LEFT BRANCH"
+                                            }
+                                          },
+                                          {
+                                            "direction": "right",
+                                            "name": "TODO",
+                                            "route": {
+                                              "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "direction": "right",
+                                    "name": "No",
+                                    "route": {
+                                      "name": "Route 1 Right LEFT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "direction": "right",
+                            "name": "Last Defense Academy",
+                            "route": {
+                              "name": "Route 1 Right LEFT BRANCH RIGHT BRANCH"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "direction": "right",
+                    "name": "No",
+                    "route": {
+                      "name": "Route 1 Right RIGHT BRANCH"
                     }
                   }
                 ]
-              },
-              "events": [
-                {
-                  "name": "Eito is imprisoned within the courtyard for his crimes.",
-                  "days": [
-                    2
-                  ]
-                }
-              ]
+              }
             }
           }
         ]
-      },
-      "events": [
-        {
-          "name": "Takumi merges with himself, discuss events with the Ghost, and enters the gym to prevent Eito from killing Sirei.",
-          "days": [
-            2
-          ]
-        }
-      ]
+      }
     }
   ]
 }
