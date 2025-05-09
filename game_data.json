@@ -777,7 +777,7 @@
                     "direction": "left",
                     "name": "Yes",
                     "route": {
-                      "name": "Route 1 Right LEFT BRANCH",
+                      "name": "Chapter00_0_a",
                       "deaths": [
                         {
                           "id": "commander1",
@@ -827,7 +827,7 @@
                             "direction": "left",
                             "name": "Second-to-Last Defense Academy",
                             "route": {
-                              "name": "Route 1 Right LEFT BRANCH LEFT BRANCH",
+                              "name": "Chapter00_0_a",
                               "deaths": [
                                 {
                                   "id": "commander5",
@@ -879,7 +879,7 @@
                                     "direction": "left",
                                     "name": "Yes",
                                     "route": {
-                                      "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH",
+                                      "name": "Chapter00_0_a",
                                       "deaths": [
                                         {
                                           "id": "commander8",
@@ -951,7 +951,7 @@
                                             "direction": "top",
                                             "name": "Kyoshika",
                                             "route": {
-                                              "name": "Who Will You Sacrifice? TOP BRANCH",
+                                              "name": "Chapter00_0_a",
                                               "deaths": [
                                                 {
                                                   "id": "kyoshika",
@@ -998,8 +998,48 @@
                                                   "days": [
                                                     20
                                                   ]
+                                                },
+                                                {
+                                                  "name": "Battle against Squad 6.",
+                                                  "days": [
+                                                    21
+                                                  ]
                                                 }
-                                              ]
+                                              ],
+                                              "branch": {
+                                                "name": "Decide Eva's Fate!",
+                                                "day": 21,
+                                                "choices": [
+                                                  {
+                                                    "direction": "left",
+                                                    "name": "Kill Her",
+                                                    "route": {
+                                                      "name": "Who Will You Sacrifice? TOP BRANCH LEFT BRANCH"
+                                                    }
+                                                  },
+                                                  {
+                                                    "direction": "right",
+                                                    "name": "Take Her Prisoner",
+                                                    "route": {
+                                                      "name": "Chapter00_0_a",
+                                                      "events": [
+                                                        {
+                                                          "name": "The SDU takes Eva prisoner, putting her in the courtyard cage opposite Eito's.",
+                                                          "days": [
+                                                            21
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi starts to talk to Eva asking if there's a way to end the war, to which Eva replies that if there was it would have been done a long time ago. She then asks why they started the war and invaded, leading to Takumi to question what that meant since Eva was an invader. Then Sirei knocks him out with a stun baton.",
+                                                          "days": [
+                                                            22
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
                                             }
                                           }
                                         ]
