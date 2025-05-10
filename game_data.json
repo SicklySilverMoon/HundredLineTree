@@ -1034,8 +1034,282 @@
                                                           "days": [
                                                             22
                                                           ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi wakes up in bed the next day and doesn't recall any of the previous day. As the day occurs Sirei and Nigou and locked in the infmary with Eva.",
+                                                          "days": [
+                                                            23
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Ghost Boy appears to Takumi to warn him that Sirei might be doing something that Takumi and the others wouldn't like with Eva, but Takumi dismisses it saying Sirei always has their best interests at heart.",
+                                                          "days": [
+                                                            23
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Eito is discovered to have escaped multiple days ago and had disguised the lock to appear intact and bunched up blankets to make it look like he was sleeping. Further one of the fire extinguishers was replaced with a fake.",
+                                                          "days": [
+                                                            24
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Nigou sends the non sick DSU members on an expedition to collect ingredients to make a super drug to heal everyone who was out sick.",
+                                                          "days": [
+                                                            24,
+                                                            25,
+                                                            26
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Everyone except Takumaru, Gaku, and Nozomi is out with the common cold.",
+                                                          "days": [
+                                                            24
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Kako has a vision that danger will come to Gaku soon, and that if Gaku dies the group will lose its way.",
+                                                          "days": [
+                                                            27
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Eva is introduced as a new transfer student to the SDU, although she seems emotionless, claiming she is the SDU's soldier and property.",
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Kurara testing this theory asks what would happen if they told her to strip. Which she instantly does, much to the shock of almost everyone (Gaku excepted) involved. Eva then puts her clothes bcak upon being ordered to, and reiterates that she will simply do as ordered.",
+                                                          "days": [
+                                                            28
+                                                          ]
                                                         }
-                                                      ]
+                                                      ],
+                                                      "branch": {
+                                                        "name": "Let Hiruko Destroy Nigou?",
+                                                        "day": 31,
+                                                        "choices": [
+                                                          {
+                                                            "direction": "left",
+                                                            "name": "Let It Happen",
+                                                            "route": {
+                                                              "name": "Chapter00_0_a LEFT BRANCH",
+                                                              "deaths": [
+                                                                {
+                                                                  "id": "commander3",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    33
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "events": [
+                                                                {
+                                                                  "name": "Hiruko goes to destroy Nigou, but Eva steps in to stop her claiming that Nigou is her friend and she doesn't want him destroyed. Sirei then shows up and reveals what he did was perform \"Dolmenic Cognitive Reconstruction Therapy\" on her and that he was keeping this hidden in case it distressed her. This process involves rewriting a person's memories and personality, in this case replacing her memories and feelings with hatred for her species and an inability to disobey the SDU.",
+                                                                  "days": [
+                                                                    31
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Battle against Squad 3.",
+                                                                  "days": [
+                                                                    33
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Addamaque highly implies that V'hexness is still alive and is canabalizing everyone. This is instantly followed by V'hexness appearing and canabalizing him.",
+                                                                  "days": [
+                                                                    33
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Battle against V'hexness.",
+                                                                  "days": [
+                                                                    33
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Ghost boy strikes out and launches himself as undying flame at V'hexness, knocking her out of her transformation and unconscious. Then her soldiers grab Gaku and Kurara as she vanishes, forcing the SDU to pick one to save.",
+                                                                  "days": [
+                                                                    33
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "branch": {
+                                                                "name": "(Battle) Rescue Gaku or Kurara",
+                                                                "day": 33,
+                                                                "choices": [
+                                                                  {
+                                                                    "direction": "left",
+                                                                    "name": "Kurara",
+                                                                    "route": {
+                                                                      "name": "Chapter00_0_a LEFT BRANCH LEFT BRANCH"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "direction": "right",
+                                                                    "name": "Gaku",
+                                                                    "route": {
+                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH",
+                                                                      "deaths": [
+                                                                        {
+                                                                          "id": "kurara",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            33
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander4",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            40
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander11",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander10",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "events": [
+                                                                        {
+                                                                          "name": "Kurara is killed and absorbed by V'hexness.",
+                                                                          "days": [
+                                                                            33
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi enters the cafeteria to find that Sirei has served everyone a mysterious green drink that is having intoxicating effects on them.",
+                                                                          "days": [
+                                                                            34,
+                                                                            35
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi enters the caf to find only Hiruko, Eva, and Nigou, with Hiruko acting odd and unable to remember the story of why she fought invaders or that she thought Takumi was acting strange before.",
+                                                                          "days": [
+                                                                            36
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi, Eva, and Hiruko are tasked with finding the materials to make an astronomical telescope to cheer Nozomi up.",
+                                                                          "days": [
+                                                                            36,
+                                                                            37,
+                                                                            38
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Nozomi begins suffering rejection symptoms. Takumi attempts to rally the SDU to go out to get cryptoglobin for Nozomi, Sirei attempts to override him, even going as far as mentioning being his commanding officer. This causes Takumi's brain to go fuzzy and for him to start to agree with Sirei, until he remembers that he came back to save Nozomi and fights past it, saying he would go alone. The rest of the SDU says they will go with him, so they form a group of Takumi, Yugamu, Moko, Nozomi, Takemaru, and Nigou to set out to find a commander.",
+                                                                          "days": [
+                                                                            38
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The split group arrives at an invader base and begins a battle against Squad 4.",
+                                                                          "days": [
+                                                                            40
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi and Nozomi discuss the past and the previous loop, Takumi reveals most of what he knows about Nozomi and Karua, and they get along well. Then Nozomi reveals that her mother also died in the car crash and it was her uncle doing cryptoglobin research, a stark difference to route 0's story of Nozomi's mother.",
+                                                                          "days": [
+                                                                            41
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Sirei enters Takumi's room to ask him if he thinks Nozomi can fight. Takumi then goes to ask if Sirei can brainwash the members of the team like he did Eva, Sirei says he would never do something and says that the differing pasts might be because this is a parallel world. Sirei then pretends to run out of power, and knocks Takumi out with a stun baton as soon as his back is turned.",
+                                                                          "days": [
+                                                                            42
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up on day 43, heads right to the cafeteria, and is informed he was out all yesterday, much to his shock as he can't recall anything after talking to Nozomi.",
+                                                                          "days": [
+                                                                            43
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Kako makes a dish so terrible that its fed to Eva who proceeds to have a breakdown, seeming to regain parts of her memory and begging her sister for forgiveness. Sirei then arrives and knocks her out with a stun baton.",
+                                                                          "days": [
+                                                                            44
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi takes Eva to the infirmary, wherein he witnesses the process of brainwashing her as she was likely to break free. Sirei reveals that personality is very much dependent on memory, and as such removing memory will alter personality, so you have to guess and check until you get a working personality. Sirei then makes Takumi do it, via spinning a roulette wheel and using that to adjust her personality, to very weird results. Whereupon the power blacks out for a little bit, and Sirei reveals that's a side effect of the machine and how much power it draws and as such can't be used again until tomorrow.",
+                                                                          "days": [
+                                                                            44
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "After 2 more days of brainwashing, Takumi fails to give her a good personality, at which point Sirei decides to kill her. Suddently she actually snaps back to the personality and memories she had before eating Kako's cooking.",
+                                                                          "days": [
+                                                                            46
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The morning annoucement bugs out, gets distorted, as does the world around Takumi as he heads to the caf.",
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Upon entering the caf Takumi finds himself back in the visual novel style world that was part of Squad 11's tactic in route 0. Although this version is much more distored, including every character in the SDU (including Nigou who is their teacher, and Eva who is a new transfer alien) excepting Sirei and Eito, Hiruko seems to notice we've done this before but loses the though before being able to break out. Naturally all hell breaks loose moments after this as everyone's backstories and personalities start colliding in increasingly bizzare ways. Finally the Ghost notices how long the alarms have been going off and decides to look around himself, going to find Takumi as he's the most likely to be able to solve this. Along the way he finds many SDU members with blank expressions and no movement, before finally getting dragged into the illusion himself. Wherein he discovers he beat Eva at tag in order to save the Earth from destruction. However, the Ghost still remains aware that this is an illusion, and almost gives into it as its better than a life in the machine. He then lights Takumi on fire again.",
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Battle against Squad 11.",
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Squad 10 joins the battle.",
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Eito joins the war on the invaders, on the side of the invaders, against the SDU. Joining the battle after Squad 10 is defeated.",
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Eito absorbs both commanders, and leaves to go be absorbed by V'hexness to heal her wounds.",
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "direction": "right",
+                                                            "name": "Stop Her",
+                                                            "route": {
+                                                              "name": "Chapter00_0_a RIGHT BRANCH"
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
                                                     }
                                                   }
                                                 ]
