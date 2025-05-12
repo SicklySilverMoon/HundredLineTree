@@ -125,9 +125,8 @@
     },
     {
       "id": "ghost",
-      "full": "White Baby (???)",
-      "first": "White",
-      "last": "Baby",
+      "full": "Shion, the Baby in the Defense Room",
+      "first": "Shion",
       "position": "Baby in the Defense Room"
     },
     {
@@ -1293,8 +1292,402 @@
                                                                           "days": [
                                                                             47
                                                                           ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Tsubasa and Takemaru discuss memory erasure with Takumi and confirm that they also have missing memories, backed up by Takemaru's journal. They go to see the Ghost about the issue. He shows himself after Takumi nearly incinerates himself on the door of undying flame, appearing and audible to Tsubasa and Takemaru as well. They say that he is their friend and that they want to get to know him, and also ask about Sirei's ability to erase memory. All he can confirm is that Sirei will do anything to save humanity.",
+                                                                          "days": [
+                                                                            48
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi discusses the points of letting the Ghost join the team with the SDU (excepting Eva, and the officers) and they agree. Takumi is tasked with making a gift for Sirei and negotiating with him in order to allow this.",
+                                                                          "days": [
+                                                                            49
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Nigou and Sirei made 50th day badges for the SDU. Nigou reveals that Sirei does love the Ghost boy and views him as a son, even having a childhood photo album of him in his memory banks.",
+                                                                          "days": [
+                                                                            50
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi persuades Sirei to allow the Ghost to join the SDU officially.",
+                                                                          "days": [
+                                                                            50
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Sirei allows the boy to join the SDU on condition of the SDU stops poking into the memory altering issue, Takumi counteroffers so long as stops manipulating their memories, Sirei accepts.",
+                                                                          "days": [
+                                                                            50
+                                                                          ]
                                                                         }
-                                                                      ]
+                                                                      ],
+                                                                      "branch": {
+                                                                        "name": "Let the Undying Flames Boy Join the Team?",
+                                                                        "day": 52,
+                                                                        "choices": [
+                                                                          {
+                                                                            "direction": "left",
+                                                                            "name": "Of Course!",
+                                                                            "route": {
+                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH",
+                                                                              "deaths": [
+                                                                                {
+                                                                                  "id": "commander7",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    57
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "nigou",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    57
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "events": [
+                                                                                {
+                                                                                  "name": "The SDU discusses naming the Ghost boy, and Sirei instantly suggests Shion, with Nigou revealing he's had it in mind for a while.",
+                                                                                  "days": [
+                                                                                    52
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi informs Takemaru of the deal, and Takemaru doesn't like it, storming off angerly, and not showing up to next morning's breakfast.",
+                                                                                  "days": [
+                                                                                    52,
+                                                                                    53
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi arrives to find the caf notably empty, and then Gaku comes on the annoucement system, saying he is holding Sirei captive and is going to force him to contact the satellite. Upon arriving in the gym they find Moko, Gaku, and Takemaru acting very strange and demanding Takumi hand over Sirei. They then begin a battle against Takumi, Nozomi, Hiruko, Shouma, and Tsubasa.",
+                                                                                  "days": [
+                                                                                    56
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "After defeating the 3 in battle, Kako and Ima arrive and present the conclusion of Yugamu being the mastermind behind the issue. He did it by developing a drug that he inserted into snacks he gave to the 3, and is now along with Sirei in the war room. Everyone rushes the war room where Yugamu is crucifying Sirei, and reveals he removed the bombs in himself via self-surgery. He also states his plan is to dismember Sirei one-by-one until he sends an emergency signal to the satellite. After its revealed that Sirei can't reach the satellite Yugamu releases him but demands to know exactly why. Sirei reveals that he has been programmed with the Will of Humanity and that for every decision it runs a simulation of the thought process of all human though patterns and can not be overridden. As such he can not contact the satellite since the Will of Humanity has forbidden it.",
+                                                                                  "days": [
+                                                                                    56
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Battle against Squad 7, with the commander mimicking Eito. Fake Eito states that this war is an invasion led by humanity and that they stole the Second Coming from those that lived here and are using it against them to raze the planet. The real Eito sneaks into the copies, and all of them state that the Earth died a long time ago. After their defeat a fake Eito attempts to kill Sirei but is stopped by Nigou sacrificing himself. Eito then kills and absorbs the commander.",
+                                                                                  "days": [
+                                                                                    57
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "V'hexness arrives, kills, and absorbs Eito. Shion then launches himself at V'hexness. V'hexness then comments at this saying \"the Second Coming\" has sided with us, and reveals that Eva is her sister. V'hexness leaves to heal and come back another time, as Eito is revealed to still be alive due to Shion intervention.",
+                                                                                  "days": [
+                                                                                    57
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "branch": {
+                                                                                "name": "Kill Eito?",
+                                                                                "day": 57,
+                                                                                "choices": [
+                                                                                  {
+                                                                                    "direction": "left",
+                                                                                    "name": "Yes",
+                                                                                    "route": {
+                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH"
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "direction": "right",
+                                                                                    "name": "No",
+                                                                                    "route": {
+                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH",
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Eito reveals that humanity started this war and that this is not Earth. That the SDU was taken from the TRC but were not put on Earth, instead on this planet. Eito states what he has learned from the invaders and their books: that humanity ruined their own planet, moved to underground shelters, and then left Earth to find a new planet. Sirei then takes over and explains that humanity developed the Exodus Project, a spaceship capable of moving at warp speed, the Artifical Satellite, and found a new planet: KXK-787. Located in a habitable zone that allowed for organic life, with most of the surface covered in water, a perfect match for humanity, a new planet in a galaxy far from Earth. Further its revealed that the TRC is inside the Artifical Satellite. Finally humanity arrived at the planet to find it occupied by intelligent life, filled with people born with cryptoglobin, seen as God's chosen by their culture. Humanity attempted to communicate but it broke down into conflict, with humanity unable to gain any upper hand due to cryptoglobin. Further, humanity's birthrate has been declining, so they need to take the planet or else it will die out. Sirei states that Last Defense Academy is a special spaceship deployed by the Artifical Satellite, while the SDU was onboard, and then had it surrounded by undying flames powered by Shion, and that the reason it is a school is because it fulfilled Shion's wish of being able to go to school like a normal child. Before this however, humanity started to research cryptoglobin themselves, around this time a being was born on the planet with near unlimited power, known to the Futurians (the denizens of the planet) as the Second Coming, this was Shion. Shion was stolen by humanity and likely accelerated cryptoglobin research. The group suggests using their ability to communicate to end the war, but that it is already too late and that this war can only end with elimination of one side and the control of Futurum (the planet). Eva upon all this being stated starts having another breakdown, kills Sirei before the group can pull her away. Shouma starts having an incredible headache similar to previous times he recalled something, is left in charge of Eva, as everyone else disbands.",
+                                                                                          "days": [
+                                                                                            58
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Battle against a squad that keeps begging for death.",
+                                                                                          "days": [
+                                                                                            63
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Shouma reveals that before arriving here we all had our memories erased, and that is almost able to remember where they all come from, why they were chosen, and how things ended up like this. He wants to absorb Eva to learn the truth to prevent us from doing things we can't go back from, arguing that we've already done enough to her that death would be a kindness.",
+                                                                                          "days": [
+                                                                                            63
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
+                                                                                      "branch": {
+                                                                                        "name": "Decide Eva's Fate!",
+                                                                                        "day": 63,
+                                                                                        "choices": [
+                                                                                          {
+                                                                                            "direction": "left",
+                                                                                            "name": "Let Shouma Kill Her",
+                                                                                            "route": {
+                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH",
+                                                                                              "deaths": [
+                                                                                                {
+                                                                                                  "id": "eva",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    63
+                                                                                                  ]
+                                                                                                }
+                                                                                              ],
+                                                                                              "events": [
+                                                                                                {
+                                                                                                  "name": "Eva starts to beg for her life, alternating between asking not to kill her and to kill her. Shouma kills her.",
+                                                                                                  "days": [
+                                                                                                    63
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi delivers the materials Tsubasa needs to repair Sirei.",
+                                                                                                  "days": [
+                                                                                                    66
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Shouma with regained memories tells the SDU that their memories are false and were implanted into them. Further he reveals that the SDU members were created and grown in the Kamukura General Hospital, and spent their entire lives in tubes until they awoke in the classroom 67 days ago. Further that the genes they were cloned from was Shino, which is why everyone in the SDU has hemoanima. Naturally, the SDU takes this news very badly and starts to disbelieve it, however Yugamu backs it up by saying that everyone's DNA is remarkably similar, nearly identical, and that Shion is effectivly their father. Naturally this also goes over weirdly.",
+                                                                                                  "days": [
+                                                                                                    67
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Nozomi begs Sirei's shutdown body for answers to questions she still has, demanding he wakes up so she can know.",
+                                                                                                  "days": [
+                                                                                                    70
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Nozomi convinced Tsubasa to reboot Sirei, after he is Nozomi demands her unaltered memories back, which she gets. She then goes to Takumi and starts telling him this. Further, she remembered Takumi, and how when she was younger she would wander around the hospital while her mother was busy with work, and eventually found her way into the room with all the machines in them, upon looking inside she saw Takumi. Takumi in this state opened her eyes and smiled at him, and it felt like she made a friend. She would continue to return to that room time and time again and take to Takumi in the machine. Once when talking to him his eyes even opened a little, and then lifted his arm and put his hand on the glass, seemingly trying to reach and touch Nozomi. For Nozomi this was confirmation that he could hear her and wanted to be friends. Eventually though, Nozomi was found and had her memories of this erased. All of this confirmed that Takumi did in fact know Nozomi, and this likely mixed with fictional memories of the TRC he was being fed in the pod. This appears to be the reason that Takumi knew a version of Nozomi (Karua). Nozomi attempts to use this to convince Takumi to continue living, that those memories were in some way real, that the memories they've made since arriving here were real. Nozomi promises to protect the SDU who are her friends.",
+                                                                                                  "days": [
+                                                                                                    71
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Battle against an invader group, Sirei wakes up and begs the SDU to get out there and fight after apologizing for the manipulations and saying they were unforgivable, but asks that they go out to help Nozomi who is out there alone.",
+                                                                                                  "days": [
+                                                                                                    72
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi joins the battle on the third wave to protect Nozomi and the rest of the SDU.",
+                                                                                                  "days": [
+                                                                                                    72
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Moko and Hiruko join the battle.",
+                                                                                                  "days": [
+                                                                                                    72
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takemaru, Yugamu, and Shouma join the battle.",
+                                                                                                  "days": [
+                                                                                                    72
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Kako, Ima, Gaku, and Tsubasa join the battle.",
+                                                                                                  "days": [
+                                                                                                    72
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "EITO JOINS THE BATTLE!",
+                                                                                                  "days": [
+                                                                                                    72
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "A holographic projection of V'hexness appears on the field to speak to the SDU. She offers the SDU a deal: surrender now and your deaths will be quick and painless. Tsubasa attempts to suggest peace, it is instantly shutdown by V'hexness due to what humanity has done to them, stating every last person will fight humanity to their death. V'hexness also reveals that she has been enjoying the war immensely and hates the idea of peace. The SDU refuses and V'hexness sends more troops at them.",
+                                                                                                  "days": [
+                                                                                                    72
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Sirei informs the SDU of their backstory, confirming Shouma's memories. Further he reveals that the TRC on the satellite is now aware of the truth and of everything that is happening.",
+                                                                                                  "days": [
+                                                                                                    72
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi and Nozomi watch the sunrise together.",
+                                                                                                  "days": [
+                                                                                                    73
+                                                                                                  ]
+                                                                                                }
+                                                                                              ],
+                                                                                              "branch": {
+                                                                                                "name": "Continue to Fight For Humanity?",
+                                                                                                "day": 77,
+                                                                                                "choices": [
+                                                                                                  {
+                                                                                                    "direction": "left",
+                                                                                                    "name": "Keep Fighting",
+                                                                                                    "route": {
+                                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH",
+                                                                                                      "events": [
+                                                                                                        {
+                                                                                                          "name": "The SDU comes to the decision to continue to fight, not for humanity, but for themselves, so they can have a better life after.",
+                                                                                                          "days": [
+                                                                                                            77
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Takumi enters the cafeteria to find Moko performing a demon banishing ritual involving Sirei dressed as a demon.",
+                                                                                                          "days": [
+                                                                                                            78
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Takumi collects black lens and frames for Eito.",
+                                                                                                          "days": [
+                                                                                                            81
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Eito and Sirei arrive at the cafeteria where the rest of the SDU is, where Eito is wearing sunglasses. Takumi asks him to remove them, which Eito does, revealing he removed his own eyes. He then shows them the eyes, which he is holding. Now he doesn't have to look at everyone's faces, and asks to be let back on the team now that he no longer sees creatures he hates. Sirei reveals that Eito has been readded to the Revive-O-Matic, and that his information has been altered so that he will revive without eyes. Eito also reveals that after learning the truth he felt empty and disgusted knowing that his rightous dream for humanity was all false, and also that he burned out his nose so he can't smell. He does still want to wipe out of humanity, but he is willing to fight for his \"beautiful comrades\" [sic]. He again asks to be let onto the team.",
+                                                                                                          "days": [
+                                                                                                            82
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "branch": {
+                                                                                                        "name": "Allow Eito to Rejoin the Team?",
+                                                                                                        "day": 82,
+                                                                                                        "choices": [
+                                                                                                          {
+                                                                                                            "direction": "left",
+                                                                                                            "name": "Accept Him",
+                                                                                                            "route": {
+                                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH LEFT BRANCH",
+                                                                                                              "events": [
+                                                                                                                {
+                                                                                                                  "name": "Sirei orders Takumi to help Eito get settled in and accepted by the team.",
+                                                                                                                  "days": [
+                                                                                                                    83
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi asks Gaku to plan a party to help Eito fit in, he agrees with some manipulation, and asks Takumi to get him a gas canister, a grill, and charcoal.",
+                                                                                                                  "days": [
+                                                                                                                    83
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi delivers the materials to Gaku, who then requests a saw and lumber.",
+                                                                                                                  "days": [
+                                                                                                                    84
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Gaku pranks Takumi by screaming for help and having him rush in to save him. Takumi, after dealing with that, gives him the materials.",
+                                                                                                                  "days": [
+                                                                                                                    85
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Gaku rushes into Takumi's room after the morning annoucement and informs Takumi that preperations are ready for the party to start at sundown, and that he didn't sleep at all last night.",
+                                                                                                                  "days": [
+                                                                                                                    86
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Everyone arrives at the school yard for the party, as Gaku lights a giant campfire. Eito opens up about his feelings and how he felt after learning that his hatred and his feelings weren't real and that he wanted to die after learning all this and feeling empty. The group begrudgingly accepts him and who he is, especially as he's started to fix himself. Takemaru was mostly hungry.",
+                                                                                                                  "days": [
+                                                                                                                    86
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Nozomi asks Takumi to go on a date with her after all this.",
+                                                                                                                  "days": [
+                                                                                                                    86
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi wakes up the next morning looking at the sky, and sees a commander directly behind him, who then begins talking and ridiculing the group for what he percieves as issues. He then states that V'hexness has ordered him to destroy this place, but he entered mostly to see what the SDU was like before starting.",
+                                                                                                                  "days": [
+                                                                                                                    87
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Battle against Squad 0. This is confusing to the SDU as neither Takumi nor Eito knew anything about him, further he looks similar to Muvrum, who is revealed to be his son.",
+                                                                                                                  "days": [
+                                                                                                                    87
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi is beheaded by the commander.",
+                                                                                                                  "days": [
+                                                                                                                    87
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi enters the war room to find out that after being beheaded the commander said that the matter with his son was settled, and that he would be back later.",
+                                                                                                                  "days": [
+                                                                                                                    88
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          },
+                                                                                                          {
+                                                                                                            "direction": "right",
+                                                                                                            "name": "Reject Him",
+                                                                                                            "route": {
+                                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ]
+                                                                                                      }
+                                                                                                    }
+                                                                                                  },
+                                                                                                  {
+                                                                                                    "direction": "right",
+                                                                                                    "name": "Abandon Humanity",
+                                                                                                    "route": {
+                                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "direction": "right",
+                                                                                            "name": "Protect Her",
+                                                                                            "route": {
+                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH RIGHT BRANCH"
+                                                                                            }
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "direction": "right",
+                                                                            "name": "Maybe Not.",
+                                                                            "route": {
+                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH RIGHT BRANCH"
+                                                                            }
+                                                                          }
+                                                                        ]
+                                                                      }
                                                                     }
                                                                   }
                                                                 ]

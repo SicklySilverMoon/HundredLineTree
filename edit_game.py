@@ -168,7 +168,7 @@ def edit_events(game_tree, route):
                 route.events = events
                 return
 
-def edit_branch(game_tree, route):
+def edit_branch(game_tree, route, depth):
     while True:
         if route.branch:
             print(f"\nThis route has a branch with choice \"{route.branch.name}\" on day {route.branch.day} and options:")
@@ -200,7 +200,7 @@ def edit_branch(game_tree, route):
                             label = input("Enter new label: ")
                             choice.name = label
                         elif response2 == 'd':
-                            edit_recurse(game_tree, choice.route)
+                            edit_recurse(game_tree, choice.route, depth + 1)
                             return
                         elif response2 == 'r':
                             del choices[index]
@@ -228,9 +228,9 @@ def edit_branch(game_tree, route):
                 case 'x':
                     return
 
-def edit_recurse(game_tree, route):
+def edit_recurse(game_tree, route, depth = 0):
     while True:
-        print(f"\nRoute title: \"{route.name}\"")
+        print(f"\nRoute title: \"{route.name}\" with depth {depth}")
         if len(route.deaths) > 0:
             print("Deaths:")
             for key in route.deaths:
@@ -257,7 +257,7 @@ def edit_recurse(game_tree, route):
             case 'e':
                 edit_events(game_tree, route)
             case 'b':
-                edit_branch(game_tree, route)
+                edit_branch(game_tree, route, depth)
             case 't':
                 response = input("Input new route/chapter title: ")
                 route.name = response
@@ -274,7 +274,7 @@ def edit_recurse(game_tree, route):
                         new_route = choice.route
                         break
                 if new_route:
-                    edit_recurse(game_tree, new_route)
+                    edit_recurse(game_tree, new_route, depth + 1)
             case 's': #also hidden, save the file
                 save_tree(sys.argv[3], game_tree)
 
