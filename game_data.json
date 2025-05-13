@@ -1646,7 +1646,161 @@
                                                                                                             "direction": "right",
                                                                                                             "name": "Reject Him",
                                                                                                             "route": {
-                                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH",
+                                                                                                              "deaths": [
+                                                                                                                {
+                                                                                                                  "id": "commander0",
+                                                                                                                  "count": 1,
+                                                                                                                  "days": [
+                                                                                                                    93
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "events": [
+                                                                                                                {
+                                                                                                                  "name": "Battle against Squad 0.",
+                                                                                                                  "days": [
+                                                                                                                    93
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "The Squad 0 commander Dalh'xia is sprayed with Yugamu and Nozomi's poison gas, severely weakening him.",
+                                                                                                                  "days": [
+                                                                                                                    93
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Dalh'xia reveals that he defied V'hexness, and that what he desired most was to die on the battlefield as a warrior, which is why he is so grateful to the SDU. Further he reveals that the \"battle pets\" are actually humans and futurans who have been biologically modified into pure killing machines, which is why Dalh'xia was overthrown by V'hexness for standing against them. V'hexness appears and absorbs Dalh'xia.",
+                                                                                                                  "days": [
+                                                                                                                    93
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "V'hexness informs the SDU that she is preparing an event for her ascention to godhood, and that their battle will take place then.",
+                                                                                                                  "days": [
+                                                                                                                    93
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "V'hexness sends the SDU a video file of her informing the SDU that they have developed weaponry similar to what humans have used. She further states that the battle is in 2 days, on day 99.",
+                                                                                                                  "days": [
+                                                                                                                    97
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Sirei puts together a pep rally for the SDU to strengthen their bonds as much as possible before the final battle.",
+                                                                                                                  "days": [
+                                                                                                                    97,
+                                                                                                                    98
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Everyone enjoys the festival, making sure Shion has a good time and fits in with everyone. Shion says that he is proud he can stand as a person and expierence human emotions, and how happy he is to be a part of the SDU and their friend. Everyone gets the maximum enjoyment out of the pep rally.",
+                                                                                                                  "days": [
+                                                                                                                    98
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Nozomi asks Takumi about what she said the other day, and Takumi says he wants to go on a date. However, Karua is still on his mind, Nozomi reassures him that Karua does exist, somewhere inside of him. However, Nozomi does still want to see Takumi after, if he feels like it after everything is resolved. Right after she came down with rejection symptoms, and Takumi forbids her from fighting tomorrow, saying he'll protect her.",
+                                                                                                                  "days": [
+                                                                                                                    98
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Day 99 begins with the alarms going off, and a crowd of invaders storming in to the school grounds. Nozomi bursts into the war room demanding that she is allowed to fight, to stand with and protect the friends she holds so dear, and that she made another poison trap. The SDU enters the battle.",
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "V'ehxness enters the battle.",
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "V'ehxness blasts the SDU with her own undying flames. She also reveals she has created an undying flame weapon herself, and will be using it to burn the SDU to ash, as a massive missile impacts the artifical satellite.",
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "V'ehxness gloats about destroying all of humanity, and states that the SDU's entire reason for fighting is gone. Takumi reveals that they never had anything to begin with, and they will fight to protect each other, their friends.",
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "The Final Battle begins.",
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Shion hits her with a full force attack, immoblizing her, as Nozomi places the poison trap spraying her.",
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi mortally injures V'ehxness as she screams that there is nothing but despair left for this planet, before exploding.",
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi proposes stopping the final attack, however the only way to do so is to destroy the machine in the Defense Room. However, this would involve killing Shion. The group fully agrees with the idea of stopping the attack. However, moments before they can leave to go do it Sirei appears and informs the group they have been relieved of duty and that their infusers have been confiscated. Further, the Will of Humanity has dictated that the attack must occur, and that the people of this planet must be destroyed for humanity to live in peace.",
+                                                                                                                  "days": [
+                                                                                                                    100
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "branch": {
+                                                                                                                "name": "Defy Sirei One Last Time?",
+                                                                                                                "day": 100,
+                                                                                                                "choices": [
+                                                                                                                  {
+                                                                                                                    "direction": "left",
+                                                                                                                    "name": "Yes",
+                                                                                                                    "route": {
+                                                                                                                      "name": "001: Last Defense Academy 2nd Scenario: Farewell, Last Defense Academy",
+                                                                                                                      "events": [
+                                                                                                                        {
+                                                                                                                          "name": "Takumi elects to defy Sirei one last time, and the group agrees. Sirei as such says he is forced to eliminate everyone at once, however a shot rings out as Nozomi shoots Sirei directly through the head. Sirei's dying message is that the mission and Last Defense Academy can not be stopped, as the Will of Humanity takes over his speaker and starts screaming to kill the planet. Nozomi fires another shot to fully disable Sirei. The graduation music begins to play as the academy switches to attack mode and informs the group that the missiles will be launched in 600 seconds. Nozomi forces the group to promise that everyone will come back alive. Yugamu hands the group their infusers, and they all rush to the defense room, leaving Nozomi to wait in the cafeteria for their return.",
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "name": "As the group arrives at the Defense Room, they find the undying flames around the door already retreating. They transform via hemoanima and smash through the door, with 400 seconds remaining. The PA system annouces that intercept mode is active, and starts an alert that there are intruders in the Defense Room. After this a mechanical body with Shion's form visible in the chest appears, and makes copies of itself out of undying flame. As the group begins one last battle to destroy this body and prevent the attack, with 300 seconds left.",
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "name": "As everyone falls, Takumi absorbs them, before finally directing one last attack at the central machine and Shion. As the academy is blown apart, Takumi is launched outside to Nozomi. He explains what happened, and passes on the wishes of the group and himself to Nozomi, telling her to live on, and live on fully for them.",
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "name": "Nozomi buries Takumi and spends multiple days at his grave, crying. Finally she brings herself to leave the academy, and begin walking, through the empty cities and streets. Eventually she collapses, and is found by a group of Futuran children. Whom she reaches out her hand to, and one of them takes, as the dawn breaks.",
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "direction": "right",
+                                                                                                                    "name": "No",
+                                                                                                                    "route": {
+                                                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH RIGHT BRANCH"
+                                                                                                                    }
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              }
                                                                                                             }
                                                                                                           }
                                                                                                         ]
