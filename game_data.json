@@ -916,13 +916,13 @@
                                           ]
                                         },
                                         {
-                                          "name": "Supreme Commander V'hexness after absorbing commanders 8 and 9 begins a battle against the Special Defense Unit, alone.",
+                                          "name": "Supreme Commander V'ehxness after absorbing commanders 8 and 9 begins a battle against the Special Defense Unit, alone.",
                                           "days": [
                                             15
                                           ]
                                         },
                                         {
-                                          "name": "Supreme Commander V'hexness wipes out all of the SDU except Takumi, Nozomi, Takemari, Kyoshika, and Tsubasa. Takumi realizes the only way to defeat her is with the undying flame bomb, although someone needs to sacrifice themselves to activate it via hemoanima.",
+                                          "name": "Supreme Commander V'ehxness wipes out all of the SDU except Takumi, Nozomi, Takemari, Kyoshika, and Tsubasa. Takumi realizes the only way to defeat her is with the undying flame bomb, although someone needs to sacrifice themselves to activate it via hemoanima.",
                                           "days": [
                                             15
                                           ]
@@ -969,7 +969,7 @@
                                               ],
                                               "events": [
                                                 {
-                                                  "name": "Kyoshika detonates the undying flame bomb, sacrificing herself to take out V'hexness.",
+                                                  "name": "Kyoshika detonates the undying flame bomb, sacrificing herself to take out V'ehxness.",
                                                   "days": [
                                                     15
                                                   ]
@@ -1093,7 +1093,7 @@
                                                             "direction": "left",
                                                             "name": "Let It Happen",
                                                             "route": {
-                                                              "name": "Chapter00_0_a LEFT BRANCH",
+                                                              "name": "Chapter00_0_a",
                                                               "deaths": [
                                                                 {
                                                                   "id": "commander3",
@@ -1117,19 +1117,19 @@
                                                                   ]
                                                                 },
                                                                 {
-                                                                  "name": "Addamaque highly implies that V'hexness is still alive and is canabalizing everyone. This is instantly followed by V'hexness appearing and canabalizing him.",
+                                                                  "name": "Addamaque highly implies that V'ehxness is still alive and is canabalizing everyone. This is instantly followed by V'ehxness appearing and canabalizing him.",
                                                                   "days": [
                                                                     33
                                                                   ]
                                                                 },
                                                                 {
-                                                                  "name": "Battle against V'hexness.",
+                                                                  "name": "Battle against V'ehxness.",
                                                                   "days": [
                                                                     33
                                                                   ]
                                                                 },
                                                                 {
-                                                                  "name": "Ghost boy strikes out and launches himself as undying flame at V'hexness, knocking her out of her transformation and unconscious. Then her soldiers grab Gaku and Kurara as she vanishes, forcing the SDU to pick one to save.",
+                                                                  "name": "Ghost boy strikes out and launches himself as undying flame at V'ehxness, knocking her out of her transformation and unconscious. Then her soldiers grab Gaku and Kurara as she vanishes, forcing the SDU to pick one to save.",
                                                                   "days": [
                                                                     33
                                                                   ]
@@ -1150,7 +1150,7 @@
                                                                     "direction": "right",
                                                                     "name": "Gaku",
                                                                     "route": {
-                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH",
+                                                                      "name": "Chapter00_0_a",
                                                                       "deaths": [
                                                                         {
                                                                           "id": "kurara",
@@ -1183,7 +1183,7 @@
                                                                       ],
                                                                       "events": [
                                                                         {
-                                                                          "name": "Kurara is killed and absorbed by V'hexness.",
+                                                                          "name": "Kurara is killed and absorbed by V'ehxness.",
                                                                           "days": [
                                                                             33
                                                                           ]
@@ -1288,7 +1288,7 @@
                                                                           ]
                                                                         },
                                                                         {
-                                                                          "name": "Eito absorbs both commanders, and leaves to go be absorbed by V'hexness to heal her wounds.",
+                                                                          "name": "Eito absorbs both commanders, and leaves to go be absorbed by V'ehxness to heal her wounds.",
                                                                           "days": [
                                                                             47
                                                                           ]
@@ -1332,7 +1332,7 @@
                                                                             "direction": "left",
                                                                             "name": "Of Course!",
                                                                             "route": {
-                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH",
+                                                                              "name": "Chapter00_0_a",
                                                                               "deaths": [
                                                                                 {
                                                                                   "id": "commander7",
@@ -1382,7 +1382,7 @@
                                                                                   ]
                                                                                 },
                                                                                 {
-                                                                                  "name": "V'hexness arrives, kills, and absorbs Eito. Shion then launches himself at V'hexness. V'hexness then comments at this saying \"the Second Coming\" has sided with us, and reveals that Eva is her sister. V'hexness leaves to heal and come back another time, as Eito is revealed to still be alive due to Shion intervention.",
+                                                                                  "name": "V'ehxness arrives, kills, and absorbs Eito. Shion then launches himself at V'ehxness. V'ehxness then comments at this saying \"the Second Coming\" has sided with us, and reveals that Eva is her sister. V'ehxness leaves to heal and come back another time, as Eito is revealed to still be alive due to Shion intervention.",
                                                                                   "days": [
                                                                                     57
                                                                                   ]
@@ -1403,7 +1403,16 @@
                                                                                     "direction": "right",
                                                                                     "name": "No",
                                                                                     "route": {
-                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH",
+                                                                                      "name": "Chapter00_0_a",
+                                                                                      "deaths": [
+                                                                                        {
+                                                                                          "id": "sirei",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            58
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
                                                                                       "events": [
                                                                                         {
                                                                                           "name": "Eito reveals that humanity started this war and that this is not Earth. That the SDU was taken from the TRC but were not put on Earth, instead on this planet. Eito states what he has learned from the invaders and their books: that humanity ruined their own planet, moved to underground shelters, and then left Earth to find a new planet. Sirei then takes over and explains that humanity developed the Exodus Project, a spaceship capable of moving at warp speed, the Artifical Satellite, and found a new planet: KXK-787. Located in a habitable zone that allowed for organic life, with most of the surface covered in water, a perfect match for humanity, a new planet in a galaxy far from Earth. Further its revealed that the TRC is inside the Artifical Satellite. Finally humanity arrived at the planet to find it occupied by intelligent life, filled with people born with cryptoglobin, seen as God's chosen by their culture. Humanity attempted to communicate but it broke down into conflict, with humanity unable to gain any upper hand due to cryptoglobin. Further, humanity's birthrate has been declining, so they need to take the planet or else it will die out. Sirei states that Last Defense Academy is a special spaceship deployed by the Artifical Satellite, while the SDU was onboard, and then had it surrounded by undying flames powered by Shion, and that the reason it is a school is because it fulfilled Shion's wish of being able to go to school like a normal child. Before this however, humanity started to research cryptoglobin themselves, around this time a being was born on the planet with near unlimited power, known to the Futurians (the denizens of the planet) as the Second Coming, this was Shion. Shion was stolen by humanity and likely accelerated cryptoglobin research. The group suggests using their ability to communicate to end the war, but that it is already too late and that this war can only end with elimination of one side and the control of Futurum (the planet). Eva upon all this being stated starts having another breakdown, kills Sirei before the group can pull her away. Shouma starts having an incredible headache similar to previous times he recalled something, is left in charge of Eva, as everyone else disbands.",
@@ -1432,7 +1441,7 @@
                                                                                             "direction": "left",
                                                                                             "name": "Let Shouma Kill Her",
                                                                                             "route": {
-                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH",
+                                                                                              "name": "Chapter00_0_a",
                                                                                               "deaths": [
                                                                                                 {
                                                                                                   "id": "eva",
@@ -1510,7 +1519,7 @@
                                                                                                   ]
                                                                                                 },
                                                                                                 {
-                                                                                                  "name": "A holographic projection of V'hexness appears on the field to speak to the SDU. She offers the SDU a deal: surrender now and your deaths will be quick and painless. Tsubasa attempts to suggest peace, it is instantly shutdown by V'hexness due to what humanity has done to them, stating every last person will fight humanity to their death. V'hexness also reveals that she has been enjoying the war immensely and hates the idea of peace. The SDU refuses and V'hexness sends more troops at them.",
+                                                                                                  "name": "A holographic projection of V'ehxness appears on the field to speak to the SDU. She offers the SDU a deal: surrender now and your deaths will be quick and painless. Tsubasa attempts to suggest peace, it is instantly shutdown by V'ehxness due to what humanity has done to them, stating every last person will fight humanity to their death. V'ehxness also reveals that she has been enjoying the war immensely and hates the idea of peace. The SDU refuses and V'ehxness sends more troops at them.",
                                                                                                   "days": [
                                                                                                     72
                                                                                                   ]
@@ -1536,7 +1545,7 @@
                                                                                                     "direction": "left",
                                                                                                     "name": "Keep Fighting",
                                                                                                     "route": {
-                                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH",
+                                                                                                      "name": "Chapter00_0_a",
                                                                                                       "events": [
                                                                                                         {
                                                                                                           "name": "The SDU comes to the decision to continue to fight, not for humanity, but for themselves, so they can have a better life after.",
@@ -1571,7 +1580,16 @@
                                                                                                             "direction": "left",
                                                                                                             "name": "Accept Him",
                                                                                                             "route": {
-                                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH LEFT BRANCH",
+                                                                                                              "name": "Chapter00_0_a",
+                                                                                                              "deaths": [
+                                                                                                                {
+                                                                                                                  "id": "commander0",
+                                                                                                                  "count": 1,
+                                                                                                                  "days": [
+                                                                                                                    93
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ],
                                                                                                               "events": [
                                                                                                                 {
                                                                                                                   "name": "Sirei orders Takumi to help Eito get settled in and accepted by the team.",
@@ -1616,7 +1634,7 @@
                                                                                                                   ]
                                                                                                                 },
                                                                                                                 {
-                                                                                                                  "name": "Takumi wakes up the next morning looking at the sky, and sees a commander directly behind him, who then begins talking and ridiculing the group for what he percieves as issues. He then states that V'hexness has ordered him to destroy this place, but he entered mostly to see what the SDU was like before starting.",
+                                                                                                                  "name": "Takumi wakes up the next morning looking at the sky, and sees a commander directly behind him, who then begins talking and ridiculing the group for what he percieves as issues. He then states that V'ehxness has ordered him to destroy this place, but he entered mostly to see what the SDU was like before starting.",
                                                                                                                   "days": [
                                                                                                                     87
                                                                                                                   ]
@@ -1638,25 +1656,7 @@
                                                                                                                   "days": [
                                                                                                                     88
                                                                                                                   ]
-                                                                                                                }
-                                                                                                              ]
-                                                                                                            }
-                                                                                                          },
-                                                                                                          {
-                                                                                                            "direction": "right",
-                                                                                                            "name": "Reject Him",
-                                                                                                            "route": {
-                                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH",
-                                                                                                              "deaths": [
-                                                                                                                {
-                                                                                                                  "id": "commander0",
-                                                                                                                  "count": 1,
-                                                                                                                  "days": [
-                                                                                                                    93
-                                                                                                                  ]
-                                                                                                                }
-                                                                                                              ],
-                                                                                                              "events": [
+                                                                                                                },
                                                                                                                 {
                                                                                                                   "name": "Battle against Squad 0.",
                                                                                                                   "days": [
@@ -1670,19 +1670,19 @@
                                                                                                                   ]
                                                                                                                 },
                                                                                                                 {
-                                                                                                                  "name": "Dalh'xia reveals that he defied V'hexness, and that what he desired most was to die on the battlefield as a warrior, which is why he is so grateful to the SDU. Further he reveals that the \"battle pets\" are actually humans and futurans who have been biologically modified into pure killing machines, which is why Dalh'xia was overthrown by V'hexness for standing against them. V'hexness appears and absorbs Dalh'xia.",
+                                                                                                                  "name": "Dalh'xia reveals that he defied V'ehxness, and that what he desired most was to die on the battlefield as a warrior, which is why he is so grateful to the SDU. Further he reveals that the \"battle pets\" are actually humans and futurans who have been biologically modified into pure killing machines, which is why Dalh'xia was overthrown by V'ehxness for standing against them. V'ehxness appears and absorbs Dalh'xia.",
                                                                                                                   "days": [
                                                                                                                     93
                                                                                                                   ]
                                                                                                                 },
                                                                                                                 {
-                                                                                                                  "name": "V'hexness informs the SDU that she is preparing an event for her ascention to godhood, and that their battle will take place then.",
+                                                                                                                  "name": "V'ehxness informs the SDU that she is preparing an event for her ascention to godhood, and that their battle will take place then.",
                                                                                                                   "days": [
                                                                                                                     93
                                                                                                                   ]
                                                                                                                 },
                                                                                                                 {
-                                                                                                                  "name": "V'hexness sends the SDU a video file of her informing the SDU that they have developed weaponry similar to what humans have used. She further states that the battle is in 2 days, on day 99.",
+                                                                                                                  "name": "V'ehxness sends the SDU a video file of her informing the SDU that they have developed weaponry similar to what humans have used. She further states that the battle is in 2 days, on day 99.",
                                                                                                                   "days": [
                                                                                                                     97
                                                                                                                   ]
@@ -1764,6 +1764,99 @@
                                                                                                                     "name": "Yes",
                                                                                                                     "route": {
                                                                                                                       "name": "001: Last Defense Academy 2nd Scenario: Farewell, Last Defense Academy",
+                                                                                                                      "deaths": [
+                                                                                                                        {
+                                                                                                                          "id": "takumi",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "hiruko",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "takemaru",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "eito",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "tsubasa",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "gaku",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "shouma",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "kako",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "ima",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "yugamu",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "moko",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "sirei",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": "ghost",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ],
                                                                                                                       "events": [
                                                                                                                         {
                                                                                                                           "name": "Takumi elects to defy Sirei one last time, and the group agrees. Sirei as such says he is forced to eliminate everyone at once, however a shot rings out as Nozomi shoots Sirei directly through the head. Sirei's dying message is that the mission and Last Defense Academy can not be stopped, as the Will of Humanity takes over his speaker and starts screaming to kill the planet. Nozomi fires another shot to fully disable Sirei. The graduation music begins to play as the academy switches to attack mode and informs the group that the missiles will be launched in 600 seconds. Nozomi forces the group to promise that everyone will come back alive. Yugamu hands the group their infusers, and they all rush to the defense room, leaving Nozomi to wait in the cafeteria for their return.",
@@ -1801,6 +1894,13 @@
                                                                                                                   }
                                                                                                                 ]
                                                                                                               }
+                                                                                                            }
+                                                                                                          },
+                                                                                                          {
+                                                                                                            "direction": "right",
+                                                                                                            "name": "Reject Him",
+                                                                                                            "route": {
+                                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH"
                                                                                                             }
                                                                                                           }
                                                                                                         ]

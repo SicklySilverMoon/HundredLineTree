@@ -10,7 +10,7 @@ def print_routes(names, route, parent_deaths = {}, depth = 0):
             if death_key in deaths:
                 parent_death = deaths[death_key]
                 death.count += parent_death.count
-                death.days += parent_death.days
+                death.days = parent_death.days + death.days
             deaths[death_key] = death
     if len(deaths) > 0:
         for death in deaths.values():
