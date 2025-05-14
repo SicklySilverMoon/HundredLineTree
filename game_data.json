@@ -936,14 +936,349 @@
                                             "direction": "left",
                                             "name": "Takemaru",
                                             "route": {
-                                              "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH LEFT BRANCH"
+                                              "name": "Chapter10_A",
+                                              "deaths": [
+                                                {
+                                                  "id": "sirei",
+                                                  "count": 1,
+                                                  "days": [
+                                                    44
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "takemaru",
+                                                  "count": 1,
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "supreme",
+                                                  "count": 1,
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "commander3",
+                                                  "count": 1,
+                                                  "days": [
+                                                    33
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "commander4",
+                                                  "count": 1,
+                                                  "days": [
+                                                    37
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "commander10",
+                                                  "count": 1,
+                                                  "days": [
+                                                    37
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "commander11",
+                                                  "count": 1,
+                                                  "days": [
+                                                    37
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "commander0",
+                                                  "count": 1,
+                                                  "days": [
+                                                    37
+                                                  ]
+                                                }
+                                              ],
+                                              "events": [
+                                                {
+                                                  "name": "Takumi asks Takemaru to sacrifice himself to detonate the Undying Flames bomb which he agrees to. When Kyoshika asks why not her, Takemaru says he could not let a girl destroy herself for this, and that its his duty to clean up after his crew. He makes Takumi promise that he will save the rest of the SDU and humanity.",
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takemaru detonate the bomb, wiping the battlefield clean in one blow and killing V'ehxness.",
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "The Ghost boy comes to Takumi's room to discuss events with him and try to cheer him up.",
+                                                  "days": [
+                                                    16
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Kurara rushes into the cafeteria apologizing to Nozomi, without her mask on. Takumi learns before then that they had a long conversation and ended up making up.",
+                                                  "days": [
+                                                    17
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Yugamu shows up to Takumi's room and gives him drugs that he says \"affects hemoanima and enables certain\u2026 physical changes\". Comparing it to doping, and that he shelved it after Takemaru revealed some bad expierence with drugs prior. He also states it boosts him pheromones, and that this will help Takumi to bring everyone together as team leader.",
+                                                  "days": [
+                                                    19
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi takes the drugs, is knocked out for an entire day plus the next one, and then enters the cafeteria. He is informed that his vibe is now different and notable, and Kyoshika seems somewhat embarrassed about this.",
+                                                  "days": [
+                                                    19,
+                                                    20,
+                                                    21
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Everyone Takumi talks to mentions how great he looks, or how excited they are to be around him.",
+                                                  "days": [
+                                                    21
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Battle against against Squad 7.",
+                                                  "days": [
+                                                    21
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Nozomi is unaffected by Takumi's pheromones.",
+                                                  "days": [
+                                                    21
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eva is affected by Takumi's pheromones.",
+                                                  "days": [
+                                                    21
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eva is taken prisoner.",
+                                                  "days": [
+                                                    21
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eito broke out and escaped at some point last night.",
+                                                  "days": [
+                                                    21
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Yugamu reveals he's been slipping more and more meds into Takumi's food and drinks, including the water he just gave him.",
+                                                  "days": [
+                                                    23
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Yugamu informs Takumi that the drugs should wear off in 3 to 4 days.",
+                                                  "days": [
+                                                    24
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Sirei and Nigou show up in Takumi's room and tell him to double down on the drugs since its bringing everyone together, and that it also only effects Takumi.",
+                                                  "days": [
+                                                    25
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Battle against Squad 7.",
+                                                  "days": [
+                                                    26
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eito sneaks in with the fake copies, and is also affected by the pheromones.",
+                                                  "days": [
+                                                    26
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eito is defeated, and he specifically mentions that he sees and smells Takumi as beautiful, unlike every other human until now. Eito confirms he sees Eito as a god, and he also informs us V'ehxness is still alive, and that he won't betray us again or anything. He then instantly sprints off as fast as he can.",
+                                                  "days": [
+                                                    26
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Sirei informs the SDU he is implimenting a reward system, one well performing student will get to spend time with Takumi as a reward. He then picks Tsubasa as the first one to receive a reward, and is informed she gets to spend some time alone wiht Takumi, after the evening annoucement.",
+                                                  "days": [
+                                                    28
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Tsubasa shows up to Takumi's room after the evening annoucement, and confesses her love for him. Even stating that he is now her own reason for fighting, and wants Takumi to touch her as much possible.",
+                                                  "days": [
+                                                    28
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Gaku shows up to Takumi's room after the morning annoucement and tells Takumi how much he likes him, in fact stating that he only liked girls up until now but he is more than willing to make it work with Takumi. Even if not, he's still perfectly fine with just being best bros with Takumi, even going as far as stating that he doesn't care for the rest of humanity like Takumi.",
+                                                  "days": [
+                                                    30
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Sirei catches Gaku breaking the rules by coming into Takumi's room like that, and uses his drones to take him away.",
+                                                  "days": [
+                                                    30
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Nozomi comes to Takumi's room and tells him that she talked to Yugamu about things and learned the truth. Takumi tries to explain to Nozomi why he's doing this, but she says it seems like he's doing this for his own benefit, but that she will continue to keep an eye on him to prevent him from going down the wrong path.",
+                                                  "days": [
+                                                    32
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Battle against Squad 3.",
+                                                  "days": [
+                                                    33
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Addamaque is affected by the pheromones, and is ok with dying here as long as it helps Takumi, stating that Takumi should kill and consume him.",
+                                                  "days": [
+                                                    33
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Sirei announces Kurara as the winner of this time's Takumi award time.",
+                                                  "days": [
+                                                    34
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Kurara arrives, maskless, at Takumi's room for her Takumi award time. She mentions that Sirei said she is allowed to share a bed with Takumi and tell him how much she loves him. Which she does, and says that Takumi can touch her more when cuddling, to which Takumi replies that this is strictly a sleeping arrangement. She even offers kingship to him via marrying into the Oosuzuki family. Takumi replies that he was thinking of something less restrictive, to which Kurara replies that she doesn't need her family, and then asks Takumi how many children she wants. She also states that Takumi is her reason for fighting now.",
+                                                  "days": [
+                                                    34
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up next to Kurara, who asks to keep this between them. Then asks if next time they can do this without clothes.",
+                                                  "days": [
+                                                    35
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Yugamu informs Takumi that the drugs have worn off via his scent. However, the pheromones are still active and it appears Takumi is still producing them on his own now.",
+                                                  "days": [
+                                                    36
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eito renters the academy grounds to speak with Takumi. He says he's back to patch things up with Takumi, and reveals his gift: 4 severed heads of commanders, all the remaining commanders (excepting V'ehxness). Even Eito is in love with Takumi and wants to reconcile. Even if Takumi hates him he still wants to be of some use, he doesn't even care about humanity anymore, only wanting to serve Takumi.",
+                                                  "days": [
+                                                    37
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi goes to the cafeteria, where Eito has prepared everyone sandwiches for breakfast, although everyone except Takumi looks like monsters to him still.",
+                                                  "days": [
+                                                    38
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eito ordered Eva to make a huge scene in her cage so that Sirei and Nigou would be busy with it. Eito uses this time to reveal that this is the planet Futurum not Earth, that humanity are the invaders, that the LDA is a weapon used to take over the planet and wipe out all life on it.",
+                                                  "days": [
+                                                    39
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eito AND NOZOMI elected to up the frequency and quality of the Takumi time awards in order to keep everyone motivated. Which the SDU agreed with naturally. Eito to remain impartial, and because Takumi still isn't the bigest fan of him, is not assigning any awards to himself. He then instantly gives out the award of an oil massage to Hiruko.",
+                                                  "days": [
+                                                    40
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi goes to Hiruko's room in order to get the oil massage thta she was rewarded with. She also requests that Takumi changes into a swimsuit, but says that she's ok with full nudity, and she also preps to change, unless Takumi also wants her fully nude (he doesn't). Takumi exits the shower from changing with his eyes shut tight. Hiruko gets him to lie down on the bed and starts the massage, specifically throwing in many innuendos about Takumi being all wet from her touch, or all slippery, etc. She also comments on how sensitive Takumi's body is and how stiff he was before and how he's like putty in her hands now.",
+                                                  "days": [
+                                                    40
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up the next morning in Hiruko's room, then leaves for the cafeteria.",
+                                                  "days": [
+                                                    41
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eito announces the next Takumi award time and the winner: a nude hangout at the sauna with Shouma. Eito reveals that he modified a shed within the Wall of Fire to act as a sauna.",
+                                                  "days": [
+                                                    41
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi and Shouma sweat it out in the sauna, where Shouma instantly becomes ripped and offers to let Takumi touch him. Shouma challenges him to see who can last the longest in the sauna, as he is getting notably weaker and his voice decaying. They both stay in for a long while, getting much much worse and having their speech decay so much. Eventually they made it out of there, after 5 rounds interspersed with open air baths. Takumi won at a 3:2 ratio. Again Shouma says that following Takumi is his own reason for living.",
+                                                  "days": [
+                                                    41
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to the morning announcement, then is immediately hit with Eito and Kyoshika coming into his room for the next reward. They then move to Kyoshika's room so they don't make a mess in Takumi's room. This time the Takumi time award: washing him in the shower room. Kyoshika directly asks Takumi if she can \"touch herself under the waist with the Holy Jumonji Sword\" while she washes his back, Takumi does not answer. sword_fucker.png. Kyoshika asks to wash Takumi's front after she finishes washing his back, Takumi refuses. She makes it clear that she wants Takumi to see her naked. She did have the Holy Jumonji Sword present the whole time.",
+                                                  "days": [
+                                                    42
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Defensive battle (Squadless).",
+                                                  "days": [
+                                                    43
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to the morning announcement and is instantly met with Eito and Moko for the next Takumi award time. This time Takumi gets to spar against her. Takumi spends multiple hours being beaten in wrestling matches and moves. Takumi screams that he can not take it, and Moko says that her love for him is so strong she can't stop herself. Takumi spends multiple hours like this.",
+                                                  "days": [
+                                                    44
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Sirei comes to see Takumi in his room and says he's worried about the way everyone is acting and that this has basically turned into a cult. He then reveals that the SDU was literally created and born to fight. Sirei then pretends to power down and knocks Takumi out.",
+                                                  "days": [
+                                                    44
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up the next morning to Eito in his room taking care of him. Eito informs him that he was keeping watch over him after he saw Sirei head to his room, and got Eva to deal with Sirei so as to avoid the bomb problem. He then tells Takumi to head to the cafeteria. Takumi on the way over, runs into Nigou who asks if he has seen Sirei, as Nigou hasn't seen him since last night. Takumi enters the caf to everyone asking him if he's ok and why he got attacked. Eito pushes that aside in order to establish a new system of protection, with Eito as the leader (Takumi is the god figure now).",
+                                                  "days": [
+                                                    45
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eva arrives at Takumi's room after the morning announcement and states that she is here for her reward after dealing with Sirei (and that Eito is taking care of \"the remains\"). She states that the reward is that she gets to treat Takumi to a cake made from scratch. She asks Takumi to wait outside until she is finished. Upon Takumi reentering the room, he finds Eva naked, on his bed, with whipped cream and strawberries coverring various parts of her body (including her knee). Takumi is freaked the fuck out by this. Eva specifically says he has to eat all of it, or else Eva can not move. She forgot the spoon so Takumi has to use his mouth, as eating with his hands would be rude. Takumi mentally forces himself to envision and think about Eva as a cake. By the time Takumi finishes it is already night time, so Takumi goes right to bed.",
+                                                  "days": [
+                                                    46
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Eito asks Takumi to head to the cafeteria, whereupon arriving he is informed that Sirei is missing. Eito then elaborates that Eito had Eva destroy Sirei and then dispose of the pieces via throwing them through the Wall of Fire. This was done because of Sirei attacking and planning to brainwash Takumi. Further he states that they have negotiated with Nigou and that Nigou has sworn loyalty to Takumi. Nozomi says that she thinks things are going too far, and asks the SDU if they would fight against humanity. Everyone else states that they in fact would.",
+                                                  "days": [
+                                                    47
+                                                  ]
+                                                }
+                                              ]
                                             }
                                           },
                                           {
                                             "direction": "right",
                                             "name": "Tsubasa",
                                             "route": {
-                                              "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                              "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH",
+                                              "deaths": [
+                                                {
+                                                  "id": "tsubasa",
+                                                  "count": 1,
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                }
+                                              ]
                                             }
                                           },
                                           {
