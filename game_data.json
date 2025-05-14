@@ -939,13 +939,6 @@
                                               "name": "Chapter10_A",
                                               "deaths": [
                                                 {
-                                                  "id": "sirei",
-                                                  "count": 1,
-                                                  "days": [
-                                                    44
-                                                  ]
-                                                },
-                                                {
                                                   "id": "takemaru",
                                                   "count": 1,
                                                   "days": [
@@ -992,6 +985,13 @@
                                                   "count": 1,
                                                   "days": [
                                                     37
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "sirei",
+                                                  "count": 1,
+                                                  "days": [
+                                                    44
                                                   ]
                                                 }
                                               ],
@@ -1261,8 +1261,149 @@
                                                   "days": [
                                                     47
                                                   ]
+                                                },
+                                                {
+                                                  "name": "Shion comes to see Takumi about Sirei's death, Takumi states that there was nothing he could do and that it had to happen. When Shion pushes back and says that everyone is fully devoted to him, Takumi replies \"another critic huh\" and asks if Shion is jealous of him for having friends, then dismisses him.",
+                                                  "days": [
+                                                    47
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Defensive battle (Squadless).",
+                                                  "days": [
+                                                    48
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Ima and Kako are selected for the next Takumi award time for tomorrow.",
+                                                  "days": [
+                                                    48
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Ima and Kako get Takumi to perform the \"Kako Festival\" with them wherein Ima and Takumi carry Kako as a divine palaquin. Everyone is down to just simple underwear. Ima is happy to see his sister get so excited to be picked up by Takumi, Kako says that she needs to be handled gently or else she will go wild. The festival lasts all day until nighttime.",
+                                                  "days": [
+                                                    49
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Nozomi asks Takumi to meet her in one of the classrooms to discuss something. She brings up that she doesn't like what's happening and that she thinks things are spiralling out of control and could get much worse. She suggests having Yugamu make a drug to counteract the pheremones Takumi is producing. Then Eito steps in and reveals he was listening in and calls Nozomi a traitor, leaving the choice of picking between him and Nozomi in Takumi's hands. Nozomi asks him to stop this and reverse the effects, while Eito says he loves Takumi and will not stand for that.",
+                                                  "days": [
+                                                    50
+                                                  ]
                                                 }
-                                              ]
+                                              ],
+                                              "branch": {
+                                                "name": "Who Will You Believe?",
+                                                "day": 50,
+                                                "choices": [
+                                                  {
+                                                    "direction": "left",
+                                                    "name": "Eito",
+                                                    "route": {
+                                                      "name": "041: Cult of Takumi Route: Overlord",
+                                                      "deaths": [
+                                                        {
+                                                          "id": "supreme",
+                                                          "count": 1,
+                                                          "days": [
+                                                            54
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi flatly rejects Nozomi's proposal, and says she might not stay with the SDU after this. She leaves to go think about everything that has happened and about her decisions. Eito thanks Takumi for his choice.",
+                                                          "days": [
+                                                            50
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Eva comes to Takumi's room with breakfast, informing him that the others are busy discussing battle plans and ideas. As he goes to get up and leave, Eva says there's more. The power cuts for a bit and everything goes dark, and when it comes back on Eva is once again covered in whipped cream and strawberries. Takumi fully goes into it this time, ordering Eva to not move or make noises as she's supposed to be a cake. She does explicitly state that the way Takumi uses his tongue is \"godly\".",
+                                                          "days": [
+                                                            51
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi enters the cafeteria and notices Nozomi is present, and asks her why she's here. She replies that she's a member of the SDU so of course she should be here. When Takumi points this out and how odd it is, Takumi asks her to be honest and open with him. To which she replies that she is fully in love with Takumi and that she loves him so much it hurts. Takumi asks Eito if he did anything, to which Eito informs Takumi that he brainwashed Nozomi. When Takumi starts protesting against this, everyone says that they came to this decision unanimously. They put Yugamu in charge of the process, to great success. Takumi internally decides that this is ok and that this is what needs to be done to keep everyone alive and safe, and that as the one with this power he must wield and use it.",
+                                                          "days": [
+                                                            52
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Yugamu arrives at Takumi's room to get his reward time, and asks Takumi to drop by the biolab for it after he is informed dissections are not allowed. When Takumi arrives Yugamu informs Takumi he can just watch, as he starts carving into himself. Yugamu is so excited that Takumi doesn't even want to look at it. He then mentions that he's so excited that \"it's coming out from inside\" of him. He further notes that he is so turned on and that he can't stop. Takumi tasks him to stop it, and \"put it back in\". Yugamu replies it keeps spilling, that it hurts, but that he's never felt like this before. He then says that it \"hurts so good\". After witnessing this Takumi goes back to his room, and goes to bed since it was night time.",
+                                                          "days": [
+                                                            53
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Battle against V'ehxness' Squad.",
+                                                          "days": [
+                                                            54
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "V'ehxness enters the battlefield, and claims that Takumi now belongs to her as she desires his greatness. She disregards the entire war, and that once she has Takumi she won't need anything else. She also reveals that her feelings have been growing since she checked in on them, but that she didn't want to admit it until now. Now she is certain, that she loves Takumi, however she wants him and only him and she will take him for herself. She then states that the two of them rule as the gods of this world. Naturally the SDU disagrees, and so begins the battle against her.",
+                                                          "days": [
+                                                            54
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "After being defeated V'ehxness begs for at least Takumi to take her as his own, when he refuses she asks for a favour: for Takumi to live a happy life. She is then executed and absorbed.",
+                                                          "days": [
+                                                            54
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The SDU gathers on the school yard after to discuss what has happened and what the next steps will be. He ponders if they should go through with the plan and launch the missiles, but says he will decide later. He then selects Nozomi as the next Takumi award time winner and asks her to come to his room later.",
+                                                          "days": [
+                                                            55
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Nozomi arrives at Takumi's room and moments after entering, Takumi pulls her into a hug and asks her to call him \"Takky\". Sheag agrees to, and then Takumi pulls her down onto the mattress. The next scene is of them both naked sitting next to each other in bed. Nozomi asks if Takumi is happy with her, and he says he is. To which she replies that she is since she really loves him. Takumi then says he loves her, and has loved her since before even coming here.",
+                                                          "days": [
+                                                            55
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi meets with the SDU in the yard, and lists his plan: to launch the pod to the artifical satellite before the 100 days are up, with their infusers, and then force the people who built the LDA to return with them and disable the missiles. Then Takumi will rule over the planet and both races, forcing them to coexist in peace. Takumi asks if everyone will join him, and the SDU agrees. Nigou doesn't like the idea but says he has no other choice. The new mission starts: appoint Takumi as the ruler of everything.",
+                                                          "days": [
+                                                            56
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "A few weeks after, the SDU arrives on the Artifical Satellite, in class armour. Takumi says that he has no regrets and that this is his duty. He states he will lead everyone, and rule over this planet as a god. He doesn't even need Karua as he has Nozomi.",
+                                                          "days": [
+                                                            56
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "direction": "right",
+                                                    "name": "Nozomi",
+                                                    "route": {
+                                                      "name": "042: Cult of Takumi Route: Living Idol",
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi sides with Nozomi and elects to try and stop the pheromones. Eito accepts this, but tells Takumi he should return to his room and he and Nozomi will go inform Yugamu.",
+                                                          "days": [
+                                                            50
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Nozomi arrives at Takumi's room to inform him the drug is finished and that everyone want sto be there as he takes it, so he heads for the caf. Yugamu gives Takumi the drug, which he takes. Moments after taking the drug, Takumi finds himself paralyzed. Yugamu reveals that it was a drug that shuts out all signals to the brain, and that the SDU came to a unanimous decision to do this. They would rather do this than go back to what their lives were like before. The SDU informs him that will be worshipped as a god, and that they will always take care of him and keep him alive. Eito then states that all that remains to do is get rid of Nozomi. The SDU beats Nozomi to death, as a group, one strike at a time, one member at a time, in cycles. After this the scene cuts to a naked Takumi on a bed with a naked Eito over him telling him that he did nothing wrong, and they'll prove it to him. Eito informs him that he will become the God of humanity and that all will bow down to him. Eito also says that he got a special reward at everyone's behest, and that he gets to spend time with Takumi as he pleases. Eito then states that he's never done anything like this, as he's never been able to feel like this towards another human or want one like this. After this Takumi gives up on feeling, forced to watch over humanity as an object.",
+                                                          "days": [
+                                                            51
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
                                             }
                                           },
                                           {
@@ -1731,7 +1872,210 @@
                                                                                     "direction": "left",
                                                                                     "name": "Yes",
                                                                                     "route": {
-                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH"
+                                                                                      "name": "Chapter05_0",
+                                                                                      "deaths": [
+                                                                                        {
+                                                                                          "id": "eito",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            57
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "eva",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            61
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi kills Eito with his sword, but as soon as that occurs, Eito's cryptoglobin starts flowing into Takumi, forcing itself into him. The SDU after this, asks Sirei for an explaination about what Eito said and why the commanders call them the invaders.",
+                                                                                          "days": [
+                                                                                            57
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi in his room, starts having hot flashes and thinking about how ugly and disgusting Eito was, which is why he had to kill him. These thoughts freak him out, but he makes it through it.",
+                                                                                          "days": [
+                                                                                            57
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi wakes up and heads to the cafeteria, wher ehe is the first one. Moments later, Eito walks in, freaking Takumi out. He screams about, causing others to run in, who are also Eito. For a total of 4 Eitos in the caf.",
+                                                                                          "days": [
+                                                                                            58
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi, after going to his room and taking a nap, sees Eito sitting on his couch talking to him. Takumi asks if it was a dream, and Eito snaps his fingers, making Takumi wake up. Then after Takumi goes back to sleep again, he's back to seeing and speaking to Eito. Eito reveals that he is now embedded into Takumi, that his consciousness was transfered into him. Eito informs Takumi that he has now developed a cognitive disorder, absorbing Eito's defect causing people to look like him. Eito reveals that he has created an extra Eito in the school with the hemoanima he still has control over. Eito gives Takumi a challenge: find and eliminate the 11th Eito that he made, and he will fade and Takumi's brain will go back to normal. Eito then snaps his fingers, waking Takumi up again, and then Takumi flicks Takumi on the forehead. Eito is able to control parts of Takumi's body and forced him to do that. Eito directly threatens Nozomi, so Takumi takes the challenge. Eito informs Takumi that he will probably be able to take over the body on day 63, giving him until day 62 to come up with an answer, so 4 days total. Eito awakens Takumi again. Takumi begins the hunt.",
+                                                                                          "days": [
+                                                                                            58
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi goes to speak to an Eito in the leisure lounge, and strikes up a conversation to see if he can find anything. The Eito however replies as the real Eito would, talking about how Takumi really wanted to take his time killing him. He then goes to speak to another Eito in the rec room, who also speaks exactly as the real Eito would. He finds yet another Eito in the infirmary, who also does it. Takumi spends the rest of the day speaking with Eitos, who all speak as if they were Eito.",
+                                                                                          "days": [
+                                                                                            58
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi comes up with the plan to see if he can tell the Eito's apart by touch. He goes around to every Eito he can find and gives them all sticky notes with a number on them that he has them attach to their chest. After sticking them onto 9 Eitos, he sees that the number is now 1, this occurs after getting a notable headache and getting dizzy. This Eito also says thta now everyone has the number 1 on them, which Takumi confirms. Eito then reveals that he took control of Takumi's body to write 1 on each note and altered his perception so it looked like the correct numbers.",
+                                                                                          "days": [
+                                                                                            59
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi exits his room in the morning, finds an Eito in the war room, and tries to get him to use his infuser to battle with him. The Eito says he doesn't want to, then 2 more run in to try and stop it. All three of the Eito's then agree to do a battle with him. Takumi plans to use the attack types he recieves to determine who's who, however Eito takes control of his body again in order to block everyone's attacks. This lasts for 30 minutes wherein Eito blocks perfectly the entire time. Eito (brain) compliments Takumi on the idea afterwards, but says he can't allow Takumi to get hurt.",
+                                                                                          "days": [
+                                                                                            60
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi enters the courtyard and finds that Eva still looks and sounds like Eva, that Eito couldn't modify perception of her. Takumi then explains everything to Eva and has her help him with his task. Right after letting her out of the cage though, Eito uses his body to stab Eva through the back, directly through the heart, killing her with a knife Eito took when Takumi was sleeping. Eito then convinces Takumi to dispose of the body and hide all evidence. Takumi buries her body in a corner of the schoolyard.",
+                                                                                          "days": [
+                                                                                            61
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
+                                                                                      "branch": {
+                                                                                        "name": "Where's the 11th Eito?",
+                                                                                        "day": 62,
+                                                                                        "choices": [
+                                                                                          {
+                                                                                            "direction": "left",
+                                                                                            "name": "Not Here.",
+                                                                                            "route": {
+                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH LEFT BRANCH"
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "direction": "right",
+                                                                                            "name": "I Found Him.",
+                                                                                            "route": {
+                                                                                              "name": "Chapter05_0_b",
+                                                                                              "deaths": [
+                                                                                                {
+                                                                                                  "id": "takemaru",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "hiruko",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "tsubasa",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "gaku",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "ima",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "kako",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "shouma",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "nozomi",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "yugamu",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "moko",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                }
+                                                                                              ],
+                                                                                              "events": [
+                                                                                                {
+                                                                                                  "name": "Takumi determines that the 11th Eito has actually been camped out within Eito's room the whole time as that's within the rules. Takumi rushes into the room, finds Eito there, and kills him. However, after killing him Eito has Takumi look at the note on them whereon the back it says \"Come to Eito's room on Day 62. Wait for me inside. I'll explain everything later, but don't tell anyone about this until I do.\" Another Eito walks in, and Takumi in his rage kills him, as Eito informs him that multiple people were given that note, and he notes that \"she\" was the first one to show up. Eito forces Takumi to absorb the cryptoglobin of both dead Eitos. Takumi leaves the room, goes to the caf, sees three Eitos, and kills and absorbs all of them in his class armour. Neither of those Eitos were fake, as were any of the others he killed throughout the day.",
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                }
+                                                                                              ],
+                                                                                              "branch": {
+                                                                                                "name": "The Hate\u2026",
+                                                                                                "day": 62,
+                                                                                                "choices": [
+                                                                                                  {
+                                                                                                    "direction": "left",
+                                                                                                    "name": "Embrace It",
+                                                                                                    "route": {
+                                                                                                      "name": "011: Multiple Eitos Route: Eternal Hate",
+                                                                                                      "deaths": [
+                                                                                                        {
+                                                                                                          "id": "sirei",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "events": [
+                                                                                                        {
+                                                                                                          "name": "Takumi fully gives into his hatred, he kills the Eito in front of him, swinging until he can't feel anything anymore. He then enters the Defense Room, kills Sirei, gets blown up, and then reenters the Defense Room. He searches for the last Eito,",
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  },
+                                                                                                  {
+                                                                                                    "direction": "right",
+                                                                                                    "name": "Reject It",
+                                                                                                    "route": {
+                                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH RIGHT BRANCH"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        ]
+                                                                                      }
                                                                                     }
                                                                                   },
                                                                                   {
