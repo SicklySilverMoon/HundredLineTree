@@ -1410,16 +1410,308 @@
                                             "direction": "right",
                                             "name": "Tsubasa",
                                             "route": {
-                                              "name": "Route 1 Right LEFT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH",
+                                              "name": "Chapter10_B",
                                               "deaths": [
                                                 {
-                                                  "id": "tsubasa",
+                                                  "id": "sirei",
                                                   "count": 1,
                                                   "days": [
                                                     15
                                                   ]
                                                 }
-                                              ]
+                                              ],
+                                              "events": [
+                                                {
+                                                  "name": "Tsubasa falters when attempting to blow up the bomb and fails to detonate it. V'ehxness informs Tsubasa that she will be saved for last in the death cycle. Everyone else rushes out and prepares to face her head on no matter what. The battle begins again.",
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "V'ehxness defeats the SDU and takes them prisoner, as Zen'ta informs her they have seized the Revive-O-Matic. V'ehxness then begins to interrogate Takumi, saying that if he tells her everything she will take him as a slave and keep him as a pet. Takumi asks who would ever want to belong to her.",
+                                                  "days": [
+                                                    15
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "V'ehxness wakes Takumi up and informs him that he will be kept alive, at least until she can figure out everything in the school and humanity's plans.",
+                                                  "days": [
+                                                    16
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Meanwhile, Takemaru is being kicked around by Addamaque as Tsubasa shows Eva around the school.",
+                                                  "days": [
+                                                    16
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up on day 17, to see Tsubasa bringing him food. She then goes to all the other SDU members and delivers them food. Gaku asks her why she's the only one not chained up, which she dodges the question of.",
+                                                  "days": [
+                                                    17
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Tsubasa delivers food again, asks Takumi if he thinks she's a traitor, and he says no and that what happened happened. Tsubasa says he could have picked any of the others instead. V'ehxness enters the leisure lounge to rub in Takumi's mistakes.",
+                                                  "days": [
+                                                    20
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "After being fed by Tsubasa, V'ehxness brings Takumi a chair and plays a game with him: each time Takumi answers a question she will answer one of his. The catch is that she will tell one and only one lie throughout and that Takumi must guess it, if he does she will remove his shackles. Takumi asks if she has any family, she answers that she has a younger sister who's in charge of watching over Tsubasa, and that her parents are dead. V'ehxness asks what Takumi feels when he absorbs someone's power, he answers that he got stronger. V'ehxness reveals that the taboo against cannabalism was enstated in order to prevent self-sacrifice. V'ehxness asks what Takumi felt when he killed their heroes, if he ever considered their lives. Takumi can't even answer as he goes through the implications of them having lives and wills of their own. V'ehxness says that she is having a lot of fun with Takumi. Quenzelle runs in and informs V'ehxness that they found the device housing the Second Coming. She then leaves to handle that and tells Takumi they will resume tomorrow.",
+                                                  "days": [
+                                                    21
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "V'ehxness once again comes to visit Takumi, this time with blood on her hands. She reveals she was torturing someone, Takumi asks who, she says she didn't bother asks for a name. She then highlights that Takumi's concern seems more personal, and asks if he has someone he is partial to. Takumi's reaction gives her the answer yes. She then says the blood is annoying her, and strips to go swimming in the pool, fully nude. She asks if Takumi wants to swim as well, and that she can remove his chains to do so and that she will not drown him. He passes. She explains that the ability for the SDU to come back to life is a weakness as they are not truly fighting in a way that can be a sacrifice. She gets out of the water and puts her clothes back on. Takumi's first question to her is who she was talking about when she said a man once looked at her with the same look as him. She reveals that it was the man who raised her, and that he looked at her after defeating Dahl'xia. V'ehxness asks if Takumi felt iolated from his friends due to his coming back in time and knowing things they couldn't. V'ehxness then ends the game there and leaves.",
+                                                  "days": [
+                                                    22
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "After this Nigou slides a tile to the side and comes up from the floor to talk to Takumi, revealing that Sirei hid him away in case something happened. He then says they took apart Sirei and trying to get info out of his body. Nigou asks Takumi to cozy up to V'ehxness and to assassinate her. Takumi says he will do his best. Nigou goes back into hiding to try and figure out a way to get everyone out of there.",
+                                                  "days": [
+                                                    22
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Addamaque reveals that he is going to go back to their main base, and break Dahl'xia out of his cage and try to have him defeat V'ehxness.",
+                                                  "days": [
+                                                    22
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "V'ehxness visits Takumi again, and asks why he will not eat. He says that her staring freaks him out and she doesn't understand why. V'ehxness then continues the game. Takumi asks what the paragon titles mean, she replies that it is based on what the Oracle names them based on their qualities. V'ehxness asks Takumi what hope is, Takumi answers that it is the will to keep moving towards the future. Takumi asks her what hope is, and she says to make the impossible possible. V'ehxness tells Takumi that he also has this determination, that he made the impossible possible by turning back time, consuming his own life to become hope for his team. V'ehxness ends their game there, and Takumi retorts that he is about used to the chains anyways. V'ehxness asks him for his name, as she has decided that he is worth being called by his name.",
+                                                  "days": [
+                                                    24
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Addamaque catches Tsubasa looking for something in the weapons room, and pins her against the wall and asks her if they are s till capable of fighting. That if given weapons would they fight. Tsubasa replies that they would. Addamaque reveals his plan to kill V'ehxness, in full detail. He asks Tsubasa to get the SDU to join with him as it would take down V'ehxness.",
+                                                  "days": [
+                                                    24
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Nigou visits Takumi during the night to inform him of the planned coup, and that the coup will catch her off guard and give Takumi a chance to assassinate her.",
+                                                  "days": [
+                                                    26
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to a rumbling noise, and opens his eyes to V'ehxness sitting on a sitting in front of him, with candles in front of her. She says she had been reading about human culture, and learned that humans sleep on beds. So she brought Takumi a bed he could sleep on for tonight. Takumi sits down on the bed next to V'ehxness, after which she stands up. She then says that she hardly ever sleeps, ever since becoming Supreme Commander. She begins the game and asks Takumi if he would serve her, become one of her subordinates. Takumi asks for a question before answering, so he asks if it is possible for them to coexist. V'ehxness answers no, only saying that Takumi may live. When V'ehxness asks him again to join, Takumi moves back to the floor and says that he will not. V'ehxness gives him the bed anyways, and continues watching Takumi until he falls asleep.",
+                                                  "days": [
+                                                    26
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Addamaque once against talks to Tsubasa, informing her the plan is going forward. Telling her to get the weapons and get them to everyone for when the fight starts.",
+                                                  "days": [
+                                                    26
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Nigou delivers Takumi's infuser to him, along with the key to his shackles. Then informs him the coup happens tomorrow and that's when he will have to kill V'ehxness.",
+                                                  "days": [
+                                                    27
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "V'ehxness brings Takumi another chair, and spends a lot of time staring at Takumi. Before finally saying that this place relaxes her. Takumi manages to ask one question: if she has told her lie yet. She answers no. Then Takumi and V'ehxness feel a shock, which she reveals is Dahl'xia coming to the acaemy. As this occurs, Tsubasa and Gaku deliver everyone's infusers to them as they prepare to fight.",
+                                                  "days": [
+                                                    28
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Meanwhile, the commanders discuss events. Addamque tells Quenzelle he can leave, but Quenzelle reveals that he is siding with V'ehxness. As that occurs Dahl'xia arrives and states that he will not allow any deaths but that he will show no mercy.",
+                                                  "days": [
+                                                    28
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "V'ehxness informs Takumi that she is certain of victory, that she will defeat everyone and consume them. She turns her back to Takumi and prepares.",
+                                                  "days": [
+                                                    28
+                                                  ]
+                                                }
+                                              ],
+                                              "branch": {
+                                                "name": "How Will You Deal With V'ehxness?",
+                                                "day": 28,
+                                                "choices": [
+                                                  {
+                                                    "direction": "left",
+                                                    "name": "Assassinate Her",
+                                                    "route": {
+                                                      "name": "043: V'ehxness Route: Making the Impossible Possible",
+                                                      "deaths": [
+                                                        {
+                                                          "id": "eito",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "tsubasa",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "takemaru",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "moko",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "hiruko",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "ima",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "kako",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "gaku",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "nigou",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "yugamu",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "shouma",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "nozomi",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "kurara",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "kyoshika",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "commander0",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "eva",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "commander3",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "commander4",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "commander7",
+                                                          "count": 1,
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "takumi",
+                                                          "count": 1,
+                                                          "days": [
+                                                            34
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi transformers into his class armour, then stabs V'ehxness in the back, attempting to kill and absorb her cryptoglobin. V'ehxness reveals that this is exactly what she anticipated, and thanks Takumi. She reveals that her strength isolated her as no one was ever willing to challenge her, making Takumi her much needed hope. She also reveals the lie was that she did not kill her father. However she still believed in the commandments due to him, but Takumi, godless and unafraid, was the one who shattered those. She then proceeds to chain Takumi by his neck and drag him around with her, forcing him to witness her ascent to godhood. However, even throughout this, V'ehxness didn't absorb any cryptogloblin. Finally V'ehxness and Dahl'xia meet in the gym, as Dahl'xia reveals that he did not absorb the Second Coming. Dahl'xia is easily defeated by her, Takumi asks her to kill Dahl'xia rather than torture him. In response V'ehxness reveals that she didn't aborb any cryptoglobin in order to have Takumi take it and become powerful enough to properly battle her. She sets him free so he can do this. Takumi then absorb everyone's cryptoglobin, and prepares to kill V'ehxness. They meet in the school's yard and prepare to fight.",
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi and V'ehxness fought for four days, and after defeating Takumi she rested for two days. After this Nyewgank informs her of the timespan and asks if he will be punished for his survivial. V'ehxness allows him to leave with his life. She also states she has never been this happy before and that she likely never will be again. Afterwards, she stands in the defense room and prepares to absorb the Second Coming. Although she knows that she will never stand shoulder-to-shoulder with anyone again now that Takumi is dead. She thanks Takumi one last time.",
+                                                          "days": [
+                                                            34
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "direction": "right",
+                                                    "name": "Persuade Her",
+                                                    "route": {
+                                                      "name": "Chapter10_B RIGHT BRANCH"
+                                                    }
+                                                  }
+                                                ]
+                                              }
                                             }
                                           },
                                           {
@@ -1947,7 +2239,66 @@
                                                                                             "direction": "left",
                                                                                             "name": "Not Here.",
                                                                                             "route": {
-                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH LEFT BRANCH"
+                                                                                              "name": "Chapter05_0_a",
+                                                                                              "events": [
+                                                                                                {
+                                                                                                  "name": "Takumi states that there's no eleventh Eito, Eito asks him to confirm that he has lost.",
+                                                                                                  "days": [
+                                                                                                    62
+                                                                                                  ]
+                                                                                                }
+                                                                                              ],
+                                                                                              "branch": {
+                                                                                                "name": "What Do You Say?",
+                                                                                                "day": 62,
+                                                                                                "choices": [
+                                                                                                  {
+                                                                                                    "direction": "left",
+                                                                                                    "name": "I Lose.",
+                                                                                                    "route": {
+                                                                                                      "name": "009: Multiple Eitos Route: Endurance Match",
+                                                                                                      "deaths": [
+                                                                                                        {
+                                                                                                          "id": "eito",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "events": [
+                                                                                                        {
+                                                                                                          "name": "Takumi informs Eito that he has lost. Eito tells him not to insult his intelligence, and that if he had really lost his spirit would have crumbled, but that he can still sense the fight in him. Eito orders Takumi to surrender, to give in to despair. Takumi however realizes that Eito can't take his body unless he gives into the despair and Eito. Takumi then stabs himself in the thigh with the knife that killed Eva. Takumi uses this to deduce that Eito can also feel pain, and uses this to inflict pain onto Eito via killing himself. He reveals his plan and his challenge: kill himself over and over to see if Eito can last through it all, and keep going until Eito fades away. After the first death via stabbing and being brought back by the Revive-O-Matic, Takumi elects to jump off the roof, after that he hangs himself, after that every kind of death he can think of: lighting himself on fire, drowning, taking  poison, anything he can think of. After over 100 iterations of this, some of the other Eitos grab his arm and try to stop him, however he jumps off the roof anyways. They're still there when he revives and says they won't move until he gives them an answer. Takumi in response simply stabs himself and dies that way. Upon waking up again, he stabs himself again, as Eito (brain) informs him that neither of them will last much longer. Several Eitos gather in Takumi's room and try to stop him, they brainstorm what could be happening. They then realize that Takumi absorbed Eito and part of his consciousness, and that he is using the pain of death to wipe out the Eito in his brain. Meanwhile Takumi kills himself via car exhaust. After Takumi wakes up, he walks to the edge of the roof again, but this time sees all the Eitos below cheering him on to not let Eito beat him. Takumi kills himself by jumping in front of them. When he wakes up they're there in his room cheering him on. So the cycle continued, hitting over 500 deaths, before finally passing out. When he wakes up, the SDU is begging him to come back, all of them in their normal bodies, meaning Takumi has won. Gaku reveals Tsubasa threw up every single time Takumi died. However, he stumbles over his words and says \"Takumi, I mean I'm back now\" and gains a big smile saying \"Now that I'm back the fun can really begin\".",
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  },
+                                                                                                  {
+                                                                                                    "direction": "right",
+                                                                                                    "name": "You Win.",
+                                                                                                    "route": {
+                                                                                                      "name": "010: Multiple Eitos Route: Together Forever",
+                                                                                                      "events": [
+                                                                                                        {
+                                                                                                          "name": "Takumi informs Eito that he has won, and that Takumi is out of ideas. Eito asks if he's just giving up after sticking to his ideals for so long, he seems very disappointed with this. Eito tells Takumi to stop it and that he didn't want to see him like this, reminding him of what's at stake if he loses. Takumi says he's just going to go to Sirei about it to tell him and have him deal with it. As he prepares to leave, Eito locks his legs. He says that he will not allow his story to end in such a mundane way and that just having Takumi die isn't what he really wanted. Eito then forcefully takes over Takumi's body.",
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Takumi wakes up in his room the next day, day 63, and tries to figure out what happened and how he's still in control. After washing his face he looks in the mirror and sees Eito staring back at him, as Eito says hello. Eito informs him that what he really wanted was to see Takumi absorbed by despair and himself to taste victory. He then informs Takumi that he power faded and that all he could do was to forever live in Takumi's brain. However, Takumi is still stuck seeing Eito in the mirror as himself. Eito tells him to cheer up as he'll never be alone again.",
+                                                                                                          "days": [
+                                                                                                            63
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
                                                                                             }
                                                                                           },
                                                                                           {
@@ -1957,55 +2308,6 @@
                                                                                               "name": "Chapter05_0_b",
                                                                                               "deaths": [
                                                                                                 {
-                                                                                                  "id": "takemaru",
-                                                                                                  "count": 1,
-                                                                                                  "days": [
-                                                                                                    62
-                                                                                                  ]
-                                                                                                },
-                                                                                                {
-                                                                                                  "id": "hiruko",
-                                                                                                  "count": 1,
-                                                                                                  "days": [
-                                                                                                    62
-                                                                                                  ]
-                                                                                                },
-                                                                                                {
-                                                                                                  "id": "tsubasa",
-                                                                                                  "count": 1,
-                                                                                                  "days": [
-                                                                                                    62
-                                                                                                  ]
-                                                                                                },
-                                                                                                {
-                                                                                                  "id": "gaku",
-                                                                                                  "count": 1,
-                                                                                                  "days": [
-                                                                                                    62
-                                                                                                  ]
-                                                                                                },
-                                                                                                {
-                                                                                                  "id": "ima",
-                                                                                                  "count": 1,
-                                                                                                  "days": [
-                                                                                                    62
-                                                                                                  ]
-                                                                                                },
-                                                                                                {
-                                                                                                  "id": "kako",
-                                                                                                  "count": 1,
-                                                                                                  "days": [
-                                                                                                    62
-                                                                                                  ]
-                                                                                                },
-                                                                                                {
-                                                                                                  "id": "shouma",
-                                                                                                  "count": 1,
-                                                                                                  "days": [
-                                                                                                    62
-                                                                                                  ]
-                                                                                                },
-                                                                                                {
                                                                                                   "id": "nozomi",
                                                                                                   "count": 1,
                                                                                                   "days": [
@@ -2013,15 +2315,8 @@
                                                                                                   ]
                                                                                                 },
                                                                                                 {
-                                                                                                  "id": "yugamu",
-                                                                                                  "count": 1,
-                                                                                                  "days": [
-                                                                                                    62
-                                                                                                  ]
-                                                                                                },
-                                                                                                {
-                                                                                                  "id": "moko",
-                                                                                                  "count": 1,
+                                                                                                  "id": "eito",
+                                                                                                  "count": 7,
                                                                                                   "days": [
                                                                                                     62
                                                                                                   ]
@@ -2051,6 +2346,76 @@
                                                                                                           "days": [
                                                                                                             62
                                                                                                           ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "ghost",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "takemaru",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "hiruko",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "tsubasa",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "gaku",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "ima",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "kako",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "shouma",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "yugamu",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "moko",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
                                                                                                         }
                                                                                                       ],
                                                                                                       "events": [
@@ -2067,7 +2432,24 @@
                                                                                                     "direction": "right",
                                                                                                     "name": "Reject It",
                                                                                                     "route": {
-                                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH RIGHT BRANCH"
+                                                                                                      "name": "012: Multiple Eitos Route: A Tragic End",
+                                                                                                      "deaths": [
+                                                                                                        {
+                                                                                                          "id": "takumi",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "events": [
+                                                                                                        {
+                                                                                                          "name": "Takumi rejects the hate he is feeling, and stabs himself. He then shouts that the 11th Eito is real, and its in his head, so that the only way to defeat him is to be killed himself. But he doesn't have to do it, the surviving members of the SDU walk in and Takumi asks them to kill him. They agree to with sorrow, and share the killing blow.",
+                                                                                                          "days": [
+                                                                                                            62
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
                                                                                                     }
                                                                                                   }
                                                                                                 ]
