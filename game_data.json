@@ -681,7 +681,271 @@
                                                     "direction": "left",
                                                     "name": "Yes",
                                                     "route": {
-                                                      "name": "Chapter15_A_aa LEFT BRANCH"
+                                                      "name": "Chapter15_A_aaa",
+                                                      "deaths": [
+                                                        {
+                                                          "id": "moko",
+                                                          "count": 1,
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "commander11",
+                                                          "count": 1,
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "commander10",
+                                                          "count": 1,
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "commander4",
+                                                          "count": 1,
+                                                          "days": [
+                                                            56
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi leaves Moko behind in order to bring Nozomi back to the SDU safely. Moko accepts this fate, and knocks Kyoshika out to prevent her from arguing. Moko gives Takumi her golden earbuds. As they drive away, they look back to see how Moko is faring as she says she will not allow the commander to pass while she is still alive.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Upon getting back, they leave Nozomi in her room, and head to the defense room. The Sponsor appears and informs them that the rest of the SDU is stuck in the illusion world, and only the anti-Sponsor squad plus Darumi is ok. The reminaing members begin the battle against Squad 11.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The awake SDU members destroy the sources of noise, causing Turamtammi to enter the battle.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Squad 10 enters the battle.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "After the battle, the Sponsor steps in, takes the cryptoglobin, and distributes it to Darumi, Takumi, and Yugamu. Takumi injects his into Nozomi in order to heal her.",
+                                                          "days": [
+                                                            47
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Yugamu enters Takumi's room to inform him that Nozomi's health is failing. Takumi determines its due to rejection symptoms. They go to ask Eva for a cryptoglobin donation, but she refuses due to it being a taboo. Takumi offers her escape in exchange for her blood, and she accepts. They bring Nozomi to Eva, and have her literally drink blood from Eva's neck. Nozomi starts blurting out memories and statements about her mother, Eva attempts to console her about the choices that were made.",
+                                                          "days": [
+                                                            48
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi goes to speak with Eva the next day, where she calls Nozomi \"my dear Nozomi\", and reveals that they are now blood relatives and that she was able to see into Nozomi's memories. Afterwards, Nozomi comes in feeling better and unable to remember the events. Nozomi then calls her mommy, then says it was a mistake. Nozomi asks to take over and Eva's caretaker and Eva asks to stay for a few days until she is better.",
+                                                          "days": [
+                                                            49
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi goes to check on Eva and Nozomi, and finds Nozomi within Eva's cage feeding her, to Eva's embarrassment. Eva mentions that Nozomi's cooking skills need work, and they start speaking liking mother and daughter. Nozomi stays behind as everyone else ventures out for points.",
+                                                          "days": [
+                                                            50
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi enters the courtyard to find Eva and Nozomi fighting, after Nozomi storms off Takumi asks what happened. Eva reveals that she told Nozomi that her mother was a piece of trash who gave up on life after subjecting her own child to inhumane experiments. Eva then starts to worry that she made Nozomi hate her. Takumi goes to check on Nozomi, and convince her to try and fight. Takumi uses this to try and drive a wedge between them, but it backfires instantly and Nozomi snaps at him to not talk about Eva like that. Takumi proceeds to go off on Nozomi after this and tells her she needs to fight. Nozomi counters by stating that she saw Eva's memories in a dream and understands that Eva never wanted to fight, and hated life until adopting her daughter Kamyuhn. Takumi understands, but still asks Nozomi to focus on this after the end of the second round. Nozomi states however that she will not fight the invaders anymore and that she will be the one to die in the second round.",
+                                                          "days": [
+                                                            52
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The anti-Sponsor alliance heads back to the SDU in order to kidnap Nozomi and force her onto the battlefield. However upon arriving they find Takemaru, Ima, and Kako attempting to take Eva and drag her out and kill her for points. Nozomi is defending her, beaten and bloody, then she passes out. The Anti-Sponsor Alliance begins a battle against Takemaru's team, winner decides Eva's fate.",
+                                                          "days": [
+                                                            54
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The Anti-Sponsor Alliance wins the fight, bring Takemaru's team to the Revive-O-Matic, and then check in on Eva and Nozomi, who are exchanging blood again.",
+                                                          "days": [
+                                                            54
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The Anti-Sponsor Alliance releases Eva who intends to go to a safehouse with her daughter until the war ends.",
+                                                          "days": [
+                                                            54
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Nozomi wakes up 2 days after, promises to survive the hunt and continue on so she can see Eva again some day.",
+                                                          "days": [
+                                                            56
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The entire SDU (after a small fight between factions), leaves on the bus to go find an invader base to score many points. With the Anti-Sponsor Alliance hoping it will allow them to secure enough points for Nozomi via killing a commander. Upon arriving though, Nozomi senses Eva. The rest of the SDU tells her to ignore it for now and focus on killing enemies. The battle begins.",
+                                                          "days": [
+                                                            56
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Quenzelle (Squad 4 Commander) enters the battle.",
+                                                          "days": [
+                                                            56
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "After defeating the commander, they find Nozomi missing. They find her with Eva, who asks Nozomi to get her water and painkillers, then asks Takumi why they're really here. Takumi explains about the Sponsor and the killing game. Eva in response, digs into her eyes, and pulls out 2 small circuits. Telling Takumi to decipher the red one at the SDU and give the blue one to \"whom it is due\". She then pulls out a small bead from her throat, that is the detonator for the bomb implanted within Eva's body. Eva asks Takumi to have Nozomi detonate it to score points in the hunt. Nozomi comes back and Takumi has to decide whether to have Nozomi detonate the bomb or not.",
+                                                          "days": [
+                                                            56
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "branch": {
+                                                        "name": "Kill Eva?",
+                                                        "day": 56,
+                                                        "choices": [
+                                                          {
+                                                            "direction": "left",
+                                                            "name": "Yes",
+                                                            "route": {
+                                                              "name": "Chapter15_A_aaaa",
+                                                              "deaths": [
+                                                                {
+                                                                  "id": "eva",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "commander7",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    57
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "sponsor",
+                                                                  "count": 7,
+                                                                  "days": [
+                                                                    58
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "kyoshika",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    58
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "events": [
+                                                                {
+                                                                  "name": "Takumi gives Nozomi the detonator and has her squeeze it, there's a bright flash that blinds them both for minutes. After it fades, Nozomi is wondering where Eva went, seemingly not knowing that she died.",
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The SDU arrives back at LDA, just in time to put Nozomi to bed and have a battle against Squad 7 begin.",
+                                                                  "days": [
+                                                                    57
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Kyoshika falls into last place, and is executed by the Sponsor at midnight. Yugamu reveals that he poisoned Kyoshika shortly before her death, and it is now within the Sponsor and all their bodies. The last remaining Sponsor body demands that the bees attack Yugamu, but they do not since he has not broken any rules. With this the Sponsor dies, although he reveals that the hunt continues even if he dies, and that their will has passed onto their successor who will continue the game. After this, they detonate their own body and fade.",
+                                                                  "days": [
+                                                                    58
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Tsubasa barges into Takumi's room and informs him that what was on the red chip was a map that Eva left, and that they can arrive there and back with the bus within the day. They arrive to find a cave, inside they find Eva's daughter who asks for water after being woken up and carried out by them. Takumi, to prove he knew Eva, gives Kamyuhn the blue chip. Who runs back into the cave, and does not emerge. This forces Takumi and Tsubasa to share a blanket on the bus somewhat awkwardly, before talking and settling into the mood and discussing their past. Eventually they fall asleep.",
+                                                                  "days": [
+                                                                    61
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Kamyuhn eventually comes out of the cave and informs Takumi and Tsubasa that she went through the chip and saw Eva's memories since leaving. Even learning that Eva died for Nozomi, she tries to pass it off as her not caring, but shortly into it breaks down into tears. Takumi and Tsubasa take her back to the SDU so she can meet Nozomi at her request, and also to take care of her. They stash her in the rocket room since the Anti-Sponsor Alliance is the only group that knows of it. Finally, they bring Nozomi there to introduce them to each other. Nozomi instantly hugs Kamyuhn and shrieks in joy, treating her as a little sister already.",
+                                                                  "days": [
+                                                                    62
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Battle against a commanderless squad, that begins screaming.",
+                                                                  "days": [
+                                                                    63
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "After the battle, the Anti-Sponsor Alliance goes to speak with Kamyuhn, where she reveals she is a Shrine Maden who's cryptoglobin gives her godly wisdom, albeit unable to transform. Kamyuhn joins the Anti-Sponsor Alliance.",
+                                                                  "days": [
+                                                                    63
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "After waking up, someone uses the speakers to announce that the third round of the Invader Hunt is starting and to come to the leisure lounge for more info. Upon arriving they find, the Sponsor, albeit with a higher pitched voice and new speaking style, but the same suit. They request to be called just the Sponsor as well. They do reveal that they only have the one body, Yugamu attempts to attack with a standard knife after being challenged to a one-on-one fight with the Sponsor. Yugamu however, detonates, with the Sponsor revealing that they have a remote that allows them to detonate the bombs placed in everyone (it has cute chibi buttons for everyone still alive).",
+                                                                  "days": [
+                                                                    64
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "After that, the Anti-Sponsor Alliance meets with Kamyuhn who reveals that she can fix the rocket's motherboard in only 5 days.",
+                                                                  "days": [
+                                                                    64
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The Anti-Sponsor Alliance begins working on the escape pod in the afternoons after hunting in the mornings. After 5 days, the pod is fully repaired.",
+                                                                  "days": [
+                                                                    65,
+                                                                    66,
+                                                                    67,
+                                                                    68,
+                                                                    69
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Tsubasa asks Takumi for a reward for her hard work, reminding Takumi that he said he was going to do things properly. As he is about to kiss her as she seemingly wants, Kamyuhn reveals that the rocket is out of fuel, interrupting them. They pull Yugamu and Nozomi in to inform them of this. Kamyuhn further states that the fuel for the rocket is cryptoglobin, Kamyuhn suggests using Dahl'xia for the fuel.",
+                                                                  "days": [
+                                                                    69
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Throughout the days the Anti-Sponsor Alliance is unable to find any invaders, worrying them since Tsubasa is in last place.",
+                                                                  "days": [
+                                                                    69,
+                                                                    70,
+                                                                    71
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Battle against a commanderless screaming squad.",
+                                                                  "days": [
+                                                                    72
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "direction": "right",
+                                                            "name": "No",
+                                                            "route": {
+                                                              "name": "Chapter15_A_aa LEFT BRANCH RIGHT BRANCH"
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
                                                     }
                                                   },
                                                   {
@@ -1707,7 +1971,21 @@
                                                     "direction": "right",
                                                     "name": "Persuade Her",
                                                     "route": {
-                                                      "name": "Chapter10_B RIGHT BRANCH"
+                                                      "name": "044: V'ehxness Route: Here With You",
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi attempts to talk V'ehxness out of murdering everyone. Starting by informing her that if she kills everyone there will be none left to worship her. She mentions its a good attempt but that it will not work on her, that she knows her own greatness and doesn't need anyone else but Takumi. She then slashes Takumi's leg, mentioning cowardly tricks don't impress her, reveals that the lie was that she killed her father. She then orders to Takumi to wait for her to return. Meanwhile the SDU heads towards the Defense Room as Tsubasa stays to go get Takumi. Addamaque runs into her and tells her to go to Dahl'xia, and asks her to consume his power. After a brief bonding moment, she does so. Back to Takumi, Turamtammi runs into the leisure lounge and confronts Takumi, saying that ever since V'ehxness started talking to him she's been losing it. She proceeds to attempt to murder Takumi, but V'ehxness interrupts, taking a deep wound to save Takumi, and then kills and absorbs Turamtammi. Hiruko then enters, deals a blow to V'ehxness, and orders Takumi to kill V'ehxness. Takumi asks V'ehxness if she's ok, and chooses to save her. Saying he's just returning the favour of her saving him. V'ehxness protests, saying this is best opportunity. Takumi retorts that he still isn't done trying to make her see things his way, and that if she really wanted to kill him she would have done it already. Tsubasa then arrives, and stabs both Takumi and V'ehxness, saying she had to kill both in order to win. Takumi blacked out, only able to hear that V'ehxness yelled that she wouldn't let anyone else take Takumi and escaped with him.",
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Later, in the woods somewhere, Takumi wakes up next to a fallen V'ehxness, both of them bleeding out, holding hands. She asks if he regrets the way things turned, Takumi says he is unsure, and asks her. She says she regrets nothing, and that she did as she pleased. She reveals that she spent much time here as a child, with her sister and her father.",
+                                                          "days": [
+                                                            28
+                                                          ]
+                                                        }
+                                                      ]
                                                     }
                                                   }
                                                 ]
