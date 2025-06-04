@@ -224,6 +224,11 @@
       "first": "Dalh'xia",
       "title": "The Paragon of Warfare",
       "position": "Squad 0 Commander"
+    },
+    {
+      "id": "kamyuhn",
+      "full": "Kamyuhn",
+      "first": "Kamyuhn"
     }
   ],
   "routes": [
@@ -933,8 +938,172 @@
                                                                   "days": [
                                                                     72
                                                                   ]
+                                                                },
+                                                                {
+                                                                  "name": "The Anti-Sponsor Alliance agrees to add Darumi to the group in order to be able to find invaders. Takumi goes to her room to spam her doorbell to try and find her. He enters her room to find her in there, just staring blanking at the ceiling, and saying how bored she was. She then starts to bang her head against the wall trying to kill herself. Takumi stops her, explains the the idea and plan, and asks her to join. Darumi, gets very mad at the idea of ending the game and says she will not let them destroy it, yelling at Takumi to get out.",
+                                                                  "days": [
+                                                                    72
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "As the Anti-Sponsor Alliance is out looking for invaders, Darumi finds them and states they are trying to take away the only thing she loves. She then states she is going to kill them, and the battle begins.",
+                                                                  "days": [
+                                                                    73
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The Alliance binds Darumi with rope, and takes her back to the school.",
+                                                                  "days": [
+                                                                    73
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The Alliance once again goes out to search for invaders, but Darumi once again finds them and fights them. After defeating her, she starts foaming at the mouth, forcing the alliance to take her back again. The Alliance elects to lock her in a cage in the courtyard, but upon going to her room they find her missing, and not anywhere in the school.",
+                                                                  "days": [
+                                                                    74
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "As the Alliance is out hunting, once again Darumi finds them and is ready to start a fight. However, Dahl'xia appears and challenges them to a fight. Darumi offers to act as a distraction as the Alliance hits him with one large attack. The battle begins.",
+                                                                  "days": [
+                                                                    75
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Dahl'xia after crossing blades with the Alliance, declares them as true warriors and says he will fight them properly at the school. However, he calls Tsubasa a coward and says she doesn't deserve to live, throwing a blade at her. Darumi however, jumps in and takes the attack, then asks to be killed so she can be worth points. The Alliance shoves Darumi onto the bus and floors it back to the LDA, wherein she dies and is revived by the Revive-O-Matic. After that, Darumi reveals that all she really wants is for everyone to kill each other, however Yugamu counters that she's been following because she actually wants to help. Elaborating on his theory, and revealing that everyone in the SDU is a target in the hunt, which is why she wanted them to kill her. Darumi then reveals that she wanted to die like Hiruko, and asks for them to kill her outside of school grounds so they can gain the points. She also states that she can never be happy now that she has killed Hiruko, her first and only friend, and that she doesn't deserve to live after doing so. Tsubasa after hearing this, promises to be Darumi's friend. Tsubasa to show Darumi how prepared she is, reaches out, grabs Darumi's face, and kisses her. Tsubasa then reveals that was her first kiss, an that she is ready to be hurt for Darumi. Darumi then calls her Mistress Tsubasa and promises to follow her for the rest of her life, asking her to kiss her again, then begging her to, then following her out saying she'll follow her to the end of the Earth. Yugamu then asks Takumi to help him show the girls a real girl, Takumi refuses.",
+                                                                  "days": [
+                                                                    75
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The Sponsor approaches Takumi to tell him that they know where the invaders are. They offer Takumi the choice of asking and learning.",
+                                                                  "days": [
+                                                                    76
+                                                                  ]
                                                                 }
-                                                              ]
+                                                              ],
+                                                              "branch": {
+                                                                "name": "Ask Where the Invaders Are?",
+                                                                "day": 76,
+                                                                "choices": [
+                                                                  {
+                                                                    "direction": "left",
+                                                                    "name": "Yes",
+                                                                    "route": {
+                                                                      "name": "Chapter15_A_aaaaa",
+                                                                      "deaths": [
+                                                                        {
+                                                                          "id": "takemaru",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            78
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "events": [
+                                                                        {
+                                                                          "name": "After Takumi asks where the invaders are, the Sponsor hands them a map directing them to a location. Takumi gathers the Alliance, and they take the bus to what seems to be an abandoned mansion. Deep within it, they find many, many invaders. However, after fighting through all the invaders, a group of people come out ready to attack them. The Alliance attempts to leave, but the Sponsor's voice informs them (via bee) that if they leave now Tsubasa will not have enough points and will die. The Sponsor informs them these people are invaders and count as kills, the Sponsor reveals that this is an invader factory and that these people were going to be turned into invaders. They further state these people are worth a very large amount of points. Everyone in the Alliance, even Yugamu, refuses to kill people, until the Sponsor reminds them that Tsubasa will die otherwise. Takumi, willing summons and channels Eito from within, raising his sword to kill, swinging it down as Tsubasa screams.",
+                                                                          "days": [
+                                                                            76
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi hides in his bed for a few days, until Nozomi shows up and informs him that the third round ended, revealing that Takemaru was the one who died. She also reads out a letter from Takemaru apologizing to Takumi, asking him to forgive Ima and kako.",
+                                                                          "days": [
+                                                                            78
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Various people and groups (Nozomi, Yugamu and Darumi, Kamyuhn, the Sponsor, Tsubasa) all visit Takumi to tell him things as he is rotting away, most of them trying to cheer him up and get him out of bed (except the Sponsor who makes fun of him). Culminating in Tsubasa coming in, kissing Takumi, and convincing him to get up with dreams of a better future.",
+                                                                          "days": [
+                                                                            78,
+                                                                            79,
+                                                                            80,
+                                                                            81,
+                                                                            82
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi gathers the Alliance the discuss the plan, they reveal that the next round will be between days 84 and 100. However, they also realize that Dahl'xia can be used as a source of cryptoglobin fuel for the rocket. Kamyuhn suggests using poison to breakdown his defense, however they also discuss the problem of the Sponsor. They ask Takumi which to target first.",
+                                                                          "days": [
+                                                                            83
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "branch": {
+                                                                        "name": "Who Will You Fight First?",
+                                                                        "day": 83,
+                                                                        "choices": [
+                                                                          {
+                                                                            "direction": "left",
+                                                                            "name": "Dahl'xia",
+                                                                            "route": {
+                                                                              "name": "085: Killing Game Route: A Cruel End for Kamyuhn",
+                                                                              "deaths": [
+                                                                                {
+                                                                                  "id": "commander0",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "nozomi",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "kamyuhn",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "events": [
+                                                                                {
+                                                                                  "name": "Dahl'xia shows up and starts a battle against the SDU.",
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The Sponsor sends his bees at Dahl'xia after his defeat, absorbing all his cryptoglobin. They then split the cryptoglobin between Darumi, Takumi, and Yugamu.",
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The Alliance gathers in the rocket room, but can't find Kamyuhn. They look all around, but can't find her, before finally running into the Sponsor. They reveal that killed her and put her cryptoglobin in the syringes with Dahl'xia. Eventually they find her body in a corner of the schoolyard. Nozomi after seeing this, charges directly at the Sponsor, and is executed by the bees.",
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "direction": "right",
+                                                                            "name": "The Sponsor",
+                                                                            "route": {
+                                                                              "name": "Chapter15_A_aaaaa RIGHT BRANCH"
+                                                                            }
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "direction": "right",
+                                                                    "name": "No",
+                                                                    "route": {
+                                                                      "name": "Chapter15_A_aaaa RIGHT BRANCH"
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
                                                             }
                                                           },
                                                           {
