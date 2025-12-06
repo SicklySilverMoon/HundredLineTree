@@ -1088,7 +1088,185 @@
                                                                             "direction": "right",
                                                                             "name": "The Sponsor",
                                                                             "route": {
-                                                                              "name": "Chapter15_A_aaaaa RIGHT BRANCH"
+                                                                              "name": "Chapter15_A_aa4b",
+                                                                              "deaths": [
+                                                                                {
+                                                                                  "id": "eito",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    86
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "commander0",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "sponsor",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    86
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "events": [
+                                                                                {
+                                                                                  "name": "Takumi summons Darumi and Yugamu to his room and enacts a plan with them, swap the bombs in him and Darumi, which Yugamu does.",
+                                                                                  "days": [
+                                                                                    85
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi attacks the sponsor using the old sponsor suit, causing the Sponsor to attempt to blow him up but really killing Darumi. Causing the game to be shut down. The Sponsor then reveals themselves to be an Eito from another timeline, who is willing to give answers to Takumi and only him. However Tsubasa kills him out of rage before he can do anything. With the game over the group celebrates and falls asleep outside.",
+                                                                                  "days": [
+                                                                                    86
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Dalh'xia sneaks into the school, wakes up Takumi and the group, and then begins his attack. After his defeat, he is killed by V'ehxness who absorbs his cryptoglobin and informs the SDU that her army has grown ever larger because of them and will be launching a full out attack very shortly.",
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Kamyuhn comes to Takumi's room at night to inform him that V'ehxness has amassed the largest army in history and that the SDU has no chance of winning the fight, unless they were to kill the divine baby Shion. Kamyuhn informs him that because of the blood already on his hands, he is obliated to continue and take at least one more life if it will save them.",
+                                                                                  "days": [
+                                                                                    91
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "branch": {
+                                                                                "name": "Kill the Baby?",
+                                                                                "day": 92,
+                                                                                "choices": [
+                                                                                  {
+                                                                                    "direction": "left",
+                                                                                    "name": "Yes",
+                                                                                    "route": {
+                                                                                      "name": "086: Killing Game Route: So Close Yet So Far\" with depth 10",
+                                                                                      "deaths": [
+                                                                                        {
+                                                                                          "id": "takumi",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "darumi",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "tsubasa",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "ima",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "kako",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "nozomi",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "yugamu",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "kamyuhn",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "supreme",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "ghost",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi heads to the baby's room in the middle of the night, in order to kill him. However, before he could break down the door, the baby shows up in his ghost form to discuss events and his plan with Takumi. Wherein he reveals that the bloodspace aura that was affecting him suddenly vanished a few days ago and that he has been investiating since. Further, he informs Takumi that he has accepted his death, and is willing to give his life for the escape pod, on one condition: Takumi may not board the pod, as he has done too much already to go back. Takumi agrees to it, but in reality is intending to board the pod anyways after the baby's death. Takumi then goes forward into the defense room and kills the baby, causing the system to shutdown and send out an emergency alert. Takumi then runs back to Kamyuhn and gives her the body, then runs to gather the SDU and take them to the escape pod. In the pod, the group puts together what happened. Kamyuhn starts up the escape pod sequence and final day sequence as everyone straps in after sharing the guilt with Takumi. However, shortly before takeoff, the entire system shuts off, with the escape pod not having enough energy to launch. With the baby's blood itself seeming to refuse to allow the launch to take place. Takumi is unable to work up the resolve to get off the escape pod, and everyone rushed off the escape pod to V'ehxness invading. The SDU was able to take down her and her army, but at the cost of every one of their lives.",
+                                                                                          "days": [
+                                                                                            93
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "direction": "right",
+                                                                                    "name": "No",
+                                                                                    "route": {
+                                                                                      "name": "087: Killing Game Route: Hote From Despair",
+                                                                                      "deaths": [
+                                                                                        {
+                                                                                          "id": "supreme",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi refuses to kill the baby and informs Kamyuhn of his choice. Instead asking her to try to attach his capsule to the escape pod so they could take him with them when they go to the satellite. Kamyuhn rejects this and says she will do it herself, but just then the ghost form of the baby appears before them, revealing the bloodspace aura that has been plaguing him vanished a few days ago. Takumi asks him to fight with them in the last fight, he agrees saying that he will increase the wall of fire's strength and use it to block as many invaders as possible.",
+                                                                                          "days": [
+                                                                                            92
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "V'ehxness begins her invasion, however with the baby boosting the wall of fire the amount of invaders that make it through is greatly reduced. Eventually the SDU defeats V'ehxness and her army, with Takumi killing her.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "The SDU boards the escape pod, using V'ehxness's cryptoglobin as the fuel, with the baby and Kamyuhn, being brought along. With the SDU landing on the satellite and ready to start their new life.",
+                                                                                          "days": [
+                                                                                            100
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  }
+                                                                                ]
+                                                                              }
                                                                             }
                                                                           }
                                                                         ]
