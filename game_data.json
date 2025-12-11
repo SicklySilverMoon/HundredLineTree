@@ -456,7 +456,292 @@
                     "direction": "left",
                     "name": "Yes",
                     "route": {
-                      "name": "Route 1 Left Left"
+                      "name": "Chapter14_0",
+                      "deaths": [
+                        {
+                          "id": "nigou",
+                          "count": 1,
+                          "days": [
+                            9
+                          ]
+                        },
+                        {
+                          "id": "commander8",
+                          "count": 1,
+                          "days": [
+                            15
+                          ]
+                        },
+                        {
+                          "id": "commander9",
+                          "count": 1,
+                          "days": [
+                            15
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "name": "Takumi manages to convince the SDU to leave the school, some through blackmail bluffing, but all do.",
+                          "days": [
+                            4
+                          ]
+                        },
+                        {
+                          "name": "Takumi, Hiruko, Takemaru, and Shouma group up to go to Second to Last Defense Academy, with part of the idea being to train Shouma to get over himself.",
+                          "days": [
+                            5
+                          ]
+                        },
+                        {
+                          "name": "The sub-group makes it to Second-to-Last Defense Academy after walking all day, and meets Nigou. The group goes in to explain everything and meet the other students. After Takumi and the main SDU explains what happened (time travel included), the groups merge and go back to LDA, without Nigou, taking the school bus.",
+                          "days": [
+                            6
+                          ]
+                        },
+                        {
+                          "name": "The full SDU returns to LDA in the morning, and prepares for the upcoming attack.",
+                          "days": [
+                            7
+                          ]
+                        },
+                        {
+                          "name": "Attack from Squad 1, the SDU successfully fights off the attack and defeats Murvrum. Yugamu, upon hearing him beg for his life, kills him and absorbs his hemoanima.",
+                          "days": [
+                            7
+                          ]
+                        },
+                        {
+                          "name": "During the night, a random assortment of invaders breaches the border and begins attacking the school. Revealing itself to be squad 2 when the SDU moves to defend. Once again, the black hooded figure shows up to view the fight, this time entering the field to observe but not attacking. After Pakron's defeat the SDU attempts to contact Nigou to no response, worrying them, and causing Takumi to form a squad of himself, Hiruko, Darumi, Yugamu, and Tsubasa to go investigate StLDA.",
+                          "days": [
+                            7
+                          ]
+                        },
+                        {
+                          "name": "The group arrives at StLDA to find it destroyed and Nigou's body in pieces, likely from a self-destruct. The group buries what was left and heads back.",
+                          "days": [
+                            9
+                          ]
+                        },
+                        {
+                          "name": "Hiruko drops by Takumi's room at night to inform him that there will be an attack tomorrow, ahead of schedule.",
+                          "days": [
+                            14
+                          ]
+                        },
+                        {
+                          "name": "The next morning, Hiruko is nowhere to be found. Kurara and Kyoshika have a minor argument as usual, then an attack begins. Meanwhile Darumi is also missing, thought to be in her room. Hiruko then shows up to fight with the SDU. As the SDU prepares, they discover there are two commanders attacking them: Squads 8 and 9. They merge together into one entity, but are still defeated by the SDU with the undying flame bomb.",
+                          "days": [
+                            15
+                          ]
+                        },
+                        {
+                          "name": "The ghost enters Takumi's room to discuss events with him, and how the bomb took a lot of his strength, and that he's worried that the path towards the future might change.",
+                          "days": [
+                            15
+                          ]
+                        },
+                        {
+                          "name": "Takumi wakes up at night, well past when he should have, falls back asleep, and wakes up in the bio-lab to see the Sponsor attacking Hiruko with a buzzsaw. Takumi attacks them, launches them out the window, and sprints to the wall of flames. Finding himself being attacked in a corner.",
+                          "days": [
+                            16
+                          ]
+                        }
+                      ],
+                      "branch": {
+                        "name": "Take Action!",
+                        "day": 16,
+                        "choices": [
+                          {
+                            "direction": "left",
+                            "name": "Kick the Attacker",
+                            "route": {
+                              "name": "Chapter14_0 LEFT BRANCH"
+                            }
+                          },
+                          {
+                            "direction": "right",
+                            "name": "Dodge the Attack",
+                            "route": {
+                              "name": "Chapter14_B",
+                              "deaths": [
+                                {
+                                  "id": "sponsor",
+                                  "count": 1,
+                                  "days": [
+                                    16
+                                  ]
+                                },
+                                {
+                                  "id": "commander3",
+                                  "count": 1,
+                                  "days": [
+                                    33
+                                  ]
+                                },
+                                {
+                                  "id": "commander4",
+                                  "count": 1,
+                                  "days": [
+                                    40
+                                  ]
+                                },
+                                {
+                                  "id": "commander10",
+                                  "count": 1,
+                                  "days": [
+                                    47
+                                  ]
+                                },
+                                {
+                                  "id": "commander11",
+                                  "count": 1,
+                                  "days": [
+                                    47
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "name": "Takumi dodges the attack, and the Sponsor ends up in the wall of flame, burning up. However Takumi turns around to see another one, who injects his neck and causes him to pass out.",
+                                  "days": [
+                                    16
+                                  ]
+                                },
+                                {
+                                  "name": "Takumi wakes up after noon and can't recall prior events. He goes to the cafeteria to find out something is wrong with Tsubasa who has locked herself in the garage working on something. Takumi asks Hiruko about what happened last night, where she responds that she just went for a walk, and to not bring up the subjects again. In the garage Takumi tries to get Tsubasa's attention, gets hit by accident, and finds that Tsubasa is repairing Sirei. However, he will not wake up even after she followed all instructions in the repair manual. Takumi hits Sirei and causes him to wake up. Tsubasa is mad about this.",
+                                  "days": [
+                                    17
+                                  ]
+                                },
+                                {
+                                  "name": "Sirei announces that he will be conducting indivual interviews with each member in the SDU, starting with Takumi, in order to find out what happened when he was out.",
+                                  "days": [
+                                    18
+                                  ]
+                                },
+                                {
+                                  "name": "Sirei listens to Takumi and gives him an assignment: harder VR missions.",
+                                  "days": [
+                                    18
+                                  ]
+                                },
+                                {
+                                  "name": "Sirei approaches Takumi and informs him that he has also given other members of the SDU assignments, specifcally those that don't believe Takumi. As such, Takumi is to help them out and earn their trust to become a proper leader.",
+                                  "days": [
+                                    21
+                                  ]
+                                },
+                                {
+                                  "name": "Attack by Squad 6 at night. After the defeat of the commander, she begs the SDU to spare her life, even going as far as taking off her helmet while asking for mercy. The SDU decides to take her prisoner and put her in the courtyard cages.",
+                                  "days": [
+                                    21
+                                  ]
+                                },
+                                {
+                                  "name": "Sirei takes the captured commander to the infirmary in order to heal her.",
+                                  "days": [
+                                    22
+                                  ]
+                                },
+                                {
+                                  "name": "Takumi is promoted to the leader of the SDU.",
+                                  "days": [
+                                    27
+                                  ]
+                                },
+                                {
+                                  "name": "Eva joins the SDU as a new transfer student.",
+                                  "days": [
+                                    28
+                                  ]
+                                },
+                                {
+                                  "name": "The LDA is under attack, as the SDU gathers in the war room, they find that Shouma has transformed into his muscle form once again. Then transforms back before the battle begins. The squad is revealed to be Squad 3, with Addamaque as the commander. He is swiftly defeated and absorbed.",
+                                  "days": [
+                                    33
+                                  ]
+                                },
+                                {
+                                  "name": "The ghost shows up in Takumi's room, mad at him for spending time with everyone else and not even talking to him. Takumi offers to help him out, as soon as he's back from his trip with Eva to destroy an enemy base. Takumi promises to come back as soon as possible. After that Takumi gathers with the others on the mission: Darumi, Tsubasa, Kurara, and Eva.",
+                                  "days": [
+                                    38
+                                  ]
+                                },
+                                {
+                                  "name": "The group moves out and finds an invader base to attack, finding it defended by Squad 4 and Quenzelle. The squad and commander are defeated and absorbed.",
+                                  "days": [
+                                    40
+                                  ]
+                                },
+                                {
+                                  "name": "Takumi gets back and spends the entire next day in bed, not feeling even slightly guilty. The next morning he goes to the cafeteria, and gets yelled at by the group for not telling anyone. After heading back to his room he focuses on the assignments has to do with others.",
+                                  "days": [
+                                    41,
+                                    42,
+                                    43
+                                  ]
+                                },
+                                {
+                                  "name": "Sirei shows up in Takumi's room to inform Takumi that he has a new bonus assignment. In this case, the Ghost baby, who specifically requested an assignment with Takumi's help: a hemoanima quiz on everyone in the group. After taking the quiz he is quite happy to be able to partake in a normal student activity with Takumi.",
+                                  "days": [
+                                    46
+                                  ]
+                                },
+                                {
+                                  "name": "The attack alarm goes off, but on the way to the war room, everyone in the SDU keeps seeing odd objects and manifestations. Takumi informs the group that it is due to a commander with the ability to create illusions. At which point Sirei reveals he has a counter measure: a gigantic metal statue of himself made from all the things collected from assignments. Further he also states it is their secret weapon, however it is instantly destroyed by an explosion as soon as the invaders attack it. Right after that, the depressing music starts playing, as the giant Sirei's speakers are playing even louder now it has been destroyed. The SDU begins battle with Squad 11. The SDU battles and defeats Turamtammi, only for her to be revived by Nyewgank the commander of Squad 10. Despite this however, the SDU is able to defeat and absorb both.",
+                                  "days": [
+                                    47
+                                  ]
+                                }
+                              ],
+                              "branch": {
+                                "name": "Meat or Fish?",
+                                "day": 47,
+                                "choices": [
+                                  {
+                                    "direction": "left",
+                                    "name": "Meat",
+                                    "route": {
+                                      "name": "Chapter14_B LEFT BRANCH"
+                                    }
+                                  },
+                                  {
+                                    "direction": "right",
+                                    "name": "Fish",
+                                    "route": {
+                                      "name": "Chapter14_B_b",
+                                      "events": [
+                                        {
+                                          "name": "Takumi feels like his choice greatly influenced his fate.",
+                                          "days": [
+                                            47
+                                          ]
+                                        },
+                                        {
+                                          "name": "Takemaru barges into Takumi's room by knocking on his door, only to find that neither of them could speak. Takemaru takes Takumi to the cafeteria, where the entire SDU meet up, unable to speak. Kurara punches Gaku. Ima brought pen and paper for everyone so they could communicate. Yugamu determines that the group could still hear, just not the voices of each other, only Sirei's. Sirei gathrs everyone in the war room to inform them there's a jamming soundwave going around the school blocking their voices. He hands Darumi a microphone, and tells her to put it right to Takumi's ear, and yells \"CAN YOU HEAR ME?\", which he could, falling to the ground foaming at the mouth, blacking out for a few days.",
+                                          "days": [
+                                            48,
+                                            49,
+                                            50,
+                                            51
+                                          ]
+                                        },
+                                        {
+                                          "name": "Takumi goes to the cafeteria to find out what happened after he passed out, only to see Kyoshika crying over Hiruko's glasses as she thought they were her true form she had been reduced into. Hiruko then walks in, picks up her glasses, and informs him Sirei is creating a counter measure against the invaders.",
+                                          "days": [
+                                            52
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
                     }
                   },
                   {
@@ -1098,17 +1383,17 @@
                                                                                   ]
                                                                                 },
                                                                                 {
-                                                                                  "id": "commander0",
-                                                                                  "count": 1,
-                                                                                  "days": [
-                                                                                    87
-                                                                                  ]
-                                                                                },
-                                                                                {
                                                                                   "id": "sponsor",
                                                                                   "count": 1,
                                                                                   "days": [
                                                                                     86
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "commander0",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    87
                                                                                   ]
                                                                                 }
                                                                               ],
