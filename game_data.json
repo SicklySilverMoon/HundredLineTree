@@ -711,6 +711,15 @@
                                     "name": "Fish",
                                     "route": {
                                       "name": "Chapter14_B_b",
+                                      "deaths": [
+                                        {
+                                          "id": "commander7",
+                                          "count": 1,
+                                          "days": [
+                                            57
+                                          ]
+                                        }
+                                      ],
                                       "events": [
                                         {
                                           "name": "Takumi feels like his choice greatly influenced his fate.",
@@ -732,8 +741,71 @@
                                           "days": [
                                             52
                                           ]
+                                        },
+                                        {
+                                          "name": "Sirei shows up in Takumi's room to ask if he has collected all the items needed for, something, presumably something to reverse the voice removal effect.",
+                                          "days": [
+                                            55
+                                          ]
+                                        },
+                                        {
+                                          "name": "Takumi is tasked with finding Kako who had vanished, which he does find her within a classroom looking out the window. Outside there is Ima, Takemaru, Nozomi, and Moko, appearing to try to spell or signal something to the group. He resolves to go outside and find out what they're doing, and tells Kako Tsubasa was looking for her. Outside Nozomi runs up to Takumi asking if he got their message, which he says not at all. They state that they were trying to spell out SOS, since they thought they saw an invader outside. Further, the reason they're all out there is the same reason Takumi was, they culdn't figure out each other's messages, and as it turns out the invader was just a pile of garbage. Everyone disbands.",
+                                          "days": [
+                                            56
+                                          ]
+                                        },
+                                        {
+                                          "name": "Attack by Squad 7. The SDU is able to finish off Zen'ta and absorb her cryptoglobin.",
+                                          "days": [
+                                            57
+                                          ]
+                                        },
+                                        {
+                                          "name": "Sirei informs the group in the morning to come to the war room as he has a gift, upon getting there he announces he actually has nothing, and that the SDU can continue as is with only minor issues. He does have a minor solution however, he gives everyone a tablet/smartphone they can use to text each other. However, he also informs them it is a one week special trial they get, but that they should not reverse engineer or try to mod them.",
+                                          "days": [
+                                            58
+                                          ]
+                                        },
+                                        {
+                                          "name": "Takumi mourns Eito.",
+                                          "days": [
+                                            60
+                                          ]
+                                        },
+                                        {
+                                          "name": "Takumi recieves a message from Darumi, a classic chain mail text about sending it to five people or being cursed, he ignores it and goes to sleep. However the next morning he is still worried about it, and talks to her about it, where she informs him that it was a text sent on sleep meds. However she does say it may be a legitmate curse, which worries Kyoshika.",
+                                          "days": [
+                                            61,
+                                            62
+                                          ]
+                                        },
+                                        {
+                                          "name": "Attack from a roaming screaming squad. The SDU is able to defeat them, but not without some mental wear and tear. However after the fight, they notice an enemy in a small machine, which Takemaru destroys. The machine plays an awful noise for a while, then shuts down, and let's the SDU speak again.",
+                                          "days": [
+                                            63
+                                          ]
                                         }
-                                      ]
+                                      ],
+                                      "branch": {
+                                        "name": "Forward the Message?",
+                                        "day": 63,
+                                        "choices": [
+                                          {
+                                            "direction": "left",
+                                            "name": "Yes",
+                                            "route": {
+                                              "name": "Chapter14_B_b LEFT BRANCH"
+                                            }
+                                          },
+                                          {
+                                            "direction": "right",
+                                            "name": "No",
+                                            "route": {
+                                              "name": "Chapter14_B_b RIGHT BRANCH"
+                                            }
+                                          }
+                                        ]
+                                      }
                                     }
                                   }
                                 ]
