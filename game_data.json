@@ -794,14 +794,275 @@
                                             "direction": "left",
                                             "name": "Yes",
                                             "route": {
-                                              "name": "Chapter14_B_b LEFT BRANCH"
+                                              "name": "Chapter14_B_ba",
+                                              "events": [
+                                                {
+                                                  "name": "Takumi drafts 5 copies of message, and sends them all to Gaku. The next morning, Takumi enters the cafeteria to find that Gaku has recieved 27 copies of the message, from at least him and Kurara.",
+                                                  "days": [
+                                                    63,
+                                                    64
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi gains a persistent cough. The next morning he goes to Yugamu who claims to have medicine for his issue and that it is \"incredibly effective\". Takumi takes it, and wakes up many days later.",
+                                                  "days": [
+                                                    64,
+                                                    65,
+                                                    66,
+                                                    67,
+                                                    68,
+                                                    69,
+                                                    70,
+                                                    71,
+                                                    72
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi enters the cafeteria and discusses his issue, and agrees to let Yugamu examine him, however before that can happen, the school is attacked. After defeating the attacking group, everyone goes to bed. The next morning Takumi goes to Yugamu's room for his examination, after an hour he is informed that he is suffering from: Super Smartass Syndrome. The condition causes Takumi to gather smartass energy, which causes those around him to gather Clown Energy. Those with Super Smartass Syndrome have a 3% chance of exploding everytime they make a jab, retort, or similar remark. Just after learning this, and Takumi making a few remarks in the process, someone knocks at the door, Kurara, who informs them there was a fight in the cafeteria which is spreading to the gym, and that she will be participating. Upon arriving they find its a rap battle, after which learning about Takumi makes a remark and explodes, waking up next week.",
+                                                  "days": [
+                                                    72,
+                                                    73,
+                                                    74,
+                                                    75,
+                                                    76,
+                                                    77,
+                                                    78,
+                                                    79,
+                                                    80,
+                                                    81,
+                                                    82,
+                                                    83
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up and enters the cafeteria, finding only Nozomi there, who pulls him into a tight hug, then informs him that he looks tasty and she wants to eat him. Takumi, in order to get out of it, uses a tickle attack to get out of it. After this, he runs into an abandoned classroom, and hears a girl scream. Upon looking over, he sees Kurara without her mask, and doesn't even have to quip in order to explode, he wakes up next week again.",
+                                                  "days": [
+                                                    86,
+                                                    87,
+                                                    88,
+                                                    89,
+                                                    90,
+                                                    91,
+                                                    92,
+                                                    93,
+                                                    94,
+                                                    95,
+                                                    96
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Upon waking up, Takumi is informed by Yugamu that even his internal monolog is enough to cause explosions, and that they fought a couple defesive battles without him.",
+                                                  "days": [
+                                                    96
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi runs into Darumi on the stairs on the way down, mostly ignores her, and when she tries to return to her room, trips on the stairs, and ends up ripping through Takumi's clothes in the process somehow.",
+                                                  "days": [
+                                                    98
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to an attack by V'ehxness' squad, upon gathering in the war room, everyone is overcome by clown energy and starts making stupid comments and actions. However Sirei is able to start the battle before it gets so extreme as to have Takumi start retorting. Upon V'ehxness entering the fight, she has a fluttering in her chest and feelings of love for Takumi, with her body refusing to obey her and strength draining, the SDU engages her defeating and killing her.",
+                                                  "days": [
+                                                    99
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "The SDU gathers outside the school to celebrate, however Takumi and Yugamu realize that Smartass Syndrome isn't over and Takumi still has to fight through.",
+                                                  "days": [
+                                                    99
+                                                  ]
+                                                }
+                                              ],
+                                              "branch": {
+                                                "name": "How Will You React?",
+                                                "day": 99,
+                                                "choices": [
+                                                  {
+                                                    "direction": "left",
+                                                    "name": "Retort",
+                                                    "route": {
+                                                      "name": "081: Comedy Route: At My Limit",
+                                                      "deaths": [
+                                                        {
+                                                          "id": "takumi",
+                                                          "count": 1,
+                                                          "days": [
+                                                            99
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi choses to start retorting to the group (clown car), and detonates. His soul rising up afterwards so he can look down on the group and their antics.",
+                                                          "days": [
+                                                            99
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "direction": "right",
+                                                    "name": "Clown Out",
+                                                    "route": {
+                                                      "name": "082: Comedy Route: The Ultimate Slapstick",
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi, instead of fighting against Smartass Syndrome or retorting, chooses to just clown out with the SDU. However his idea simply gets him stuck in the ground, and left there.",
+                                                          "days": [
+                                                            99,
+                                                            100
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
                                             }
                                           },
                                           {
                                             "direction": "right",
                                             "name": "No",
                                             "route": {
-                                              "name": "Chapter14_B_b RIGHT BRANCH"
+                                              "name": "Chapter14_B_bb",
+                                              "events": [
+                                                {
+                                                  "name": "Takumi elects not to forward the message, and hears his doorbell rings and finds Darumi there informing him he will be cursed.",
+                                                  "days": [
+                                                    63
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up late and goes to find the cafeteria empty, then hears a shriek and runs to a classroom to find Darumi slumped against the wall with her head turned into that of a fish. With Kurara screaming at her in shock. Kyoshika reveals that this is a rare disease: Terminal Mackerel-Headitis. However, Darumi remains alive and capable of movement and speech.",
+                                                  "days": [
+                                                    64
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to find Darumi in the cafeteria eating Miso-Mackerel soup as it is cheering her up. However, Takumi hears another scream and goes running to find that on the roof Hiruko has also contracted Terminal Mackerel-Headitis.",
+                                                  "days": [
+                                                    66
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to the morning annoucement and finds that Gaku has also contracted Terminal Mackerel-Headitis.",
+                                                  "days": [
+                                                    67
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Yugamu shows up at Takumi's room in the morning to promote the benefits of nude walking, and also that Takemaru has gained a fish head. Yugamu brings Takumi to the pool wherein they find Takemaru's head is that of a bonito, not a mackerel. They then take him back to his room.",
+                                                  "days": [
+                                                    71
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to an attack on the school, heads to the defense room and finds everyone (including the Ghost Baby) there. Sirei reveals that the fish headed members can not fight as they lack 3D fish head models, as such the rest of the SDU sorties. The invaders had no commander controlling them and was dispatched by the SDU.",
+                                                  "days": [
+                                                    72
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up in the afternoon to find that Nozomi is feeling very unwell, collapses in his room, and comes to as a fish once aain, completly negating her rejection symptoms. She then collapses again and Kyoshika helps carry her back to her room.",
+                                                  "days": [
+                                                    73
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up and finds someone spamming his doorbell as the morning annoucement plays. He opens the door to find Ima who drags him to the cafeteria to find Kako has a bonito head. Just then, Kyoshika bursts in to inform them that she has found fish bones that might be the source. However after she leaves, Kako states that they're probably chicken bones she threw away recently.",
+                                                  "days": [
+                                                    77
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi heads to the cafeteria to find that Ima, Tsubasa, Eva, Shouma, and Moko have all gained mackerel heads. Takumi faints at this sight.",
+                                                  "days": [
+                                                    82
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi runs into Kyoshika in the hallway, who drags him into a classroom to see that Kurara's head has been replaced with a can of tomato and makerel.",
+                                                  "days": [
+                                                    85
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to an attack on the school. The SDU enters the war room for Sirei to annouce that he has finished the fish 3D models, however Darumi reveals they can take the heads off and go back to normal. The SDU proceeds to sortie. After the first wave Dalh'xia reveals himself as the commander of the squad (Squad 0). However, he detransforms after a bit of fighting and leaves, telling the SDU their final showdown will come soon.",
+                                                  "days": [
+                                                    87
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi faints, and wakes up the next day, stuff after sleeping on the floor. After the day he realizes he has a mackerel head. Sirei shows up, informs Takumi that there is a 3D model for him and to not take off the fish head to waste his work.",
+                                                  "days": [
+                                                    87,
+                                                    88
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Kyoshika rings Takumi's doorbell after the morning annoucement to inform him Yugamu has come down with a fish head, as well as herself, leaving no one normal.",
+                                                  "days": [
+                                                    92
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to an attack on the school. Everyone removes their fish heads and sorties. After the first wave Dalh'xia once again shows up and fights the SDU. However, he very quickly reacts to the terrible stench of fish around the school, removing his shield and halving his health. As such the SDU is able to defeat him. After his defeat he begs for death, which the SDU complies with.",
+                                                  "days": [
+                                                    93
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up in the middle of the night to a visit from the Ghost Baby, who also has a fish head.",
+                                                  "days": [
+                                                    94
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Takumi wakes up to an attack on the school by V'ehxness' squad. However, the invading force of invaders all have clams for heads, which Kyoshika informs the SDU is Terminal Scallop-Headitis. However similar to the SDU, the invaders all remove their heads before the battle. After the first wave V'ehxness appears, but also detests the smell of fish so much it damages her. The SDU defeats and absorbs her. Afterwards the SDU tries to solve the mystery of the fish heads.",
+                                                  "days": [
+                                                    99
+                                                  ]
+                                                }
+                                              ],
+                                              "branch": {
+                                                "name": "Have You Figured Out the Truth?",
+                                                "day": 99,
+                                                "choices": [
+                                                  {
+                                                    "direction": "left",
+                                                    "name": "I Think So!",
+                                                    "route": {
+                                                      "name": "083: Comedy Route: No, That's Wrong",
+                                                      "events": [
+                                                        {
+                                                          "name": "The SDU gathers in the courtyard on day 100 as the school enters attack mode, and Takumi reveals the truth. Which is that Darumi did all this, by eating canned fish, which Darumi denies. He then states that it began when Darumi ate mackerel in miso soup, which occured after she transformed. He then posits that the water was fish stock, which was also rejected. He then blames Gaku, which is also rejected. Afterwards everyone boards the escape pod. Kyoshika ends the route on a fish pun, to Takumi's anger.",
+                                                          "days": [
+                                                            100
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "direction": "right",
+                                                    "name": "Nope!",
+                                                    "route": {
+                                                      "name": "084: Comedy Route: Mother Ocean",
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi finds himself on the beach lost in thought, as he realizes there is no way for them to know the truth, and has returned to the ocean his true home.",
+                                                          "days": [
+                                                            100
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
                                             }
                                           }
                                         ]
