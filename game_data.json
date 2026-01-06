@@ -928,6 +928,15 @@
                                             "name": "No",
                                             "route": {
                                               "name": "Chapter14_B_bb",
+                                              "deaths": [
+                                                {
+                                                  "id": "supreme",
+                                                  "count": 1,
+                                                  "days": [
+                                                    99
+                                                  ]
+                                                }
+                                              ],
                                               "events": [
                                                 {
                                                   "name": "Takumi elects not to forward the message, and hears his doorbell rings and finds Darumi there informing him he will be cursed.",
