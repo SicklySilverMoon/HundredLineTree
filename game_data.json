@@ -403,7 +403,43 @@
             44
           ]
         }
-      ]
+      ],
+      "branch": {
+        "name": "Return to the Past?",
+        "day": 100,
+        "choices": [
+          {
+            "direction": "left",
+            "name": "Yes",
+            "route": {
+              "name": "Chapter 00",
+              "events": [
+                {
+                  "name": "So this isn't a real branch, this does just take you to Hundred Line 2.",
+                  "days": [
+                    100
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "direction": "right",
+            "name": "No",
+            "route": {
+              "name": "Chapter 00",
+              "events": [
+                {
+                  "name": "So this isn't a real branch, if you hit \"No\" on the choice it just loops you and makes you choose again, and again, and again, etc.",
+                  "days": [
+                    100
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Last Defense Academy 2: Chapter 00",
@@ -1895,7 +1931,31 @@
                                                                     "direction": "right",
                                                                     "name": "No",
                                                                     "route": {
-                                                                      "name": "Chapter15_A_aaaa RIGHT BRANCH"
+                                                                      "name": "088: Killing Game Route: Escaping Our Fate",
+                                                                      "deaths": [
+                                                                        {
+                                                                          "id": "tsubasa",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            78
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "events": [
+                                                                        {
+                                                                          "name": "Takumi declines the help of the Sponsor and returns to his room, soon after he leaves with his group to find more invaders. Spending 2 days but unable to find any.",
+                                                                          "days": [
+                                                                            76,
+                                                                            77
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The group decides to head into the desert to try and find D'ahlxia in order to defeat him and get Tsubasa out of last place. Takumi struggles through the night trying to think of another way that doesn't involve killing SDU members or likely dying to D'ahlxia. He and Tsubasa in the morning take the school bus and leave, hoping the bee following them will eventually die off. Further it will prevent the game from advancing as Tsubasa can not be executed to continue the game. After just a few hours the bee appears to have vanished, after a few more hours when night falls they decide to sleep until morning. Takumi promises to protect Tsubasa forever no matter what, as they fall asleep. However during the night the bee sneaks into the bus and drains Tsubasa as Takumi is sleeping.",
+                                                                          "days": [
+                                                                            78
+                                                                          ]
+                                                                        }
+                                                                      ]
                                                                     }
                                                                   }
                                                                 ]
@@ -1906,7 +1966,80 @@
                                                             "direction": "right",
                                                             "name": "No",
                                                             "route": {
-                                                              "name": "Chapter15_A_aa LEFT BRANCH RIGHT BRANCH"
+                                                              "name": "089: Killing Game Route: Battle For Eva's Points",
+                                                              "deaths": [
+                                                                {
+                                                                  "id": "takumi",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "takemaru",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "darumi",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "tsubasa",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "ima",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "kako",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "nozomi",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "yugamu",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "eva",
+                                                                  "count": 1,
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "events": [
+                                                                {
+                                                                  "name": "Takumi elects not to kill Eva as she is basically an ally to them at this point, Nozomi walks over as they are arguing and Takumi explains the situation, where she also refuses. As they are arguing, Takemaru, Ima, and Kako run over and reveal they've killed the squad 4 commander and will now go after Eva. A battle between the SDU breaks out, resulting in Eva transforming to try and protect Nozomi. The end result is that the SDU obliterates themselves, except Kyoshika who was not there.",
+                                                                  "days": [
+                                                                    56
+                                                                  ]
+                                                                }
+                                                              ]
                                                             }
                                                           }
                                                         ]
@@ -1973,7 +2106,232 @@
                             "direction": "right",
                             "name": "No",
                             "route": {
-                              "name": "Route 1 Left Right Right"
+                              "name": "Chapter15_B",
+                              "deaths": [
+                                {
+                                  "id": "kako",
+                                  "count": 1,
+                                  "days": [
+                                    27
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "name": "Takumi decides not to join the Invader Hunt, the rest of the SDU also rejects joining, except Darumi who is too excited to participate in a killing game. However as the rest of the SDU rejects it, Darumi understands she can not play a killing game alone and also rejects it. Finally the scheduled time of 7pm rolls around, Takumi enters the pool room, shouts that the SDU will not be joining the game, and leaves. The SDU gathers in the cafeteria, as they decide on the sleeping arrangements, they do decide on sleeping in their own rooms (excepting the twins).",
+                                  "days": [
+                                    25
+                                  ]
+                                },
+                                {
+                                  "name": "The SDU gathers in the cafeteria to celebrate nothing happening. Afterwards Tsubasa brings Eva's mask to Takumi's room at his request so he can return it, and informs him it has many high tech features, such as infrared night vision, zoom functions, organic life detection, a 30 minute oxygen tank, and that its custom made to fit Eva's face. Tsubasa also suggests using Eva for defense, but implanting or using a bomb on her as insurance she can't betray them. Takumi enters the courtyard to return Eva's mask.",
+                                  "days": [
+                                    26
+                                  ]
+                                },
+                                {
+                                  "name": "Takumi wakes up to the morning annoucement, only to hear Shouma scream, members of the SDU rush to the outside to find that Shouma has died from what appears to be multiple stab wounds to the torso. Kyoshika points out that only Ima, Kako, and Darumi aren't present. They rush Shouma to the infirmiary as several members go looking for the missing 3. Takumi and Hiruko find the gym door locked from the inside, and break it down, only to find Kako poisoned with a bottle in her hand, they also rush her to the infirmiary as Takumi picks up the bottle. Hiruko demands that Yugamu and Nozomi take her to the infirmary, everyone else except Takumi and Hiruko continues to look for the other two. Hiruko discusses the events with Takumi, specifically that it was a locked room death and that Kako may have killed herself by drinking TTX poison, but that there could also be someone still in the gym. They search but are unable to find anyone, noting that its unlikely that Kako and Shouma died near the same time as her body was already cold and likely had been dead for hours. Hiruko and Takumi go to the infirmary to find out that Shouma has been revived but is unconcious, and that Kako could not be revived as she died between the hours of 01:00 and 04:00 (estimated), with traces of TTX in her body likely from oral ingestion. Darumi comes in and states she was playing slots in the rec room as she woke up late, finally Ima enters and says he was looking for Kako as when he woke up she was already gone. Takumi informs the SDU that Kako is dead and can not be revived, causing them to all tear up, and for Ima to fully break down. Yugamu gets an anesthetic and injects Ima, knocking him out until tomorrow. Hiruko and Takumi inform the rest of the SDU aout what they found in the gym. At night the SDU gathers in the pool room as no one felt like eating. Darumi presents the idea that it was the Sponsor who killed Kako, Gaku, Sirei, and attempted to kill Shouma. Hiruko also states that the culprit could be one of the SDU. Tensions rise as accusations are thrown around, Takumi's group, Darumi, Eva, an outsider, etc. Tsubasa says she can make a life detector in 7 days, allowing them to see how many people are alive on school grounds. Right after this, Takumi passes out.",
+                                  "days": [
+                                    27
+                                  ]
+                                },
+                                {
+                                  "name": "Takumi wakes up 12 days later. He finds Nozomi watching over him, who after screaming due to being shocked he woke up, informs him he likely has fainting disease and passed out from the shock and stress. They put him in the Revive-O-Matic, and found that there was treatment on damaged parts of his brain likely resulting in the disease. Further he also finds that nothing has changed in the days since, no one has died but no progress has been made.",
+                                  "days": [
+                                    39
+                                  ]
+                                },
+                                {
+                                  "name": "After going to the cafeteria to eat and seeing his teammates, Takumi returns to his room. Tsubasa shows up and informs Takumi the life detector was finished 5 days ago, and has been reading 13 people ever since, ie. the SDU and Eva. This has caused trust between members to vanish as they al suspect it was an SDU member who did the killing. Takumi lists the likely suspects: Darumi, Nozomi, Kyoshika, Yugamu, Moko, Ima, and Kurara. Takumi elects to find the real killer, and sets out to do so.",
+                                  "days": [
+                                    39
+                                  ]
+                                },
+                                {
+                                  "name": "Takumi investigates by asking SDU members about things. He finds Shouma awake in the pool room, who tells him the attempted killer was wearing a mask and a long black robe, and had a voice changer on when they yelled \"Die! Die!\" at him. Hiruko in the morgue informs Takumi that Kako's body was drained of cryptoglobin AFTER being placed in the morgue via a small cut on her ankle, further there's a hole in her back from someone removing her heart. The other 2 bodies have the same hole, and that the holes were made after day 27 when Takumi was asleep. Yugamu in the bio lab informs him that some supplies were stolen at least by day 27, namely some anesthetic, needles, and TTX, and that the anesthetic in low doses would numb pain but not knock someone out. Takemaru, Tsubasa, and Takumi, all people marked safe from being the killer, find a hatch in the gym that leads to an underground area storing the escape pod, meaning it could have been a murder and that the murderer could have hidden down here until Hiruko and Takumi left. Further, they find a hankerchief in the room with IT branded on it. The group informs everyone of the storeroom with the escape pod. Finally the SDU gathers in the cafeteria and discusses events. After they accuse Ima of possibly being involved, he runs off out of the school, and is kidnapped by the Squad 4 commander. However Tsubasa informs the group she implanted a tracker into him when bringing him food. The SDU determines where he was and splits into 2 groups, one to stay behind and one to go resuce him. With the rescue team consisting of: Takumi, Eva, Tsubasa, Takemaru, Hiruko, and Kurara.",
+                                  "days": [
+                                    39
+                                  ]
+                                },
+                                {
+                                  "name": "The resuce team heads out to the invader base to fight the commander, Quenzelle, who Eva remarks is an absolute creep and to feel free to make mincemeat out of him. The SDU defeats him, however he points behind us and yells \"OVERLORD V'EHXNESS!\" and uses the oppertunity of them turned around to run. Eva makes a terrible pun about Quenzelle being Quencelled. They find Ima locked in a cage, and pull him out, however it detonates a nearby bomb. Takumi shields Ima from the blast with his body, taking most of the brunt.",
+                                  "days": [
+                                    40
+                                  ]
+                                },
+                                {
+                                  "name": "Takumi wakes up 10 days later to see Nozomi watching over him again, once again he was out for most of the time due to the fainting disease. In the time he was out Ima has joined in on defensive battles. Takumi rushes over to Ima's room to ask him some questions, such as why he didn't kill Darumi. Which he says was because it was possible for someone else to be his sister's killer so he didn't kill her as it was possible for someone else to have done it. He then shows Takumi that the escape pod storage room has a large vent with the cover off that anyone could have fit through to escape. Further he didn't bring this up because he knew about the escape pod because he and Kako were going to try to escape on their own. They father Tsubasa to get a recon drone and fly it into the vent, within they find a large piece of green cloth. Further since it was found past the curves only a small person could fit through, it appears to only match to one person. Takumi gathers everyone in the gym and annouces he has determined who killed Kako and stabbed Shouma.",
+                                  "days": [
+                                    50
+                                  ]
+                                },
+                                {
+                                  "name": "Takumi is forced to pick the killer [as a game choice similar to route branches].",
+                                  "days": [
+                                    50
+                                  ]
+                                }
+                              ],
+                              "branch": {
+                                "name": "Who Killed Kako and Stabbed Shouma?",
+                                "day": 50,
+                                "choices": [
+                                  {
+                                    "direction": "left",
+                                    "name": "Anyone Except Shouma",
+                                    "route": {
+                                      "name": "Chapter15_B LEFT BRANCH"
+                                    }
+                                  },
+                                  {
+                                    "direction": "right",
+                                    "name": "Shouma",
+                                    "route": {
+                                      "name": "Chapter15_B_b",
+                                      "deaths": [
+                                        {
+                                          "id": "shouma",
+                                          "count": 1,
+                                          "days": [
+                                            51
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "name": "Takumi reveals that Shouma was the killer, and begins a persuasion against him. Takumi lays out every part of Shouma's plan, including having him partly admit it by accident. However aftterwards Shouma reveals that he was ordered to kill Kako by someone he refers to as X, who Shouma says killed Gaku and intended to kill him next but would let him off if he followed their instructions. To kill Kako and Ima in the gym, however only Kako showed up, but Shouma still went through with it. After Shouma made it to the surface, X showed up and informed Shouma to stab himself to take him off the suspect list, and gave him the knife and needle, and likely cleaned them up after as well. Shouma fails to detonate afterwards, Ima in response charges him, and starts to strangle him, Takumi manages to pull Ima off before killing him. They move Shouma into a courtyard cage and head to bed.",
+                                          "days": [
+                                            50
+                                          ]
+                                        },
+                                        {
+                                          "name": "The next day Takumi wakes up to find Nozomi shouting for the group, and says she went to check out Shouma early, they find him stabbed in his cage, although the door is locked. Takumi unlocks the door and finds that his pulse is gone, but his neck and clothes are wet, although he was likely dead too long to revive. The revive-o-matic says that he likely died between 02:00 and 05:00, from a blade about 8 inches long, and that too much time has passed and there is not enough cryptoglobin in the body to revive. They move his body to the morgue, then investigate the courtyard, where all they find is a deflated balloon. Later in the rec room they discuss who X could be, and check the life detector to see that it only registers 12 people, and that the history log only detected a decrease never an increase. The SDU all gathers in the gym where they have set up a camp for everyone to sleep together, with a sentry system of 3 people, rotating one out each hour.",
+                                          "days": [
+                                            51
+                                          ]
+                                        },
+                                        {
+                                          "name": "Takumi wakes up many days later in the gym, finding everyone still alive due to the advice he gave of staying in groups of 3. Further 10 days ago Shion appeared and informed the SDU that there was a distress signal that could be used to signal the satellite in the event of only one person remaining. The SDU has been searching for it since but has been unable to find it. Takumi brings Tsubasa and Hiruko to the courtyard to investigate, they then head to the Gift-O-Matic to see if it has a log of someone making the balloon, they find out its been crafted 100 times, and it is very durable and able to hold 5 litres of air. Takumi once mores gathers everyone in the gym, then the courtyard, to announce who killed Shouma.",
+                                          "days": [
+                                            75
+                                          ]
+                                        }
+                                      ],
+                                      "branch": {
+                                        "name": "Who Killed Shouma?",
+                                        "day": 75,
+                                        "choices": [
+                                          {
+                                            "direction": "left",
+                                            "name": "Someone Else",
+                                            "route": {
+                                              "name": "Chapter15_B_b LEFT BRANCH"
+                                            }
+                                          },
+                                          {
+                                            "direction": "top",
+                                            "name": "Eva",
+                                            "route": {
+                                              "name": "Chapter15_B_bc",
+                                              "events": [
+                                                {
+                                                  "name": "Takumi accuses Eva and begins a persuasion against her. He succeeds, however Eva then informs them that X threatened Eva as well. This time with the remote detonator, meaning that it had to have been an SDU member. Further X can not press the button as it would obliterate everyone in the room, including themselves. Eva then says that X was in the same outfit and voice changer that Shouma said, but that she figured out who it was by their mannerisms. However Takumi realizes that this could go very badly if she were to say it.",
+                                                  "days": [
+                                                    75
+                                                  ]
+                                                }
+                                              ],
+                                              "branch": {
+                                                "name": "Shut Eva Up?",
+                                                "day": 75,
+                                                "choices": [
+                                                  {
+                                                    "direction": "left",
+                                                    "name": "Yes",
+                                                    "route": {
+                                                      "name": "Chapter15_B_b TOP BRANCH LEFT BRANCH"
+                                                    }
+                                                  },
+                                                  {
+                                                    "direction": "right",
+                                                    "name": "No",
+                                                    "route": {
+                                                      "name": "Chapter15_B_bcb",
+                                                      "deaths": [
+                                                        {
+                                                          "id": "eva",
+                                                          "count": 1,
+                                                          "days": [
+                                                            75
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "moko",
+                                                          "count": 1,
+                                                          "days": [
+                                                            80
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "tsubasa",
+                                                          "count": 1,
+                                                          "days": [
+                                                            80
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "kurara",
+                                                          "count": 1,
+                                                          "days": [
+                                                            82
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi decides not to silence Eva. Who then refuses to say, as she doesn't actually know and was afraid to die. However she then raises her hand in the motion to blow herself up, Takumi tackles her, but is kicked away. She then asks \"Is this the courage you said I didn't have?\" as she detonates herself.",
+                                                          "days": [
+                                                            75
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi wakes up 5 days later, to find Tsubasa and Moko have vanished. The night before it was Kurara on shift with them, when she was jabbed in the neck likely with a needle and knocked out. The SDU begins a search for them, and finds both dead and strung up from a tree. The revive-o-matic informs them that both died that morning between 05:00 and 08:00, stabbed or slit with a large blade. Further the rest of the SDU is now aware of the hears being stolen, however Tsubasa has what is most likely a \"2\" written on her back without a stolen heart. Moko however had nothing. When night falls Kurara finds the life detector in Tsubasa's space and shows it, it shows a 9, the same number of people here. The SDU decides to go back to sleeping in their own rooms and not opening the door until morning.",
+                                                          "days": [
+                                                            80
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Right after the bedtime annoucement, Hiruko rings Takumi's doorbell and asks him to meet her in the morgue if he trusts her. Takumi runs to the morgue, to find out what she remembered. She shows Tsubasa's number and says its her Livor Mortis Code, which is a unique numbre that appears on the back of SDU members from team 1 when they lost almost all of their cryptoglobin. Shouma's heart is also missing, as was Kako's, all in the location that the code would have shown up on. Further its also likely that the heart was removed as a red herring. She further reveals that X's motivation is related to the code and obtaining the full sequence. Further they determine that the correct sequence of codes to be entered into the distress transmitter is the Livor Motis Code of 9 members. Finally they determine that if they find the transmitter, they'll likely find something about X's identity and set out to look for it. Failing to.",
+                                                          "days": [
+                                                            81
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "The next morning after the search, Hiruko and Takumi hide themselves as they find Karura come down then go up. After some poking around, they find a secret door leading to a dark staircase, and head down it. They find a very cold room, with the distress signal transmitter in it. However they then find Kurara's body (sans mask) and that she has been dead for some time. They determine the person wearing Kurara's clothes are X themselves. Route lock.",
+                                                          "days": [
+                                                            82
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "direction": "right",
+                                            "name": "Takumi",
+                                            "route": {
+                                              "name": "Chapter15_B_b RIGHT BRANCH"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
                             }
                           }
                         ]
@@ -4193,7 +4551,21 @@
                                                                                                                     "direction": "right",
                                                                                                                     "name": "No",
                                                                                                                     "route": {
-                                                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH RIGHT BRANCH"
+                                                                                                                      "name": "002: Reset: Welcome to Last Defense Academy",
+                                                                                                                      "events": [
+                                                                                                                        {
+                                                                                                                          "name": "The SDU decides not to fight against Sirei as he doesn't want to risk the SDU's lives any further. However Nozomi collapses from rejection symptoms, she however states that the cryptoglobin will soon leave her body forever. Right after the graduation music begins playing, as the SDU gathers in the schoolyard, as they watch the school enter attack mode. The SDU worries that the pod won't work if there is no more satellite, Sirei shows up and informs them that he has changed the destination. Further he states that goal has changed, and that the will of humanity is for them to survive, crossbreed (note: Nozomi is the only human), and build a new humanity. He also states that he will survive as the flames will only affect living creatures. Shion then shows up to say goodbye to the SDU and thanks them, asking them to live their lives happily. Finally the SDU boards the escape pod, and watches as the planet is destroyed. Takumi remembers what Sirei said just before they left, that he can ready a new simulation for the group and overwrite their memories so they can live in peace without the knowledge of what they've done. Takumi states he's already made up his mind.",
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "name": "Takumi, with no memories, wakes up on a new day 1, in a classroom surrounded by an SDU that he does not know. The rest of the group states they also do not know each other, and that all they can recall is basic details about their personality and past. Shouma was really popular in his class, Eito loves humanity, Yugamu was in a family of physicians, and Gaku was raised in an average home with an average family. Just then, a message appears on the blackboard telling them to greet their commanding officer, as Sirei appears and informs them of their new mission: survive and protect themselves as they are the only survivours of a destroyed world. He states that their goal is to build a new world and civilization, live, fall in love, etc.",
+                                                                                                                          "days": [
+                                                                                                                            101
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
                                                                                                                     }
                                                                                                                   }
                                                                                                                 ]
@@ -4204,7 +4576,48 @@
                                                                                                             "direction": "right",
                                                                                                             "name": "Reject Him",
                                                                                                             "route": {
-                                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                                                                                              "name": "003: Goodbye Eito Route: Praying For Your Happiness",
+                                                                                                              "deaths": [
+                                                                                                                {
+                                                                                                                  "id": "eito",
+                                                                                                                  "count": 1,
+                                                                                                                  "days": [
+                                                                                                                    88
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "events": [
+                                                                                                                {
+                                                                                                                  "name": "Takumi rejects Eito and allowing him to join the team. Eito allowed himself to get his hopes up and finds them crushed, deciding to leave the academy. Sirei says he will take care of it and will lead Eito out, Eito also asks to discuss something in private with him. Then we swap to Eito's perspective.",
+                                                                                                                  "days": [
+                                                                                                                    82
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Sirei provides Eito with a few days of rations and Eito sets off. He heads towards Second-to-Last Defense Academy to take shelter and find more rations as Sirei suggested.",
+                                                                                                                  "days": [
+                                                                                                                    82
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Eito after many days (literally day 8X) finds himself at Second-to-Last Defense Academy. He also then contemplates Sirei giving him an undying flame bomb, with the purpose of blowing himself if V'ehxness wer eto come for him to prevent her from absorbing him. He wills himself to press the button, to end his suffering and the man known as Eito, but finds himself unable to.",
+                                                                                                                  "days": [
+                                                                                                                    85
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "2 days after the last event, Eito hears screaming and then multiple sets of footsteps approaching. He waves them down and allows them to stay, all the while they say nothing, he heads back inside and says to follow him inside if they want. He leads them to the cafeteria, and is given his bag after being unable to find it, but they don't respond when he asks if they did. Finally the group finds food and eats. Eito falls asleep. Later that night, Eito is awoken by a Futuran child asking why he was alone. He answers that he did something bad and had to leave his friends and he can't go back. They also reveal that they can't go back, because they broke their promise and left home, then were chased by monsters and unable to find their way back. Eito informs the group that there should be a map around they could use to find home. The girl however sits down next to him, asking him if there's no chance of forgiveness, which he says their isn't. She is also worried she won't be forgiven.",
+                                                                                                                  "days": [
+                                                                                                                    87
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "The next morning Eito is awoken by the girl, who leads him outside to inform him that monsters are approaching. Eito asks if they have found the map and the way home, which they have, and offers to fight back the monsters to let them escape. The children are worried they won't be forgiven even if they make it home. Eito convinces them to try and make it home and redeem themselves. The battle begins, with Eito swinging everytime he felt himself hit ensuring he would always hit a target. He finds himself beaten down, his weapon knocked out of his hand, he finds himself under a pile of monsters. He reaches into his bag and brings out the bomb. He recalls the false memories he had Sirei embed into him, happy memories with the SDU, praying for their victory and their happiness.",
+                                                                                                                  "days": [
+                                                                                                                    88
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
                                                                                                             }
                                                                                                           }
                                                                                                         ]
@@ -4215,7 +4628,227 @@
                                                                                                     "direction": "right",
                                                                                                     "name": "Abandon Humanity",
                                                                                                     "route": {
-                                                                                                      "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH"
+                                                                                                      "name": "Chapter03_0",
+                                                                                                      "events": [
+                                                                                                        {
+                                                                                                          "name": "Takumi and the SDU decide to abandon humanity, refusing to continue to be humanity's puppets. Sirei commends their conviction, however he begins to activate their bombs as they are now rebels against humanity. However, the bombs refuse to go off, because Eito already destroyed the detonation transmitter in the war room preventing their detonation. Takumi kills Sirei in one hit, Shion briefly mourns him but says its for the best.",
+                                                                                                          "days": [
+                                                                                                            77
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Eito comes to Takumi's room after the morning annoucement and rings the doorbell, reminding Takumi he can escape easily. He then asks Takumi to let him rejoin the team, but that he doesn't want to attack the satellite. Further, he gives Takumi a detonator for his bomb, and states that after yesterday he believes in them now and conceptually likes them (still hates looking at and hearing them however).  Takumi allows him to rejoin the team.",
+                                                                                                          "days": [
+                                                                                                            78
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Takumi enters the cafeteria to find everyone getting along with Eito due to them all being comrades. Further they decide to try and make contact with the Futurans and live peacefully with them rather than just retreating and lying low.",
+                                                                                                          "days": [
+                                                                                                            79
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "The SDU gathers at the front door and prepares to leave the school, with some setting out to make contact and discuss, and some staying back to defend if needed.",
+                                                                                                          "days": [
+                                                                                                            82
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "After finding nothing but campfire remains the day before, prat of the SDU once again sets out to see if they can find anyone. This time they find a child being attacked by a group of invaders, which they quickly dispose of. Takumi to calm th child after offers them some chocolate. The child says they were warned by the maiden to not talk to the children of the stars, instead they tell the child to tell the maiden about them and hope for a reply with a messenger arrow Tsubasa made that can be shot back through the wall.",
+                                                                                                          "days": [
+                                                                                                            83
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Eito comes to talk to Takumi after the morning annoucement, with news that an arrow has come back through the wall. Eito, Nozomi, and Takumi let the Maiden through the wall. They open discussions and she says that she has heard of Takumi's name before, and that she knows about them being born from Shion. She reveals that V'ehxness rules as a dictator, which was brought about by the war humanity started. She also reveals that V'ehxness has taken possesion of the Boxes of Blessing, alongside the process to create the invader monsters. The Maiden reveals her name as Kamyuhn, the sole person in the rebellion she controls who has divine blood. She offers the SDU the choice to join them or not.",
+                                                                                                          "days": [
+                                                                                                            87
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "branch": {
+                                                                                                        "name": "Join the Rebellion?",
+                                                                                                        "day": 87,
+                                                                                                        "choices": [
+                                                                                                          {
+                                                                                                            "direction": "left",
+                                                                                                            "name": "Yes",
+                                                                                                            "route": {
+                                                                                                              "name": "Chapter03_0_a",
+                                                                                                              "deaths": [
+                                                                                                                {
+                                                                                                                  "id": "commander0",
+                                                                                                                  "count": 1,
+                                                                                                                  "days": [
+                                                                                                                    93
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "id": "supreme",
+                                                                                                                  "count": 1,
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "events": [
+                                                                                                                {
+                                                                                                                  "name": "Takumi and the SDU elect to join the rebellion, however right after, Dahl'xia appears behind them. He states that Kamyuhn would be betraying her people by allying with the SDU. He allows the SDU to gather and transform and begins a battle. He also reveals that V'ehxness sent his son Murvrum to war and an early grave and hates her for that. Just as the SDU is panicking realizing they can't break through his armour, Kamyhun shoots an arrow through his armour, causing him to detransform. She reveals she did this with her divine knowledge and was able to make an arrow that could do that. After the fight Kamyuhn stays at the school as a liason between the rebellion and the SDU.",
+                                                                                                                  "days": [
+                                                                                                                    87
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Kamyuhn while eating reveals that the Futurans also have ramen, curry, miso, and soy sauce. The SDU starts discussing their dreams and what they want to do after, as this is happening Shion reveals himself.",
+                                                                                                                  "days": [
+                                                                                                                    88
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Nozomi comes to Takumi's room in the morning to inform him that the SDU is throwing a welcome party for Kamyuhn in the gym. once again Kamyuhn and the SDU discuss the similarities of their cultures and histories. However, Kamyuhn brings up Eva, her mother. However she says she brought it up in order to forgive the SDU, to show that she understands the circumstances that led to it.",
+                                                                                                                  "days": [
+                                                                                                                    92
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi wakes up to an attack on the school by Dahl'xia. Kamyuhn has the SDU hold off Dahl'xia until she can prepare and fire another arrow to pierce his defenses. Dahl'xia and the SDU face off in a true battle with both sides fighting for their own cause, however the SDU is able to prevail and defeat him. Just as he is dying however, V'ehxness appears and absorbs him, stomping on him after to prove her point.",
+                                                                                                                  "days": [
+                                                                                                                    93
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi wakes up and walks downstairs to find Nozomi patching up Kamyuhn's sleeves, and finds out they have been spending some time together and forging a bond.",
+                                                                                                                  "days": [
+                                                                                                                    96
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Takumi goes to the caf to find the SDU eating as much as possible and trying to make one last silly memory before everything changes. Afterwards Eito asks Takumi to come to the war room later as he has proof of something. Takumi goes and is informed that the artificial satellite has started to move towards Futurum, likely to make a general attack.",
+                                                                                                                  "days": [
+                                                                                                                    97
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "The SDU decides to take a photo of themselves as a graduation photo and print enough copies for everyone. The photo turns out amazingly with all members, including Shion and Kamyuhn. However right after, Nozomi faints. After Takumi carries her to her room, once she wakes up she informs him and Kamyuhn that she has been suffering rejection symptoms for a little bit now. Later in the night Kamyuhn comes to Takumi's room to inform him that there is a potential way to save Nozomi, however it requires a willing transfer of cryptoglobin although it would kill the donor. Kamyuhn asks that if she were to die in battle or die another way to perform the transfer then as she could at least save Nozomi who would guide the future well.",
+                                                                                                                  "days": [
+                                                                                                                    98
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Attack by V'ehxness' squad, however before the battle starts, Shion asks the SDU to kill him and absorb him so he doesn't destroy the planet on day 100. Eito offers to do it so no one else has to, but Takumi rejects it saying that they will absorb him together, which they do. Eito after states he is starting to feel affection for the SDU. Finally they begin their final battle. However midway through, the satellite descends through the cloud layer, the SDU decides to fight both V'ehxness and the humans. As V'ehxness falls she states that the SDU has no future, as they will be hunted forever by humanity until they are all dead. Right after she finishes speaking, she blows herself up, fatally injuring both Kamyuhn and Nozomi. Kamuyhn again offers her cryptoglobin to Nozomi so she can at least survive, Nozomi counters by offering her remaining cryptoglobin to Kamyuhn. The choice is left to Takumi.",
+                                                                                                                  "days": [
+                                                                                                                    99
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "branch": {
+                                                                                                                "name": "Who Are You Going to Save?",
+                                                                                                                "day": 99,
+                                                                                                                "choices": [
+                                                                                                                  {
+                                                                                                                    "direction": "left",
+                                                                                                                    "name": "Nozomi",
+                                                                                                                    "route": {
+                                                                                                                      "name": "005: Rebellion Route: My War",
+                                                                                                                      "deaths": [
+                                                                                                                        {
+                                                                                                                          "id": "kamyuhn",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            99
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ],
+                                                                                                                      "events": [
+                                                                                                                        {
+                                                                                                                          "name": "Takumi elects to save Nozomi, following Kamyuhn's dying wish, as she passes away peacefully. Takumi understands that was he has picked was selfish and likely doomed the planet.",
+                                                                                                                          "days": [
+                                                                                                                            99
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "name": "Many years later, Nozomi and Takumi have set up a school from which they teach new generations the concepts of peace.",
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "direction": "right",
+                                                                                                                    "name": "Kamyuhn",
+                                                                                                                    "route": {
+                                                                                                                      "name": "006: Rebellion Route: Seeds of Hope",
+                                                                                                                      "deaths": [
+                                                                                                                        {
+                                                                                                                          "id": "nozomi",
+                                                                                                                          "count": 1,
+                                                                                                                          "days": [
+                                                                                                                            99
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ],
+                                                                                                                      "events": [
+                                                                                                                        {
+                                                                                                                          "name": "Takumi decides to save Kamyuhn over Nozomi, as it was Nozomi's wish and what is best for the future of the planet.",
+                                                                                                                          "days": [
+                                                                                                                            99
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "name": "15 years later Takumi and Kamyuhn stand proud, after their negoations have worked out, with humanity agreeing to a peace after all of Futurum has united under their leadership.",
+                                                                                                                          "days": [
+                                                                                                                            100
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              }
+                                                                                                            }
+                                                                                                          },
+                                                                                                          {
+                                                                                                            "direction": "right",
+                                                                                                            "name": "No",
+                                                                                                            "route": {
+                                                                                                              "name": "004: Rebellion Route: Failed Alliance",
+                                                                                                              "deaths": [
+                                                                                                                {
+                                                                                                                  "id": "nozomi",
+                                                                                                                  "count": 1,
+                                                                                                                  "days": [
+                                                                                                                    87
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "id": "kamyuhn",
+                                                                                                                  "count": 1,
+                                                                                                                  "days": [
+                                                                                                                    87
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "events": [
+                                                                                                                {
+                                                                                                                  "name": "The SDU decides not to join the rebellion as it may be a trap. After they suggest taking Kamyuhn in for interrogation, she starts swinging a weapon, stabbing and killing Nozomi, after which Takumi in a rage kills Kamyuhn who curses them as vile wicked invaders who killed her mother in the same way.",
+                                                                                                                  "days": [
+                                                                                                                    87
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "name": "Years later Takumi struggles to survive as war has broken out between what remains of the Futurans and Humanity who has begun chemical warfare, Takumi hasn't seen the rest of the SDU in years.",
+                                                                                                                  "days": [
+                                                                                                                    100
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ]
+                                                                                                      }
                                                                                                     }
                                                                                                   }
                                                                                                 ]
@@ -4226,7 +4859,219 @@
                                                                                             "direction": "right",
                                                                                             "name": "Protect Her",
                                                                                             "route": {
-                                                                                              "name": "Chapter00_0_a LEFT BRANCH RIGHT BRANCH LEFT BRANCH RIGHT BRANCH RIGHT BRANCH"
+                                                                                              "name": "Chapter04_0",
+                                                                                              "deaths": [
+                                                                                                {
+                                                                                                  "id": "shouma",
+                                                                                                  "count": 1,
+                                                                                                  "days": [
+                                                                                                    63
+                                                                                                  ]
+                                                                                                }
+                                                                                              ],
+                                                                                              "events": [
+                                                                                                {
+                                                                                                  "name": "Takumi refuses to sacrifice Eva to learn the truth, despite the team's reservations. Upon Takumi reminding Eva that she has reasons to live, she begins to break down and state she doesn't want to die. Shouma starts to charge at her, but Eva attacks Shouma, stabs him through the heart, and ends up absorbing him. Hiruko then orders her restrained as Eva passes out. The SDU digs a graves for Shouma and burries him.",
+                                                                                                  "days": [
+                                                                                                    63
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi heads to the cafeteria where some members are gathered, they decide to move the key to Eva's cage to the war room, and to move Eito's cage away from Eva's. Hiruko proposes killing Eva as to prevent any more SDU deaths.",
+                                                                                                  "days": [
+                                                                                                    64
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi decides to go check on Eva in the courtyard, where she reveals she has no memory of what happened after the battle. She asks Takumi to pass any punishment he sees fit, but Takumi refuses to do it. She asks when she will be let out so she can continue following orders. Takumi decides to let her remain.",
+                                                                                                  "days": [
+                                                                                                    65
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi once more goes to see Eva, and talks with her for a while. He asks if Eva had a family before, causing her to break and start crying then pass out.",
+                                                                                                  "days": [
+                                                                                                    66
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi enters the cafeteria, shortly after Nozomi enters and tells him he may want to stop seeing Eva so much as its giving a bad impression to the rest of the SDU. Takumi refuses, as its the only way he can help settle his guilt. Afterwards he once again goes to see Eva. He asks if there's anything Eva wants to do, specifically asking if there's anyone she misses, he specifically asks about Kamyuhn. This causes to break once again, however this time she seems to be aware of things, as if the brainwashing if wearing off. The brainwashing seems to be fully wearing off and Takumi asks her to keep quiet so the rest of the team doesn't kill her if they realize. She calms down, and starts putting together what happened what happened when she was brainwashed. She asks if he really wants to save her, and Takumi answers he does. She then reveals that Sirei brainwashed her and that if the others find out they will kill her. She then asks if he really will keep this a secret from his allies.",
+                                                                                                  "days": [
+                                                                                                    67
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi once again goes to see Eva, smiling upon seeing him and saying that she ought to consider how she felt having to wait all alone. However she then follows it up with she was just trying to make him feel bad, then states that they are enemies, the invaders and invaded. She asks what happens now, she isn't expecting to be set free, but she would like to know. She also asked why the SDU hated her so much, not remembering that she killed Shouma, Takumi lies and says that he died in battle. They discuss the nature of being forced to fight in a war neither of them wanted.",
+                                                                                                  "days": [
+                                                                                                    68
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi runs into Tsubasa who says she is fixing Sirei and is expected to be done in 3 days (Day 71), giving Takumi a time limit on his decisions.",
+                                                                                                  "days": [
+                                                                                                    68
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "After breakfast Takumi once again goes to talk to Eva. They discuss how they have similar cultures, histories, bodies, etc. She then starts telling Takumi about her daughter, Kamyuhn, and that her birth parents tried to oppose V'ehxness and were killed for it. Further thta V'ehxness killed them in front of Kamyuhn. Takumi shifts quickly to asking about the Futuran God, Eva answers with some of the history, mostly that the God offered 7 Boxes of Blessing and 6 Boxes of Calamity. Takumi after hearing about their history and Kamyuhn, decides to break Eva out of the school.",
+                                                                                                  "days": [
+                                                                                                    69
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi wakes up and goes to the courtyard, untying Eva and trying to unlock the cage. However, Hiruko shows up with several others and reveals the key was swapped for a dummy one, just after Sirei shows up. He then informs Eva that she killed Shouma and absorbed him. Hiruko suggests restraining Takumi. However just as they close in, a flash grenade goes off and someone pulls Takumi and Eva out to the courtyard. Once they can see again they find its Eito, who reveals he could have broken out at any time, and elected to to save Takumi who has now become an enemy of humanity. Eito then gives them a parting gift of food, equipment, Takumi's infuser, and a fire extinguisher, as he retreats back into his cage. Takumi and Eva run from the school. Just after, Nozomi appears and discusses events with Eito, who states that it was her who asked for his help and let him out. Afterwards in the war room Hiruko and Sirei discuss events, and Hiruko suggests leaving Eito alive and not going after Takumi and Eva as they are bound to eventually come crawling back and that the SDU needs them to survive.",
+                                                                                                  "days": [
+                                                                                                    70
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi and Eva wonder around outside for a few days, almost out of energy. Discussing events from time to time, trying to find food and water, and struggling to survive. Finally they are exhausted, stuck lying in the sun, discussing everything. Eva says she is at peace when with Takumi and would not mind dying holding hands with him.",
+                                                                                                  "days": [
+                                                                                                    71,
+                                                                                                    72,
+                                                                                                    73,
+                                                                                                    74,
+                                                                                                    75
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Takumi is woken up by Eva in a small camp, where she reveals that Kamyuhn managed to save them at the last moment. She welcomes him to the rebellion headquarters. Takumi learns that the rebellion is the underground group opposing V'ehxness and that Kamyuhn has assumed control of it. Kamuyhn informs Takumi that she and Eva have to share a tent, but that she's sure that won't be a problem for them given how Eva favours him, and how also likes her.",
+                                                                                                  "days": [
+                                                                                                    78
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "After many days of a peaceful life for Takumi and Eva at the camp, only fighting off minor invader squads, they discuss events. With Takumi's guilt over abandoning the SDU, and Eva over letting her daughter take up such a burden of command and breaking the biggest tabboo.",
+                                                                                                  "days": [
+                                                                                                    93
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Kamuyhn and Takumi discuss Eva in the morning, with her revealing that as Eva's daughter she can never be an equal or partner to her like Takumi can. Saying that if Takumi keeps this up she may even call him Father some day.",
+                                                                                                  "days": [
+                                                                                                    94
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Kamyuhn informs Takumi and Eva that Dahl'xia has been released, but that he was defeated by the SDU. However the school recieved significant damage and that the undying flames had vanished, meaning there was no longer enough flame for the attack on the 100th day, and that V'ehxness will launch an attack soon. Kamyuhn says that they will watch and hope the threats take care of each other.",
+                                                                                                  "days": [
+                                                                                                    95
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "name": "Kamyuhn states that her recon teams have spotted V'ehxness heading towards the school and that she will attack on day 99, Eva stells Takumi to follow his heart.",
+                                                                                                  "days": [
+                                                                                                    98
+                                                                                                  ]
+                                                                                                }
+                                                                                              ],
+                                                                                              "branch": {
+                                                                                                "name": "Save Last Defense Academy?",
+                                                                                                "day": 98,
+                                                                                                "choices": [
+                                                                                                  {
+                                                                                                    "direction": "left",
+                                                                                                    "name": "Go Save It",
+                                                                                                    "route": {
+                                                                                                      "name": "007: Eva Route: Thank You",
+                                                                                                      "deaths": [
+                                                                                                        {
+                                                                                                          "id": "eva",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "supreme",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "takemaru",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "tsubasa",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "gaku",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "ima",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "kako",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "yugamu",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "id": "moko",
+                                                                                                          "count": 1,
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "events": [
+                                                                                                        {
+                                                                                                          "name": "Takumi elects to go save the SDU. In the morning he prepares to leave, however Eva comes out before he can. She understands that he will leave and that he would try to do it alone, she also reveals that she loves him and she is going with him even if it means standing against her sister. [Editor's Note: Clair De Lune is playing]. Kamyuhn also comes out, willing to let her go, knowing te rebellion can take out whoever remains. Takumi and Eva arrive at the SDU just as they are being defeated, however just before she can attack the 3 remaining members (Eito, Nozomi, and Hiruko), Eva steps in and blocks her attack. V'ehxness slices through Takumi easily. V'ehxness and Eva argue about her choices and how just now she is finally willing to stand up to her. The two transform and are equally matched in battle. V'ehxness chastises her saying she will never understand what it is like to absorb another's power, however Eva goes berserk making V'ehxness realize she has, and welcoming her for it, saying they really are family. Takumi cheering on Eva until both sisters are exhausted. They lose their transformations and attack each other, Eva killing V'ehxness, however Eva is left completly exhausted from the fight, and has the life drain out of her as she tells Takumi she loves him.",
+                                                                                                          "days": [
+                                                                                                            99
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  },
+                                                                                                  {
+                                                                                                    "direction": "right",
+                                                                                                    "name": "Stay Here",
+                                                                                                    "route": {
+                                                                                                      "name": "008: Eva Route: The Wanderers",
+                                                                                                      "events": [
+                                                                                                        {
+                                                                                                          "name": "Takumi decides not to go back to the SDU, but instead stay with Eva.",
+                                                                                                          "days": [
+                                                                                                            98
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "name": "Takumi and Eva wonder the wasteland together months after the SDU is defeated, with Eva pregnant and them trying to avoid V'ehxness. Kamyuhn has been out of contact as she's busy leading the rebellion which is being slowly stomped out. Eva feels the baby kick as they discuss how it will them a reason to celebrate when it is born.",
+                                                                                                          "days": [
+                                                                                                            100
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
                                                                                             }
                                                                                           }
                                                                                         ]
@@ -4297,7 +5142,22 @@
                     "direction": "right",
                     "name": "No",
                     "route": {
-                      "name": "Route 1 Right RIGHT BRANCH"
+                      "name": "Chapter13_0",
+                      "events": [
+                        {
+                          "name": "Takumi lies and says he found Eito's diary that contained his plans. They are very skeptical of him, and go to get Eito's side of the story. Hiruko leaves last, looking at Takumi and simply going \"Why?\" with a shocked expression. In the hallway Sirei and Takumi discuss why he didn't tell them, and Takumi says he didn't want them to not trust him as they wouldn't believe he isn't a time traveller. Sirei agrees and decides not to say anything. Afterwards Takumi goes to see the SDU in the courtyard, where they decide to let Eito live. Afterwards Takumi talks to Eito alone, where he says he went along with what Takumi said, keeping that night as their little secret. The entire SDU agrees to fight after hearing what Sirei has to say about their mission and their world. Later that night Hiruko comes to Takumi's room to interrogate him, she didn't find a diary in his room, and she believes Takumi came from the future. Upon getitng her confirmation, she goe sto leave, but Takumi asks why she reacted the way she did at first. She says she'll sleep on it, but says hiding he was a time traveller and keeping Eito alive were good decisions.",
+                          "days": [
+                            3
+                          ]
+                        },
+                        {
+                          "name": "Sirei appoints Takumi as leader of the SDU, to agreement from the SDU. Takumi and Hiruko talk afterwards, where she says she has changed her mind and decided not to tell him everything, especially since she has seen this play out before. Takumi later goes to try and get the truth out of Hiruko, finding her later and talking with Sirei, unable to hear what was said. Eventually, Sirei gave Hiruko something that fit into the palm of her hand. Takumi goes to Hiruko's room later to try and discuss something with her, but finds her missing, he then sees her exit the wall of fire and leave. He tries to follow her out, and eventually sees her and tries to follow her. He finds her in a facility and in a room with many machines, and pulls open a locker to find many outfits that appear to be like deep sea diving outfits, which she puts on. She also then says she needs to make the leap soon, she steps onto the centre machine and prepares. However Takumi tries to stop her and he thinks she will vanish, jumping at her. When Takumi comes to Hiruko asks what he was possibly thinking jumping in without a leap suit. She says that trying to perform a parallel leap without a leap suit puts incredible strain on the body. She reveals its already past midnight and on day 5. She tells him to stay here and rest as she leaves to go back to the academy. She opens a locket with 2 extingushers, which shouldn't be possible as Takumi left his outside, takes it, and leaves. Takumi ignores this, grabs the other extingusher and goes after her. He makes his way back to the school and inside, looking for Hiruko. He finds the morgue unlocked, and finds Eito's body under a sheet in it. Then he hears a loud noise above him, in the infirmiary, just to find Hiruko collapsing. He tries to shake her awake, which she does, but then she kicks him in the stomach and launches him. She then begins to strangle him, he passes out. When he comes to he sees a corpse recovery drone get sucked into the revive-o-matic with someone in the suit watching, then blacks out again. He wakes up, Hiruko informs him that she failed and \"couldn't save him\", she takes Takumi back to the leap room to go back. Further she also informs Takumi that she's not worried about Eito's body or Takumi seeing it. Finally Takumi suits up, and then preforms a parallel leap with Hiruko. Finally they go back to the academy, and Takumi goes to sleep.",
+                          "days": [
+                            4,
+                            5
+                          ]
+                        }
+                      ]
                     }
                   }
                 ]
