@@ -3391,7 +3391,272 @@
                                                     "direction": "left",
                                                     "name": "Kill Her",
                                                     "route": {
-                                                      "name": "Who Will You Sacrifice? TOP BRANCH LEFT BRANCH"
+                                                      "name": "Chapter09_0",
+                                                      "deaths": [
+                                                        {
+                                                          "id": "eva",
+                                                          "count": 1,
+                                                          "days": [
+                                                            21
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "events": [
+                                                        {
+                                                          "name": "Takumi elects to kill Eva, to the disagreement of several SDU members. However before they do, Eva shouts that she knows where a Box of Blessings is, which is a mystical artifiact with a spirit inside, that if all 7 are collected you get any wish granted. Eva, who apparantly can't lie once her mask is off, says it really exists and she knows where it is. Eva refuses to tell them anything unless they promise not to kill her. Eva reveals that the box had what appeared to be a moon design on it. Kako upon hearing this, kills and absorbs Eva. However shortly after in Eva's voice they hear \"pay for this, you'll pay for this! I didn't want to die, I shouldn't have died!\" and curses the SDU. Yugamu then throws her corpse into the undying flames.",
+                                                          "days": [
+                                                            21
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Takumi wakes up from a nightmare of hearing Eva's voice, then hears Kako and Ima arguing. With Kako saying she's now stronger than Ima and that he is no longer qualified to protect her, she then runs off. Upon entering the cafeteria, Gaku reveals that almost everyone had a nightmare about Eva last night and overslept. During a conversation about the possible existence of a box, they hear a large rumbling. In the hallway they find Tsubasa who reveals that all the shelves in the garage collapsed. Takumi runs into Nozomi in the cafeteria who after last night and Takumi's decision, needs to stay away from him for a bit. Several of the SDU then gather to clean up the garage, working until night time. Takumi goes to the cafeteria to get them some food, but finds the lights flickering, then sees a ghost or similar in the corner. Just then Ima walks in, the ghost vanishes, and reveals that Kako left the school to go get stronger. Takumi has to decide to look for Kako or the Shadowy Figure he saw.",
+                                                          "days": [
+                                                            22
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "branch": {
+                                                        "name": "Who Will You Look For?",
+                                                        "day": 22,
+                                                        "choices": [
+                                                          {
+                                                            "direction": "left",
+                                                            "name": "Kako",
+                                                            "route": {
+                                                              "name": "Chapter09_A",
+                                                              "events": [
+                                                                {
+                                                                  "name": "Takumi decides to ignore the shadowy figure and go looking for Kako, he gathers everyone in the cafeteria. Sirei says some have to stay behind to guard the academy. Kurara, Ima, Gaku, Yugamu, Nozomi, and Hiruko go to look. Within some ruins outside they find her, however she says she can feel a box of blessings hidden in a nearby shrine. However before they can go to it, invaders show up forcing them to retreat back for now.",
+                                                                  "days": [
+                                                                    22
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "In the morning much of the SDU sets out, and by afternoon they reach the shrine. However they find the box missing. Once more they hear footsteps and retreat to the school. At night, Hiruko enters Takumi's room and says they should get serious about finding the boxes, and if they don't they will be led down a path of self destruction. She leaves to inform the others.",
+                                                                  "days": [
+                                                                    23
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The SDU looks for the boxes over a few days. On the day of the 26th, Nozomi alerts the group and they follow a shadow they saw. They catch up to it and find an old man. Upon talking to him he asks if they are Children of the Stars, the SDU doesn't know what that means, but promises to leave him alone if he tells them what he knows. He then tells them that is part of a group that has eschewed the war with the Children of the Stars and returned to their home, he then says that this planet is Futurum, and that it is not Earth, further he informs them that the first Children of the Stars descended and scorched the planet, trying to take the planet. Right after that, a Box of Blessing appeared. He mentions the boxes of blessing and calamity, and that V'ehxness as the current Supreme Commander and keeper of cryptoglobin she is the keeper of the boxes. The Boxes of Blessings grant any wish, while the Boxes of Calamity bring untold disaster. He says that some even say that the boxes are how God granted them cryptoglobin in the first place, and if that's true the boxes really are the start of it all. However through the years, the boxes' precise locations were lost, and became more of an ideal, a symbol of the Supreme Commander's authority. However, Supreme Commander V'ehxness has been seeking their power once more as the war came. Further, he also says he had a friend researching the boxes before the war, and there might be some results left around here somewhere. The SDU regroups at the academy, Takumi asks Sirei about this not being Earth. After some threats they get the truth out of Sirei, that humanity left Earth after World Death via the Exodus Project, and that the Artifical Satellite is a space ship. Before leaving they had discovered a planet, KXK-787, that in many ways was Earth's long list sister, located in a habitable space, with most of the planet covered in water. Also that the Tokoyo Residental Complex is inside the satellite. However their goal remains the same: defeat the Futurans and give humanity a new home.",
+                                                                  "days": [
+                                                                    24,
+                                                                    25,
+                                                                    26
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The SDU finds some kind of shelter in the ruins that they enter, assuming it must be the ruins the old man mentioned. They find a scroll inside, and head back outside. After exiting however, Quenzelle appears, and rips the scroll in half, taking one side and leaving.",
+                                                                  "days": [
+                                                                    27
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Several days pass, although the SDU is able to make it away from the area despite being attacked by Addamaque. The SDU discusses what to do now.",
+                                                                  "days": [
+                                                                    34
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The SDU heads out to look for a commander base, but is unable to find anything.",
+                                                                  "days": [
+                                                                    38
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The SDU once again goes out to look for a commander base, this time however they do find it. They decide to scout it out and come back tomorrow. The next day they come back and send a strike team down, consisting of Takumi, Takemaru, Kurara, Yugamu, and Hiruko. Quenzelle appears, saying he will take back the SDU's half of the moldy book/scroll. The SDU defeats and absorbs him. They find the other half of the book/scroll, and a box of blessings. They decide to put off opening the box until they have more info and possibly all of the boxes.",
+                                                                  "days": [
+                                                                    40
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "The SDU decides to go see the old man again, to try and get him to translate the language so they can learn what the book says. They give him and his group food and water in exchange. He reveals that this area was once known as the Land of the Royal Tomb, the land where a former supreme commander sealed the sealed. Thirteen boxes lay dormant in the Land of the Royal Tomb, 7 of Blessing, 6 of Calamity. The ability to distinguish the two has been lost over time, due to the Supreme Commander's insistence on oral tradition. Only one sentence remains \"Blessings stand alone\". As such they have no idea what box they have, and no clue where the boxes are other than somewhere in this area. The SDU comes up with the idea of creating a scanner for the boxes and attaching it to the academy's main computer.",
+                                                                  "days": [
+                                                                    41
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Gaku comes to Takumi's room to inform him they need \u03b84 and \u03bb7 in order to complete the analysis machine, so they set out on an exploration to find them. Which they do, and hand them over to Tsubasa. The next morning she completes the machine, and they turn it on. 13 locations appear, likely the boxes locations. The SDU decides to split into teams, one to search, one to defend, with Takumi getting to pick where he goes.",
+                                                                  "days": [
+                                                                    44,
+                                                                    45
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "branch": {
+                                                                "name": "Which Team Will You Join?",
+                                                                "day": 45,
+                                                                "choices": [
+                                                                  {
+                                                                    "direction": "left",
+                                                                    "name": "Exploration",
+                                                                    "route": {
+                                                                      "name": "Chapter09_A_a",
+                                                                      "deaths": [
+                                                                        {
+                                                                          "id": "commander11",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander10",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander7",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            57
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "events": [
+                                                                        {
+                                                                          "name": "Takumi elects to go with the exploration group and search for the boxes.",
+                                                                          "days": [
+                                                                            45
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The exploration group of Gaku, Hiruko, Ima, Kako, Tsubasa, and Takumi set out to begin looking for boxes. They reach the first location, the beach, and look for a shrine underneath the sand. During searching Gaku starts to fall into a sand pit, however as Tsubasa starts falling, they realize its some kind of cave and that Gaku is in fact not dying. Further, they also find a box in it, this one has 10, compared to the previous which had 4.",
+                                                                          "days": [
+                                                                            46
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to an attack from Turamtammi's squad, however the music is already playing, so they are able to avoid the full illusion. Part way through the battle Nyewgank appears and revives Turamtammi, however the SDU is able to defeat and absorb both.",
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The group heads back out once again to search for boxes, a hospital and an art gallery. They head for the hospital first. Inside, Gaku tries to flip a light switch and has a light fall on him. They then find box 6, and head back to the academy.",
+                                                                          "days": [
+                                                                            49
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The SDU spends several days looking for boxes, finding nothing.",
+                                                                          "days": [
+                                                                            50,
+                                                                            51,
+                                                                            52,
+                                                                            53,
+                                                                            54,
+                                                                            55
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The group sets out to explore and makes it to the art gallery. Takumi and Hiruko end up looking at a painting of a cherry blossom viewing party, and they discuss the nature of war. However, after asking about the box's location and Takumi saying the other one was back at the academy, she tries to stab Takumi. The real Hiruko shows up and pushes Takumi aside revealing that it was Zen'ta, who took the box and left. However the real Hiruko is wounded, with a slash on her stomach.",
+                                                                          "days": [
+                                                                            56
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to an attack by Zen'ta's squad, who is transformed into Hiruko. After splitting into multiple copies, and then copying the other SDU members, the SDU is able to defeat and absorb her. Further they also retrieve box 12 from Zen'ta, the same one from the art gallery.",
+                                                                          "days": [
+                                                                            57
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The group heads out again, this time having to camp out to make it to their destination. Takumi and Gaku get the job of taking watch, they have a conversation about confidence and being one's self. The next morning they decide to head back to the academy since they had scoped the area out.",
+                                                                          "days": [
+                                                                            58,
+                                                                            59
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The group heads out, their destination is Turamtammi's house, as there should be a box there. They find her house and enter, however Tsubasa almost falls into a spike trap, Takumi grabs her and prevents her. Just then, Turamtammi's voice plays over a speaker saying they weren't invited and deserve a trap extravaganza. They manage to avoid the traps, and grab box 9 and head back.",
+                                                                          "days": [
+                                                                            62
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to an attack without a leader, the SDU defeats them.",
+                                                                          "days": [
+                                                                            63
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to Shouma informing him Eito has escaped. They head to the courtyard to investigate and find that he is just gone. They suspect he got into the research lab, and may now have data to be able to get the remaining boxes. They also find Sirei's body torn apart and dumped in a trash can, with possible motives of wanting information from him, wanting to prevent him from telling us something, both, or something else. The SDU searches the school but finds nothing. They do find missing supplies and a fire extingisher, meaning he likely left. Takumi gets to decide if he goes with the split girls team or boys team for exploration.",
+                                                                          "days": [
+                                                                            64
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "branch": {
+                                                                        "name": "Which Team Will You Join?",
+                                                                        "day": 64,
+                                                                        "choices": [
+                                                                          {
+                                                                            "direction": "left",
+                                                                            "name": "Girls",
+                                                                            "route": {
+                                                                              "name": "Chapter09_A_aa",
+                                                                              "events": [
+                                                                                {
+                                                                                  "name": "Takumi decides to go with the girls' team, with Yugamu and Takemaru being used to fill out the boys' team.",
+                                                                                  "days": [
+                                                                                    64
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The groups set out, the girls' group heading towards and finding a mansion. Within they find invaders, and try to sneak around. They find box 11 without issue, and leave.",
+                                                                                  "days": [
+                                                                                    65
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The groups leave again, this time the girls' group sees a wave of invaders heading towards the school and heads back to defend.",
+                                                                                  "days": [
+                                                                                    71
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack, afterwards V'ehxness projects a hologram to speak to them with. She asks if we devoured Eva, but doesn't really care. She also asks for the boxes, in exchange she'll grant them a quick and painless death, the SDU refuses and she says she'll enjoy tearing them apart. She disconnects the hologram and a second wave attacks. The SDU defeats them, once again V'ehxness projects a hologram and says she'll take the boxes at the grand finale.",
+                                                                                  "days": [
+                                                                                    72
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "direction": "right",
+                                                                            "name": "Boys",
+                                                                            "route": {
+                                                                              "name": "Chapter09_A_a RIGHT BRANCH"
+                                                                            }
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "direction": "right",
+                                                                    "name": "Defense",
+                                                                    "route": {
+                                                                      "name": "Chapter09_A RIGHT BRANCH"
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "direction": "right",
+                                                            "name": "Shadowy Figure",
+                                                            "route": {
+                                                              "name": "Chapter09_0 RIGHT BRANCH"
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
                                                     }
                                                   },
                                                   {
