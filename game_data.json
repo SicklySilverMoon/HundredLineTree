@@ -3562,6 +3562,13 @@
                                                                           "days": [
                                                                             57
                                                                           ]
+                                                                        },
+                                                                        {
+                                                                          "id": "sirei",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            64
+                                                                          ]
                                                                         }
                                                                       ],
                                                                       "events": [
@@ -3647,6 +3654,22 @@
                                                                             "name": "Girls",
                                                                             "route": {
                                                                               "name": "Chapter09_A_aa",
+                                                                              "deaths": [
+                                                                                {
+                                                                                  "id": "commander0",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    93
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "supreme",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    99
+                                                                                  ]
+                                                                                }
+                                                                              ],
                                                                               "events": [
                                                                                 {
                                                                                   "name": "Takumi decides to go with the girls' team, with Yugamu and Takemaru being used to fill out the boys' team.",
@@ -3671,15 +3694,238 @@
                                                                                   "days": [
                                                                                     72
                                                                                   ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The girls head to an old subway tunnel that was marked by the system. Within they find a locked door, and try to find a way around. They begin smelling sulfur after looking around, and find an old hot springs. Which they all get in. Hiruko mentions that Takumi's life is forfeit if he has even one impure thought, and that he need not be nervous. Tsubasa asks Kako why she cares so much about the boxes, which she reveals is because this allows her to make something of her own life without her brother. Kako finds a key at the bottom of the hotsprings, allowing them to unlock the door. Inside they find box 5. Just then, Dahl'xia appears, attacking the SDU, who dodge. He then asks for the box as it is sacred to them. Hiruko throws the box behind him, saying he will keep it safe and they can get it later when they kill him, then sprint out.",
+                                                                                  "days": [
+                                                                                    73
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack on the school by Dahl'xia, without the boys' team. He fights, detransforms, and leaves when he determnes that part of the SDU is missing, saying he will return another day to fight them properly.",
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to find the boys team has returned with boxes 8 and 17. The girls leave and head to a residential area. Upon arriving they find the box in a roadside shrine, box number 7. They head back.",
+                                                                                  "days": [
+                                                                                    92
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to another attack by Dahl'xia. Kurara reveals that she has created a trap that will break through Dahl'xia's defenses, they just need to get him to step on it to release poison gas to negate them. Dahl'xia reveals that they killed his son, and that dying in battle is the wish of all true warriors. Dahl'xia mentions that although the SDU are strong and capable fighters, and are worthy of possessing the boxes, they can not escape their cursed fate. The SDU is able to defeat him, where he says he is happy with this death and that the SDU is worthy of facing V'ehxness for control of the boxes. Before the SDU can absorb him however, V'ehxness stabs and absorbs him instead. She is also holding all the boxes, even the ones the SDU collected, and she reveals she did it when they were dealing with Dahl'xia. She also says she is preparing a ritual to usher in a new age, where she will open the boxes and destroy the Earthlings once and for all, and then she will allow the SDU to live until then. She also states the SDU will be a tribute to her godhood, and that they will meet again on that day.",
+                                                                                  "days": [
+                                                                                    95
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The SDU gathers in the war room and discusses what they plan to do, they settle on trying to defeat V'ehxness and take the boxes back. Hiruko suggests sending out a team to track V'ehxness, which the Girls' team does. Upon arriving, they enter the enemy base, only to find Eito already there. He reveals he has not joined the Futurans as they're every bit as bad as the Humans, instead he asks to join the SDU, as he can't fight either the SDU or V'ehxness with the boxes. He offers to tell them where the boxes are in exchange. He leads them to a storeroom with all the boxes, which they gather and take with them. Eito parts with the group. The SDU soon finds that there's 2 more boxes: boxes number 2 and 13, that the invaders must have collected. Leaving them with all but 1 of the boxes, they determine V'ehxness has the last one.",
+                                                                                  "days": [
+                                                                                    98
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack by V'ehxness. The SDU resolves to win this battle and open the boxes of blessings. V'ehxness enters the battle with a box in her cape. She chastises the SDU for not opening the boxes, and says she didn't do it herself as she had to make arrangements to become a god, especially with the Second Coming being involved. V'ehxness midway through the battle, unleashes an undying flame attack. Despite this, and V'ehxness having command of the boxes, the SDU is able to defeat her, with Takumi landing the final blow, and V'ehxness self destructing after declaring that there is now only despair for this planet and this was the worst possible ending. Finally the SDU has all boxes, with V'ehxness' being number 3. There are 7 Boxes of Blessing and 6 of Calamity. Takumi makes a decision to determine which boxes to open.",
+                                                                                  "days": [
+                                                                                    99
+                                                                                  ]
                                                                                 }
-                                                                              ]
+                                                                              ],
+                                                                              "branch": {
+                                                                                "name": "Which Boxes Will You Open?",
+                                                                                "day": 99,
+                                                                                "choices": [
+                                                                                  {
+                                                                                    "direction": "left",
+                                                                                    "name": "Prime Numbered",
+                                                                                    "route": {
+                                                                                      "name": "025: Box of Blessings Route: Blessed With a Miracle",
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi decides to open the prime numbered boxes, and he wishes for them to make it to day 100. He finds Kyoshika and Darumi standing before him. The boxes appear to have revived them in accordance with Takumi's wish.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "direction": "right",
+                                                                                    "name": "Odd Numbered",
+                                                                                    "route": {
+                                                                                      "name": "026: Box of Blessings Route: Cursed with Calamity",
+                                                                                      "deaths": [
+                                                                                        {
+                                                                                          "id": "shouma",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "hiruko",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "ima",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "gaku",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "takumi",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi decides to open the odd numbered boxes, and passes out. When he awakens, he finds Gaku, Ima, Shouma, and Hiruko, asks if he had opened a box of Calamity, and hears Eito say yes and stab him. With Kako, Kurara, and Takemaru killing the remainders and seeking to destroy all life on the planet.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  }
+                                                                                ]
+                                                                              }
                                                                             }
                                                                           },
                                                                           {
                                                                             "direction": "right",
                                                                             "name": "Boys",
                                                                             "route": {
-                                                                              "name": "Chapter09_A_a RIGHT BRANCH"
+                                                                              "name": "Chapter09_A_ab",
+                                                                              "deaths": [
+                                                                                {
+                                                                                  "id": "commander0",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    93
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "supreme",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    99
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "events": [
+                                                                                {
+                                                                                  "name": "Takumi decides to join the boys' team, as he is a guy too, after all. Takemaru also joins the boys team, and Moko the girls team so the parties aren't so small.",
+                                                                                  "days": [
+                                                                                    64
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The girls' team takes the bus as it has the only other fire extinguisher after Eito broke the second handheld one. The boys' team sets out to look for a village that should have a box. Upon arriving they find a shrine with box number 2. Takumi gets so excited upon seeing it, he sprints toward it, and steps on a landmine, getting blown well away. The rest of the boys drag him back to the school.",
+                                                                                  "days": [
+                                                                                    65
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up several days later, after having terrible dreams, to find Nozomi watching over him. She says the boys brought back the box they found. He passes out again.",
+                                                                                  "days": [
+                                                                                    71
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up and walks to the cafeteria now that he's feeling better. Gaku objects to the idea of Takumi being sent back out right after recovering, and says that Takumi should be traumatized after what happened. Hiruko says they should remove Gaku from the exporation team, and Yugamu volunteers to take his place. However at that moment, the alarms begin and an attack starts. After defeating the squad of minor invaders, V'ehxness projects a hologram to the SDU. She asks what happened to Eva, and says she's glad to be rid of her. Further she says she will take the boxes are they belong to her. She sends in another wave and disappears. After the SDU defeats them, she reappears and says their next battle will be their last. That night Gaku comes to Takumi's room to see him and apologize for the morning. He also says he's worried about his faith is wavering, he asks how Takumi remains so strong and resilient. Takumi replies it was because of his first 100 days, and that he's more afraid of losing his friends again and that's what carries him forward. Gaku leaves and Takumi goes to sleep.",
+                                                                                  "days": [
+                                                                                    72
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The next day Gaku is still on the exploration team and ready to go out, as he is more scared of being scared than of anything out there. The boys head to a cave, finding a locked door, and then a key further into the cave. They unlock the door and find box number 5. Just then, Dahl'xia attacks, claiming the boxes are sacred, after any attacks fail to land on or damage him, Gaku starts sprinting away. Behind him is a massive boulder, that rolls directly into Dahl'xia. The boys use this oppertunity to escape, planning to regain the box later when they fight him again.",
+                                                                                  "days": [
+                                                                                    73
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack by Dahl'xia. After a fight he detransforms and resolves to come back later when the SDU is at full strength as the girls are currently missing.",
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up and goes to the cafeteria to find the girls' team has returned with 2 boxes: number 7 and number 8. The boys team heads out towards a mansion. Inside they find a box. Just at that moment however, Eito appears, who takes the box and runs. The boys go back to the academy.",
+                                                                                  "days": [
+                                                                                    92
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack on Dahl'xia, before the fight Kurara reveals she developed a poison mine that will negate Dahl'xia's defenses. The SDU uses it to defeat and absorb him. After, V'ehxness projects a hologram saying she already has his box, and that there's only one box left that neither party has found. Further, Eito is also now working for V'ehxness and that the box he collected is now in her possession. The SDU decides to keep looking for the last box.",
+                                                                                  "days": [
+                                                                                    93
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The boys head out to a high rise area of the ruins, within they find a shrine containing a box. They then head back.",
+                                                                                  "days": [
+                                                                                    98
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack from V'ehxness, midway through the battle she unleashes an undying flame attack. Despite this the SDU is still able to defeat her, with Takumi landing the final blow and V'ehxness self destructing after declaring there is only despair in this planet's future. Before they can open any of all the collected boxes, Eito steals them and knocks everyone unconscious. He says that he knows which boxes are the right ones to open. However before he can do anything, Gaku stands up and asks to let him handle this, asking Takumi to trust him.",
+                                                                                  "days": [
+                                                                                    99
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "branch": {
+                                                                                "name": "How Will You Deal With Eito?",
+                                                                                "day": 99,
+                                                                                "choices": [
+                                                                                  {
+                                                                                    "direction": "left",
+                                                                                    "name": "Let Gaku Do It.",
+                                                                                    "route": {
+                                                                                      "name": "027: Box of Blessings Route: Gaku's Harem",
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi decides to trust Gaku. Gaku proceeds to just stand there and stare at Eito as he opens the boxes. As Eito opens the 7th box a golden light pours out, just then Gaku runs over and kicks Eito before he can complete his wish. Gaku then wishes for \"The life of a harem romcom protag!\" The light clears, and Takumi sees Darumi and Kyoshika fondling him and obsessing over him. Gaku reveals that his wish was for their story to have a happy ending, and this is what he came up with. Takumi was at least happy to have Darumi and Kyoshika back.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "direction": "right",
+                                                                                    "name": "Handle Him Myself.",
+                                                                                    "route": {
+                                                                                      "name": "028: Box of Blessings Route: The Value of Trust",
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi decides to not let Gaku take charge as its probably teckless and impulsive, he then punches Gaku and knocks him out. Takumi then sprints towards Eito, but is kicked away by the same attack that knocked everyone out the first time. Eito stacks all the boxes and leaves, saying he will have all the time in the world to open them later.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  }
+                                                                                ]
+                                                                              }
                                                                             }
                                                                           }
                                                                         ]
