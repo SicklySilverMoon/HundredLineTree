@@ -3936,7 +3936,391 @@
                                                                     "direction": "right",
                                                                     "name": "Defense",
                                                                     "route": {
-                                                                      "name": "Chapter09_A RIGHT BRANCH"
+                                                                      "name": "Chapter09_A_b",
+                                                                      "deaths": [
+                                                                        {
+                                                                          "id": "commander11",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander10",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander7",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            57
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "events": [
+                                                                        {
+                                                                          "name": "Takumi elects to join the defense team and stay at the school. Hiruko decides to lead the search for the boxes.",
+                                                                          "days": [
+                                                                            45
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up and heads to the cafeteria to find that the exploration team has already left, as Kako was very excited to get started. Later in the night Takumi finds Shouma reading a book in the library on anthropology. They discuss their actions and killing the commander, with Shouma regretting it, especially after learning more about Futuran culture.",
+                                                                          "days": [
+                                                                            46
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to Nozomi in his room waking him up after a terrible dream, just to find out that the commander of squad 11 is attacking with her soundwave illusion attack. Since the exploration team isn't back yet, the remaining members (Takumi, Nozomi, Moko, Shouma, Takemaru, Yugamu, and Kurara) must defend the academy. After they defeat her, the commander of squad 10 appears and revives her. The SDU however is still able to defeat both, and absorb them.",
+                                                                          "days": [
+                                                                            47
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up the next day to find the exploration team has returned, but that Kako has been seriously injured and won't be able to move around for a while. The SDU decides to switch the exploration and defense teams, putting Takumi in charge of exploration now.",
+                                                                          "days": [
+                                                                            48
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi and the rest of the former defense squad leave in the morning, heading for the mountains mentioned in the book. They climb the mountain and find box 8. Due to the long clumb, they decide to take a rest and admire the view from the mountain top, then head back.",
+                                                                          "days": [
+                                                                            49
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The SDU team explores outside and finds box 13 in the city ruins. They then head back.",
+                                                                          "days": [
+                                                                            50
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "A week later, the SDU wakes up to an attack by commander 7, disguised as Kako, presumably having stole the form when she was attacked previously. The full SDU however is able to defeat her. After her first form is defeated, she splits into 9 copies of Kako. After defeating those 9, she splits into copies of everyone, however the SDU is still able to defeat and absorb her.",
+                                                                          "days": [
+                                                                            57
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The exploration group heads to some old subway tunnels, finding a locked door within. Deeper in the cave, Takemaru finds the key lying on the ground, however when they unlock the door, arrows shoot out and pin Nozomi to the wall. They are able to disarm the traps and get Nozomi down, and find box 5. However they then see a branch in the tunnel leading further, but decide to head back as its been a long day.",
+                                                                          "days": [
+                                                                            58
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Several days later, the academy is attacked by a commanderless squad.",
+                                                                          "days": [
+                                                                            63
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to Shouma informing him Eito has escaped, and that Sirei has been destroyed (and turned into scrap, \u00a530 per ounce according to Nigou). They search the school to try and find Eito, but can't find a trace, only a missing fire extinguisher, and several supplies. Meaning it is most likely he has left and is searching for boxes himself. Hiruko decides to split the exploration team into 2, letting Takumi decide if he wants to go with team a or b.",
+                                                                          "days": [
+                                                                            64
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "branch": {
+                                                                        "name": "Which Team Will You Go With?",
+                                                                        "day": 64,
+                                                                        "choices": [
+                                                                          {
+                                                                            "direction": "left",
+                                                                            "name": "Shouma's",
+                                                                            "route": {
+                                                                              "name": "Chapter09_A_ba",
+                                                                              "deaths": [
+                                                                                {
+                                                                                  "id": "commander0",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    93
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "events": [
+                                                                                {
+                                                                                  "name": "Takumi decides to go with Shouma's team, putting Kako on Nozomi's team.",
+                                                                                  "days": [
+                                                                                    64
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The group decides to head back to the old tunnels, and start exploring further along. Within, they find someone's house. However, the house is trapped, with Shouma nearly falling into a pit after having arrows fired at him. Just after, Turatammi's voice calls out from a recording saying her house is trapped against people who would break in. Despite this, they are able to recover box number 9 and head back.",
+                                                                                  "days": [
+                                                                                    65
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack without a commander. After defeaing them, V'ehxness projects a hologram to them and asks what happened to Eva, the SDU informs her she was killed to which V'ehxness doesn't really care. V'ehxness offers them a quick death if they hand over the boxes, but the SDU refuses, so she sends in another wave.",
+                                                                                  "days": [
+                                                                                    72
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to Nozomi's team, who has retireved box 12 from an art gallery. The group heads to a residential area, which Shouma is delighted with as he wants to learn even more about Futuran culture and life. Upon arriving they ask Shouma why he cares, and he says he regrets what happened to Eva and would like to try again, possibly talking it out with others like the old man or another commander. Right after, they run into Eito, who is holding box 7. Then, Dahl'xia walks up behind them, and Eito threatens them, saying if they don't have over their boxes they will kill them. The SDU runs and makes it back to the academy with only minor injuries.",
+                                                                                  "days": [
+                                                                                    73
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack by Dahl'xia. After a short fight, he detransforms and says he will be back when the SDU is at full strength.",
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The group heards to the resistence village, upon arriving Shouma runs off. Running into a villager, and asking him some questions such as where the Box of Blessings are, the man wants to dsicuss it more privately and invited them over for tea. Instead however, he leads them to Eito who has already obtained the box of blessings from the area, and surrounded them with invaders, further he's sided with V'ehxness and is now able to command the invaders. Takumi points behind Eito yelling to look at something, and grabs the box when he's turned around, running away and back to the academy. Leaving them with box number 2.",
+                                                                                  "days": [
+                                                                                    92
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack by Dahl'xia, however Kurara was able to make a poison to penetrate his defences. Using it, the SDU is able to defeat him, but before they can absorb him, Eito appears and absorbs him. He then leaves, not without Hiruko threatening him with a cruel death if he ever shows himself again.",
+                                                                                  "days": [
+                                                                                    93
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up and heads to the war room, where Hiruko asks him to go check on Shouma and cheer him up as he's hiding in his room likely blaming himself for what happened at the village. Takumi tries to decide what to tell Shouma.",
+                                                                                  "days": [
+                                                                                    94
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "branch": {
+                                                                                "name": "What Will You Tell Shouma?",
+                                                                                "day": 94,
+                                                                                "choices": [
+                                                                                  {
+                                                                                    "direction": "left",
+                                                                                    "name": "Face Your True Feelings!",
+                                                                                    "route": {
+                                                                                      "name": "029: Box of Blessings Route: A Brighter Future",
+                                                                                      "deaths": [
+                                                                                        {
+                                                                                          "id": "eito",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "supreme",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi decides to tell Shouma to face his true feelings.",
+                                                                                          "days": [
+                                                                                            94
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "The SDU meets in the war room to discuss next steps, where Hiruko says they are going to steal the boxes from V'ehxness, although without Shouma since he won't leave his room. As such, Takumi's group (with Hiruko in place of Shouma) boards the bus and heads to the invader camp. Within they find box 10. Leaving them missing only 1, although they determine its likely V'ehxness has it, and head back to base.",
+                                                                                          "days": [
+                                                                                            98
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi wakes up to an attack by V'ehxness. After the first wave, Eito appears and says he like working with V'ehxness, however Shouma appears and retorts against him, rejoining the fight. However Eito joins the fight on V'ehxness' side. Despite this the SDU is able to defeat both, with Takumi landing the final blow on V'ehxness who declares there is nothing but despair in the planet's future and blows herself up. Shouma asks to be allowed to deal with Eito, who wants to try and reform Eito, which Hiruko and Takumi accept, but Hiruko says she will kill him if he betrays them again. Further, Takumi says they should hold off on using the boxes as there's still much they don't know and want to keep them as a last resort.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "direction": "right",
+                                                                                    "name": "You Can Run If You want.",
+                                                                                    "route": {
+                                                                                      "name": "030: Box of Blessins Route: Never Forget",
+                                                                                      "deaths": [
+                                                                                        {
+                                                                                          "id": "eito",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "shouma",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "supreme",
+                                                                                          "count": 1,
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ],
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "Takumi tells Shouma he can just walk away from it all and that if they forced him into the war they would be no better than Sirei.",
+                                                                                          "days": [
+                                                                                            94
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "The SDU decides to try and steal the boxes from V'ehxness, with Takumi's team going (with Hiruko instead of Shouma). They head to a base and recover box 10, leaving one box missing, likely with V'ehxness.",
+                                                                                          "days": [
+                                                                                            98
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Takumi wakes up to an attack by V'ehxness, with Shouma sitting the battle out in his room. When she appears on the field, she reveals she absorbed him to take all his power for herself. However the SDU is able to defeat V'ehxness, with her last act being to attack the school with undying flames, however Shouma takes the hit preventing it from landing. Takumi lands the final blow on V'ehxness, who declares there is no longer any hope in the planet's future and blows herself up. The SDU watches as Shouma burns up, with him asking if he was useful, and asks Takumi not to save him with the boxes. His final wish is for Earth and Futurum to come to a mutual understanding, and that he is finally starting to like himself.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "name": "Decades pass, with the war continuing, however it finally ends with both sides signing a ceasefire.",
+                                                                                          "days": [
+                                                                                            100
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "direction": "right",
+                                                                            "name": "Nozomi's",
+                                                                            "route": {
+                                                                              "name": "Chapter_A_bb",
+                                                                              "deaths": [
+                                                                                {
+                                                                                  "id": "eito",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    92
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "commander0",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    93
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": "supreme",
+                                                                                  "count": 1,
+                                                                                  "days": [
+                                                                                    99
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "events": [
+                                                                                {
+                                                                                  "name": "Takumi decides to join Nozomi's team, putting Kako on Shouma's team.",
+                                                                                  "days": [
+                                                                                    64
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The group heads to a hospital, finding box 6 within. They then head back.",
+                                                                                  "days": [
+                                                                                    65
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack by a squad without a commander. After the first wave, V'ehxness projects a hologram in, asking what happened to Eva, Kako replies they killed her, which V'ehxness doesn't really care about. She offers a quick death to the SDU if they hand over the boxes, they refuse, and she sends in another wave.",
+                                                                                  "days": [
+                                                                                    72
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The group heads to an art gallery. Within they find documents written in the human language rather than Futuran. The documents detail the start of the war on Futurum, and how cryptoglobin appeared after the war began and turned the war into a stalemate. The research team wiped out themselves and everyone around for miles with a biological agent and sent the contents of the report to the Exodus Project HQ, and printed out hard copies for anyone who might come across the research area later. Takumi finds a document stating that cryptoglobin may have had its origin in certain boxlike supernatural artifiacts, and that both are treated as divine. Further cryptoglobin ignores all laws of conservation and can even bend quantum causality to the user's whims, this is alongside negating newtonian physics in the space around it and rendering weapons useless. The research team suggests making their own cryptoglobin based weapons, namely autonomous intelligent beings as a robot would be unable to wield it. Further they state it might be needed to develop specialized units for the task, and to pair the units with an AI capable of making decisions in the moment without needing to consult HQ, with the AI connected to a digitized copy of the collective will of humanity. Specifically such a system would be named \"System Information Reinforcement Exalted Intelligence\" or SIREI for short. SIREI will act as indirect control over the cryptoglobin units and be delivered to the planet surface via a mothership design. The report then trails off into someone writing about how they don't want to die. After reading this theSDU says nothing and leaves, stunned by what they read.",
+                                                                                  "days": [
+                                                                                    73
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack by squad 0. After a fight, he detransforms and tells the SDU to prepare and that he will wait for them to be at full strength to return.",
+                                                                                  "days": [
+                                                                                    87
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up, and is informed that Kako feels an ill presence around him and his entire group and that they should be careful while exploring. The group heads to an old mansion, within they find Eito, who has two boxes, one from the mansion and one from the art gallery. Eito gives a speech about truth and subjugation and says he will never return to the school and will defy anyone who tries to control his fate, then slits his own throat with a knife. After he dies, they collect his boxes and bury him.",
+                                                                                  "days": [
+                                                                                    92
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to another attack by Dahl'xia, however Kurara developed a poison that can neutralize his defences. Using it, the SDU is able to defeat him, however before they can absorb him V'ehxness appears and does so first. He makes a comment about the SDU's cursed destiny shortly before his death, which the SDU asks about but he says its not his place to tell them. Shortly after V'ehxness absorbs Dahl'xia she falls to her knees, weakened by the sudden influx, needing time to adjust, and leaves.",
+                                                                                  "days": [
+                                                                                    93
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "The group heads to the suburbs, within they run into V'ehxness who is holding a box. They elect to leave instead of trying to fight her.",
+                                                                                  "days": [
+                                                                                    98
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "name": "Takumi wakes up to an attack by V'ehxness, despite V'ehxness being able to attack with undying flames, they are able to defeat her. Takumi lands the final blow on V'ehxness as she states that now that the SDU has won there is only despair in the planet's future, and blows herself up. Despite their victory, the SDU still doesn't have all 13 boxes, and discusses either destroying them, or hiding them, leaving Takumi to decide.",
+                                                                                  "days": [
+                                                                                    99
+                                                                                  ]
+                                                                                }
+                                                                              ],
+                                                                              "branch": {
+                                                                                "name": "What Will You Do With the Boxes?",
+                                                                                "day": 99,
+                                                                                "choices": [
+                                                                                  {
+                                                                                    "direction": "left",
+                                                                                    "name": "Seal Them",
+                                                                                    "route": {
+                                                                                      "name": "031: Box of Blessing Route: Better Off Without",
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "The SDU decides to seal away the boxes, burying them in the schoolyard.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "direction": "right",
+                                                                                    "name": "Destroy Them",
+                                                                                    "route": {
+                                                                                      "name": "032: Box of Blessings Route: Something Inside",
+                                                                                      "events": [
+                                                                                        {
+                                                                                          "name": "The SDU decides to destroy the boxes via undying flames, reducing them to ash. The SDU misses a small shadowy form slither out of one of the burning burning boxes, although someone notes that the fact no one noticed might have been a blessing.",
+                                                                                          "days": [
+                                                                                            99
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        ]
+                                                                      }
                                                                     }
                                                                   }
                                                                 ]
