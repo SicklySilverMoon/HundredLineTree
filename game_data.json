@@ -4331,7 +4331,232 @@
                                                             "direction": "right",
                                                             "name": "Shadowy Figure",
                                                             "route": {
-                                                              "name": "Chapter09_0 RIGHT BRANCH"
+                                                              "name": "Chapter09_B",
+                                                              "events": [
+                                                                {
+                                                                  "name": "Takumi decides to go after the shadowy figure instead of searching for Kako, as it could be an invader. He tells Ima to head to the garage with the others to look for Kako as he searchs for the figure. Ima is very displeased with this but leaves to do so. Takumi outside finds a box buried underground, when he goes to pick it up the shadowy figure appears in full detail in front of him.",
+                                                                  "days": [
+                                                                    22
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "name": "Takumi wakes up the next morning to Hiruko telling him he passed out behind the school and Nozomi found him. Further there was no person there, and no box. The search group did find Kako however, but Hiruko says there's another problem and leads Takumi to the courtyard. Inside Kako is acting strangely, and slowly saying words and names, ending with \"Kako, She... I... am fine\". Hiruko says this wasn't even the issue, and points to the empty cae. Inside is a hole that leads underground, however there doesn't appear to be one in Eito's cage as he is still there, but Hiruko wants to check anyways. She asks Takumi to keep an eye on him when she looks. Kako then says she's going to go look for the Distress Signal Transmitter, and the Livor Mortis Codes, which would let them go back to the artifical satellite, as that's what \"he\" told Kako. Takumi asks what she's talking about and she doesn't know as she apparantly spaced out, and leaves to go back to her room to rest. They investigate Eito's cage and find nothing. Later outside Takumi looks to see if the box is present, and finds nothing, just then Nozomi screams. He runs back inside to find Nozomi on the second floor being attacked by a shadow with a scythe. Before he can do anything though he hears a voice calling from behind him, he decides what to do.",
+                                                                  "days": [
+                                                                    23
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "branch": {
+                                                                "name": "What Now?",
+                                                                "day": 23,
+                                                                "choices": [
+                                                                  {
+                                                                    "direction": "left",
+                                                                    "name": "Attack the Shadowy Figure",
+                                                                    "route": {
+                                                                      "name": "Chapter09_0 RIGHT BRANCH LEFT BRANCH"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "direction": "right",
+                                                                    "name": "Turn to Face the Voice",
+                                                                    "route": {
+                                                                      "name": "Chapter09_B_0",
+                                                                      "deaths": [
+                                                                        {
+                                                                          "id": "commander3",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            33
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander11",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            48
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "commander10",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            48
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": "moko",
+                                                                          "count": 1,
+                                                                          "days": [
+                                                                            49
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "events": [
+                                                                        {
+                                                                          "name": "Takumi turns around to find Hiruko, who throws him his infuser. The shadow runs away before anything can be done, Hiruko takes the infuser back and goes after the shadow, leaving Takumi to handle Nozomi. Nozomi asks if the shadow was the same figure Takumi saw yesterday, to which he says seems different. Nozomi is weak but wants to get up on her own. Moko and Yugamu show up to wonder what's going on, seeing Takumi and Nozomi, Yugamu comments its ok to get a little rough with someone but you have to respect their limits, which causes Moko to threaten Takumi. They quickly explain what happened and head off.",
+                                                                          "days": [
+                                                                            23
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi unable to sleep goes to get some fresh air, finding it raining outside now that its day 24. He wonder what all the recent events have been, and if its really Eva haunting them. Takumi sees if the flame boy is around but gets no response. Takumi sees someone in the courtyard by the main gate, and that it looks like one of the girls, possibly Hiruko. He decides to go after her, heading outside the school into the ruins. Unable to find anyone he decides to wait by the school gate. Eventually he sees someone in an odd diver suit like outfit, who then notices him, and runs off. Takumi follows them, but is hit by them as they suddently appear above him, meaning there's two of them. He passes out. Then wakes up in bed in the morning. In the hallway he runs into Ima, who informs him that Kako has vanished. Takumi gathers a team of Hiruko, Moko, Gaku, and Ima and prepares to head out. He asks Hiruko if she was outside at night and she says she was taking a little walk. Outside the school they find no trace of Kako.",
+                                                                          "days": [
+                                                                            24
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi and the group searches for Kako but finds nothing. Takumi looks in the mirror to question actions and asks if its Eva's curse doing this. He sees a ghost appear behind him and say \"...me?...\" in Eva's voice, but sees nothing when turning around. He hears Gaku scream and rushes downstairs, finding other members searching as well. They run into Gaku, who says he was in the cafeteria and saw 2 shadowy figures in the back, causing him to run out. Takumi goes to the investigate the cafeteria himself, and asks Tsubasa and Takemaru to watch the stairs to see if anyone else goes back up.",
+                                                                          "days": [
+                                                                            25
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi talks to Sirei the next morning, explaining he found nothing after searching the school. Yugamu counters the idea of Gaku just seeing things by highlighting that he saw 2 shadowy figures, if he was really just seeing things because of Eva's curse he would have seen Eva, not 2 figures. Sirei and Hiruko start believing that there really are invaders who were able to make it past the wall, as such Sirei calls off the search for Kako. Ima hearing this is very upset and leaves to search himself. Hiruko sends Takumi after him since if his authority falls apart he will lose the team. Takumi finds Ima in the ruins outside, with Nozomi, Hiruko, and Shouma alongside Takumi. Nozomi brings up the scythe wielding figure, and how it was odd they were afraid of the infuser as it was just a knife compared to their scythe, and how its unlikely they would know its how they transform. Further, if it was an invader they wouldn't be afraid of the infuser as they would think the SDU could transform at any time, meaning it was likely an inside job. Ima goes off, Nozomi goes after him, and Shouma starts looking for clues. Hiruko and Takumi head to the place they found Kako last time, looking for any real clue towards Kako, as at the lesat it would let them convince Sirei to continue searching and stabalize Ima. Nearby they find a shrine with an open box, similar to the one Takumi found at the school, and similar to the ones Eva described. They head back.",
+                                                                          "days": [
+                                                                            26
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up and heads to the cafeteria to find several Second-to-Last Defense Academy members in a bad state, they direct Takumi to the bathroom. Inside he finds Yugamu hanged from the ceiling with blood splattered around him. Outside the bathroom Takumi discusses with Tsubasa, Takemaru, and Hiruko, they have no idea who did it, but they do find that his ankle was slit and all his blood drained so they can't bring him back. Further, they can't move his body as its an active crime scene that they need to investigate. Takemaru points out the slit on his ankles is likely from te scythe the one figure had. Then Ima appears and says it is the result of the curse, and that these events only began occuring after Takumi killed Eva. Later at night in his room, Takumi discusses the events with Sirei, having found little as everyone had an alibi. Sirei calls off the search for Kako again as they now need everyone on school grounds.",
+                                                                          "days": [
+                                                                            27
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up, and finds that the audio of the morning annoucement has been replaced with Eva's curse. Then the real announcement plays, waking Takumi up from his dream. He runs into Moko in the hallway who is bringing food to Kurara as she won't leave her room, having been hit hard by Yugamu's loss, she also says she will talk to Ima herself as neither of them are likely to want to talk to Takumi. Afterwards, Tsubasa drags Takumi to the roof and tells him to look outside and keep an eye out for invaders who might be able to slip through the wall. She also setup cameras, and asked Hiruko for advice who said they would attack in the next 3 days if they were going to. Just then they see Shouma with a fire extinguisher heading towards the wall. They realize they can't catch him and just resolve to ask him about it that night or the next.",
+                                                                          "days": [
+                                                                            28
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to banging on his door, but finds no one at it when he opens and goes outside. Nearby is Shouma, who didn't see anything. Takumi asked why he went outside yesterday, and Shouma says he really wanted to find Kako to help get Ima back to normal as he hasn't left his room. Just then Gaku screams, and runs by yelling that he won't spend the day with \"you two\", Shouma takes this as an excuse to leave. Tsubasa appears and asks why Gaku is freaking out when all she did was ask him to help with their surveillance work. Gaku replies its because of Eva's curse, and that Kako who killed her was the first to vanish, with Yugamu who buried her being the second, and that this is why people are dying and why there's shadow people everywhere, further he declares Takumi is next as he is the one who decided to kill Eva. They let Gaku go and begin their watch, discussing the possibility of being cursed, which they both quickly dismiss.",
+                                                                          "days": [
+                                                                            29
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi and Tsubasa spend the entire day on watch, finding nothing. Afterwards they head to the courtyard and discuss things. Eito points that they're hoping the invaders attack, as it would mean they were responsible for Yugamu's murder, not one of the SDU. Further, Eito asks Takumi if its possible that there's someone else who wanted to betray him last time (first 100 days) and didn't get to. He then asks who that woman behind him is, Takumi and Tsubasa turn around terrified, only to find nothing and Eito laughing at them. Tsubasa heads to the garage as Takumi decides to go the cafeteria, however he sees the ghost, but dismisses it as a hallucination, as it then vanishes.",
+                                                                          "days": [
+                                                                            30
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to knocking on his door, ignoring it. He then steps outside to find Moko wondering why he wasn't answering, and asking if he got a gift from Shouma. She saw him carrying around a doll and figured it was a gift for someone. She then continues on to bring Kurara her food.",
+                                                                          "days": [
+                                                                            31
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up and heads to the cafeteria, only to find Nozomi's appearance and voice replaced by that of the ghost woman and Eva, he blinks and she's back to normal. She says she's here to make up with Takumi. They discuss over beakfast, and then Takumi heads back to his room for free time.",
+                                                                          "days": [
+                                                                            32
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to an attack, in the war room Kurara is present and ready to fight, however Ima isn't present. After the first wave, Addamaque appears to fight the SDU. The SDU however is able to defeat him, before they can absorb him however he laughs and says its too late, saying that because of the SDU \"that woman\" has started cannibalizing the fallen to absorb their cryptoglobin, before he can even finish, V'ehxness appears and absorbs him. She transforms, but stares at something behind the SDU silently, and detransforms, commending the SDU for sacrificing Addamaque to her. The ghost figure appears again to Takumi, however V'ehxness also looks at her and says something interesting is happening here. Takumi thinks this is likely why she detransformed. V'ehxness says its likely she'll learn even more if she leaves the SDU to stew for a little longer. She then leaves.",
+                                                                          "days": [
+                                                                            33
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to knocking on his door, and when he ignores it, the ghost opening his door and entering herself. Takumi dismisses it as a hallucination, but notices his door is actually open. He finds Tsubasa in the hallway and asks her to make him another camera to point at his door. She finishes it and delivers it to Takumi that night, who sets it up and points it at his door.",
+                                                                          "days": [
+                                                                            34
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "At night in Takumi's room the lights suddenly cut, with the door opening and closing again. Takumi wants to check the camera, but hears walking around in his room and the movement of objects, unable to sleep.",
+                                                                          "days": [
+                                                                            35
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The next morning in the cafeteria Takumi informs the rest of the SDU about what happened, most of whom dismiss the idea that Takumi really is haunted and instead discuss that all the footage really shows are some objects moving around. Further Takemaru asks if it could be Eito, leading Shouma to inform everyone that Eito has escaped, and that the lock on his cage was broken from the outside. The SDU decides to search the school for Eito, but are unable to find him.",
+                                                                          "days": [
+                                                                            36
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi at night looks into his mirror again and sees the ghost woman behind him. He asks if its Eva, but she just replies \"me...\" a few times then finally \"follow me...\". Takumi, choses to do so, and is led to the library. Inside she points at a book which falls off the shelf, Takumi picks it up but is unable to read it. The lights cut,then come back on, and she starts strangling Takumi. Takumi begs her to stop, to which she just replies \"I'll kill you!\". Takumi passes out.",
+                                                                          "days": [
+                                                                            37
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up in the library with the book, and takes it to the cafeteria. Upon arriving everyone asks what happened to his neck, when he looks in a mirror he finds strange red marks on his neck, with an eye design. Takumi explains what happened, with much of the SDU beliving what happened. When Nozomi asks if her attacker was the same, Hiruko replies that it was different, with Takemaru noting she seemed awfully confident in that statement. The SDU decides to try and translate the book.",
+                                                                          "days": [
+                                                                            38
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "At night, the flame boy appears and asks if they've been looking for him. The group replies yes and they ask why he hasn't been around, which he says is because Sirei asked him not to do it so much. They ask him to translate the book, which he is able to do. He says it describes the features of something called a wraith, a vengeful ghost that has existed since ancient times in the religion. Normally they're sealed within a \"Box of Calamity\", but if someone is cursed they begin to be able to see it. The book cuts off before being able to detail how to get rid of it, they discuss that it might be in the library. Right after this Ima comes out of his room, declaring that he will kill the wraith himself if he has to, destroy the box, and save Kako. When Nozomi tries to calm him down, he pulls a knife on her and holds it to her neck. He says he wants the SDU to focus on finding the box, and gives them 10 days, giving them until day 49. Due to the situation, they go along with it, and he drags Nozomi off into his room.",
+                                                                          "days": [
+                                                                            39
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi the next morning goes into Ima's room to discuss events and tell him they're starting the search. He finds that inside the bathroom Ima has gagged and tied Nozomi and just demands they get the box. Sirei says he could blow up either of their bombs, but that would kill Nozomi (and also that he implanted a bomb into Nozomi), the SDU firmly rejects this. He allows the search group to take 4 people with them, but prevents them from starting, sending them to an invader base to attack instead. Hiruko, Takemaru, Kurara, Shouma, and Takumi head to the base. Fighting and defeating Quenzelle. Upon his defeat, he points to something behind the SDU, then runs off when they turn around.",
+                                                                          "days": [
+                                                                            40
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi asks Hiruko about her plan to save Nozomi, and she states that they will just retrieve the box from the shrine earlier and give it to Ima. However upon arriving they find it missing, and try to search for another one.",
+                                                                          "days": [
+                                                                            41
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "The SDU searches for the box.",
+                                                                          "days": [
+                                                                            42,
+                                                                            43
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi is informed he has to sit this day out and stay on the defense team as others search for the box. In the courtyard Takumi searches for the box, finding nothing but the ghost who keeps saying \"leee... leeeeeeeee...\" at him.",
+                                                                          "days": [
+                                                                            44
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Takumi wakes up to an attack by Turamtammi and Nyewgank. The SDU is able to defeat them, but V'ehxness moves in and absorbs them before the SDU can.",
+                                                                          "days": [
+                                                                            48
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "TODO",
+                                                                          "days": [
+                                                                            49
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "branch": {
+                                                                        "name": "What Will You Do?",
+                                                                        "day": 49,
+                                                                        "choices": [
+                                                                          {
+                                                                            "direction": "left",
+                                                                            "name": "Go Help Sirei",
+                                                                            "route": {
+                                                                              "name": "Chapter09_B_0 LEFT BRANCH"
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "direction": "right",
+                                                                            "name": "Pick Up the Box",
+                                                                            "route": {
+                                                                              "name": "Chapter09_B_0 RIGHT BRANCH"
+                                                                            }
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
                                                             }
                                                           }
                                                         ]
